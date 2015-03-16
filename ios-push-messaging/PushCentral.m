@@ -7,7 +7,26 @@
 //
 
 #import "PushCentral.h"
+#import "PushConfig.h"
 
 @implementation PushCentral
+
+/**
+ * onHandleRemoteNotification
+ */
+- (void)onHandleRemoteNotification:(NSDictionary *)userInfo
+{
+    if ([userInfo count] > 0 && [userInfo valueForKey:@"type"])
+    {
+        NSString *type = [userInfo valueForKey:@"type"];
+        PushConfig *pushConfig = [[PushConfig alloc] init];
+        
+        id<PushManager> manager = [pushConfig getPushManager:type];
+        if (manager != nil)
+        {
+            [manager processPushMessage:userInfo];
+        }
+    }
+}
 
 @end

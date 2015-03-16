@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "PushManager.h"
 
 @interface PushConfig : NSObject
+
+- (void)setConfigFile:(NSString *)filename;
+- (id<PushManager>)getPushManager:(NSString *)identifier;
+- (void)registerForRemoteNotification:(UIApplication *)app forTypes:(UIUserNotificationType)types forDevice:(UIDevice *)device;
 
 @end

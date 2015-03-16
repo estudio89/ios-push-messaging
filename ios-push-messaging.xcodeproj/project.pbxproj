@@ -11,6 +11,7 @@
 		7B4C3B211AB77E0400C5CE91 /* libios-push-messaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4C3B151AB77E0400C5CE91 /* libios-push-messaging.a */; };
 		7B4C3B321AB7800A00C5CE91 /* PushCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B311AB7800A00C5CE91 /* PushCentral.m */; };
 		7B4C3B351AB7802800C5CE91 /* PushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B341AB7802800C5CE91 /* PushConfig.m */; };
+		7B4C3B391AB78CAD00C5CE91 /* PushCentralTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B381AB78CAD00C5CE91 /* PushCentralTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		7B4C3B311AB7800A00C5CE91 /* PushCentral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushCentral.m; sourceTree = "<group>"; };
 		7B4C3B331AB7802800C5CE91 /* PushConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushConfig.h; sourceTree = "<group>"; };
 		7B4C3B341AB7802800C5CE91 /* PushConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushConfig.m; sourceTree = "<group>"; };
+		7B4C3B381AB78CAD00C5CE91 /* PushCentralTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushCentralTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		7B4C3B241AB77E0400C5CE91 /* ios-push-messagingTests */ = {
 			isa = PBXGroup;
 			children = (
+				7B4C3B381AB78CAD00C5CE91 /* PushCentralTests.m */,
 				7B4C3B251AB77E0400C5CE91 /* Supporting Files */,
 			);
 			path = "ios-push-messagingTests";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B4C3B391AB78CAD00C5CE91 /* PushCentralTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

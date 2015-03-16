@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E4E8357E-7F6D-4F7E-8656-236C1CA2E6CC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ios-push-messaging</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>75FE9015EA1D1E068244943ECCC2983149894BBE</key>
+		<string>https://github.com/rodrigosuhr/ios-push-messaging.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios-push-messaging.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>75FE9015EA1D1E068244943ECCC2983149894BBE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rodrigosuhr/ios-push-messaging.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>75FE9015EA1D1E068244943ECCC2983149894BBE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>75FE9015EA1D1E068244943ECCC2983149894BBE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-push-messaging</string>
+		</dict>
+	</array>
+</dict>
+</plist>
