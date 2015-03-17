@@ -15,5 +15,6 @@
 - (void)setConfigFile:(NSString *)filename;
 - (id<PushManager>)getPushManager:(NSString *)identifier;
 - (void)registerForRemoteNotification:(UIApplication *)app forTypes:(UIUserNotificationType)types forDevice:(UIDevice *)device;
+- (void)performRegistrationIfNeeded:(NSString *)registrationId;
 
 @end

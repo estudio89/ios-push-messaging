@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B42B6651AB8C2A800F02528 /* Syncing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B42B6641AB8C2A800F02528 /* Syncing.framework */; };
 		7B4C3B191AB77E0400C5CE91 /* ios_push_messaging.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B4C3B181AB77E0400C5CE91 /* ios_push_messaging.h */; };
 		7B4C3B211AB77E0400C5CE91 /* libios-push-messaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4C3B151AB77E0400C5CE91 /* libios-push-messaging.a */; };
 		7B4C3B321AB7800A00C5CE91 /* PushCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B311AB7800A00C5CE91 /* PushCentral.m */; };
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B42B6641AB8C2A800F02528 /* Syncing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syncing.framework; sourceTree = "<group>"; };
 		7B4C3B151AB77E0400C5CE91 /* libios-push-messaging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libios-push-messaging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4C3B181AB77E0400C5CE91 /* ios_push_messaging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_push_messaging.h; sourceTree = "<group>"; };
 		7B4C3B201AB77E0400C5CE91 /* ios-push-messagingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-push-messagingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B42B6651AB8C2A800F02528 /* Syncing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +75,7 @@
 		7B4C3B0C1AB77E0400C5CE91 = {
 			isa = PBXGroup;
 			children = (
+				7B42B6641AB8C2A800F02528 /* Syncing.framework */,
 				7B4C3B171AB77E0400C5CE91 /* ios-push-messaging */,
 				7B4C3B241AB77E0400C5CE91 /* ios-push-messagingTests */,
 				7B4C3B161AB77E0400C5CE91 /* Products */,
@@ -306,6 +310,12 @@
 		7B4C3B2A1AB77E0400C5CE91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Syncing-dqzrwbnowwpvkigpnagfmpoffrdu/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Syncing.framework/Versions/A/Headers",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -315,6 +325,12 @@
 		7B4C3B2B1AB77E0400C5CE91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Syncing-dqzrwbnowwpvkigpnagfmpoffrdu/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Syncing.framework/Versions/A/Headers",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
