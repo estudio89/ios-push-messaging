@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <ios-push-messaging/PushManager.h>
+#import <ios-push-messaging/PushCentral.h>
+#import <ios-push-messaging/PushConfig.h>
 
 @interface ios_push_messaging : NSObject
 

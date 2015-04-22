@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B42B6651AB8C2A800F02528 /* Syncing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B42B6641AB8C2A800F02528 /* Syncing.framework */; };
-		7B4C3B191AB77E0400C5CE91 /* ios_push_messaging.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B4C3B181AB77E0400C5CE91 /* ios_push_messaging.h */; };
 		7B4C3B211AB77E0400C5CE91 /* libios-push-messaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4C3B151AB77E0400C5CE91 /* libios-push-messaging.a */; };
 		7B4C3B321AB7800A00C5CE91 /* PushCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B311AB7800A00C5CE91 /* PushCentral.m */; };
 		7B4C3B351AB7802800C5CE91 /* PushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B341AB7802800C5CE91 /* PushConfig.m */; };
 		7B4C3B391AB78CAD00C5CE91 /* PushCentralTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B381AB78CAD00C5CE91 /* PushCentralTests.m */; };
+		7BBF84131AE8362400BD607E /* Syncing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBF84121AE8362400BD607E /* Syncing.framework */; };
+		7BBF84151AE8420100BD607E /* ios_push_messaging.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C3B181AB77E0400C5CE91 /* ios_push_messaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BBF84161AE8420500BD607E /* PushManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C3B2F1AB77FEB00C5CE91 /* PushManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BBF84171AE8420B00BD607E /* PushCentral.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C3B301AB7800A00C5CE91 /* PushCentral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BBF84181AE8420E00BD607E /* PushConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C3B331AB7802800C5CE91 /* PushConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,21 +28,7 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		7B4C3B131AB77E0400C5CE91 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				7B4C3B191AB77E0400C5CE91 /* ios_push_messaging.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		7B42B6641AB8C2A800F02528 /* Syncing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syncing.framework; sourceTree = "<group>"; };
 		7B4C3B151AB77E0400C5CE91 /* libios-push-messaging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libios-push-messaging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4C3B181AB77E0400C5CE91 /* ios_push_messaging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_push_messaging.h; sourceTree = "<group>"; };
 		7B4C3B201AB77E0400C5CE91 /* ios-push-messagingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-push-messagingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +39,7 @@
 		7B4C3B331AB7802800C5CE91 /* PushConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushConfig.h; sourceTree = "<group>"; };
 		7B4C3B341AB7802800C5CE91 /* PushConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushConfig.m; sourceTree = "<group>"; };
 		7B4C3B381AB78CAD00C5CE91 /* PushCentralTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushCentralTests.m; sourceTree = "<group>"; };
+		7BBF84121AE8362400BD607E /* Syncing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syncing.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B42B6651AB8C2A800F02528 /* Syncing.framework in Frameworks */,
+				7BBF84131AE8362400BD607E /* Syncing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +65,7 @@
 		7B4C3B0C1AB77E0400C5CE91 = {
 			isa = PBXGroup;
 			children = (
-				7B42B6641AB8C2A800F02528 /* Syncing.framework */,
+				7BBF84121AE8362400BD607E /* Syncing.framework */,
 				7B4C3B171AB77E0400C5CE91 /* ios-push-messaging */,
 				7B4C3B241AB77E0400C5CE91 /* ios-push-messagingTests */,
 				7B4C3B161AB77E0400C5CE91 /* Products */,
@@ -123,6 +113,20 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		7BBF84141AE841DB00BD607E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBF84151AE8420100BD607E /* ios_push_messaging.h in Headers */,
+				7BBF84161AE8420500BD607E /* PushManager.h in Headers */,
+				7BBF84171AE8420B00BD607E /* PushCentral.h in Headers */,
+				7BBF84181AE8420E00BD607E /* PushConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		7B4C3B141AB77E0400C5CE91 /* ios-push-messaging */ = {
 			isa = PBXNativeTarget;
@@ -130,7 +134,8 @@
 			buildPhases = (
 				7B4C3B111AB77E0400C5CE91 /* Sources */,
 				7B4C3B121AB77E0400C5CE91 /* Frameworks */,
-				7B4C3B131AB77E0400C5CE91 /* CopyFiles */,
+				7BBF84141AE841DB00BD607E /* Headers */,
+				7BBF84191AE8422000BD607E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -203,6 +208,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BBF84191AE8422000BD607E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B4C3B111AB77E0400C5CE91 /* Sources */ = {

@@ -40,9 +40,9 @@
 
 - (void)testPushCentral
 {
-    PushCentral *pushCentral = [[PushCentral alloc] init];
-    NSDictionary *testDict = @{@"type":@""};
-    [pushCentral onHandleRemoteNotification:testDict];
+    //PushCentral *pushCentral = [[PushCentral alloc] init];
+    //NSDictionary *testDict = @{@"type":@""};
+    //[pushCentral onHandleRemoteNotification:testDict];
 }
 
 @end
