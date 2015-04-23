@@ -26,7 +26,7 @@
 		7B4C3B321AB7800A00C5CE91 /* PushCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B311AB7800A00C5CE91 /* PushCentral.m */; };
 		7B4C3B351AB7802800C5CE91 /* PushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B341AB7802800C5CE91 /* PushConfig.m */; };
 		7B4C3B391AB78CAD00C5CE91 /* PushCentralTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B381AB78CAD00C5CE91 /* PushCentralTests.m */; };
-		7BBF84131AE8362400BD607E /* Syncing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBF84121AE8362400BD607E /* Syncing.framework */; };
+		7BBF84131AE8362400BD607E /* Syncing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBF84121AE8362400BD607E /* Syncing.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		7BBF84151AE8420100BD607E /* ios_push_messaging.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C3B181AB77E0400C5CE91 /* ios_push_messaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BBF84161AE8420500BD607E /* PushManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C3B2F1AB77FEB00C5CE91 /* PushManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BBF84171AE8420B00BD607E /* PushCentral.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C3B301AB7800A00C5CE91 /* PushCentral.h */; settings = {ATTRIBUTES = (Public, ); }; };
