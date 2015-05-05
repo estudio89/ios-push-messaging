@@ -7,6 +7,7 @@
 //
 
 #import "PushConfig.h"
+#import "PushInjection.h"
 #import <Syncing/Syncing.h>
 
 @interface PushConfig()
@@ -19,6 +20,14 @@
 @end
 
 @implementation PushConfig
+
+/**
+ * getInstance
+ */
++ (PushConfig *)getInstance
+{
+    return [PushInjection get:[PushConfig class]];
+}
 
 /**
  * init

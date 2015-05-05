@@ -10,6 +10,7 @@
 #import <ios-push-messaging/PushManager.h>
 #import <ios-push-messaging/PushCentral.h>
 #import <ios-push-messaging/PushConfig.h>
+#import <ios-push-messaging/PushInjection.h>
 
 @interface ios_push_messaging : NSObject
 
