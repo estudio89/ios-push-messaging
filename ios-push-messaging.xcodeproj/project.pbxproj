@@ -33,6 +33,8 @@
 		7BC2FF8D1AF9556700270C00 /* Syncing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC2FF8C1AF9556700270C00 /* Syncing.framework */; };
 		7BC2FF901AF9560600270C00 /* PushInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC2FF8E1AF9560600270C00 /* PushInjection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BC2FF911AF9560600270C00 /* PushInjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2FF8F1AF9560600270C00 /* PushInjection.m */; };
+		7BC2FF9B1AF965D600270C00 /* PushAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC2FF991AF965D600270C00 /* PushAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BC2FF9C1AF965D600270C00 /* PushAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2FF9A1AF965D600270C00 /* PushAppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		7BC2FF8C1AF9556700270C00 /* Syncing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syncing.framework; sourceTree = "<group>"; };
 		7BC2FF8E1AF9560600270C00 /* PushInjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushInjection.h; sourceTree = "<group>"; };
 		7BC2FF8F1AF9560600270C00 /* PushInjection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushInjection.m; sourceTree = "<group>"; };
+		7BC2FF991AF965D600270C00 /* PushAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAppDelegate.h; sourceTree = "<group>"; };
+		7BC2FF9A1AF965D600270C00 /* PushAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				7B4C3B341AB7802800C5CE91 /* PushConfig.m */,
 				7BC2FF8E1AF9560600270C00 /* PushInjection.h */,
 				7BC2FF8F1AF9560600270C00 /* PushInjection.m */,
+				7BC2FF991AF965D600270C00 /* PushAppDelegate.h */,
+				7BC2FF9A1AF965D600270C00 /* PushAppDelegate.m */,
 			);
 			path = "ios-push-messaging";
 			sourceTree = "<group>";
@@ -150,6 +156,7 @@
 				7BBF84161AE8420500BD607E /* PushManager.h in Headers */,
 				7BBF84171AE8420B00BD607E /* PushCentral.h in Headers */,
 				7BBF84181AE8420E00BD607E /* PushConfig.h in Headers */,
+				7BC2FF9B1AF965D600270C00 /* PushAppDelegate.h in Headers */,
 				7BC2FF901AF9560600270C00 /* PushInjection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BC2FF9C1AF965D600270C00 /* PushAppDelegate.m in Sources */,
 				7B4C3B321AB7800A00C5CE91 /* PushCentral.m in Sources */,
 				7B4C3B351AB7802800C5CE91 /* PushConfig.m in Sources */,
 				7BC2FF911AF9560600270C00 /* PushInjection.m in Sources */,

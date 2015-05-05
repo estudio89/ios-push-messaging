@@ -14,14 +14,13 @@
 /**
  * onHandleRemoteNotification
  */
-- (void)onHandleRemoteNotification:(NSDictionary *)userInfo
++ (void)onHandleRemoteNotification:(NSDictionary *)userInfo
 {
     if ([userInfo count] > 0 && [userInfo valueForKey:@"type"])
     {
         NSString *type = [userInfo valueForKey:@"type"];
-        PushConfig *pushConfig = [[PushConfig alloc] init];
         
-        id<PushManager> manager = [pushConfig getPushManager:type];
+        id<PushManager> manager = [[PushConfig getInstance] getPushManager:type];
         if (manager != nil)
         {
             [manager processPushMessage:userInfo];

@@ -10,6 +10,6 @@
 
 @interface PushCentral : NSObject
 
-- (void)onHandleRemoteNotification:(NSDictionary *)userInfo;
++ (void)onHandleRemoteNotification:(NSDictionary *)userInfo;
 
 @end

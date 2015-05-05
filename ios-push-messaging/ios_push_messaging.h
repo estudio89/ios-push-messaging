@@ -11,6 +11,7 @@
 #import <ios-push-messaging/PushCentral.h>
 #import <ios-push-messaging/PushConfig.h>
 #import <ios-push-messaging/PushInjection.h>
+#import <ios-push-messaging/PushAppDelegate.h>
 
 @interface ios_push_messaging : NSObject
 
