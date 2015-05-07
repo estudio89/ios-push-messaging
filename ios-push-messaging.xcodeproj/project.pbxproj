@@ -22,6 +22,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		7B4314041AFB88C700922A67 /* Syncing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4314031AFB88C700922A67 /* Syncing.framework */; };
 		7B4C3B211AB77E0400C5CE91 /* libios-push-messaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4C3B151AB77E0400C5CE91 /* libios-push-messaging.a */; };
 		7B4C3B321AB7800A00C5CE91 /* PushCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B311AB7800A00C5CE91 /* PushCentral.m */; };
 		7B4C3B351AB7802800C5CE91 /* PushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B341AB7802800C5CE91 /* PushConfig.m */; };
@@ -34,7 +35,6 @@
 		7BC2FF911AF9560600270C00 /* PushInjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2FF8F1AF9560600270C00 /* PushInjection.m */; };
 		7BC2FF9B1AF965D600270C00 /* PushAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC2FF991AF965D600270C00 /* PushAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BC2FF9C1AF965D600270C00 /* PushAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2FF9A1AF965D600270C00 /* PushAppDelegate.m */; };
-		7BED0D161AFAB8410077778A /* Syncing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BED0D151AFAB8410077778A /* Syncing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B4314031AFB88C700922A67 /* Syncing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syncing.framework; sourceTree = "<group>"; };
 		7B4C3B151AB77E0400C5CE91 /* libios-push-messaging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libios-push-messaging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4C3B181AB77E0400C5CE91 /* ios_push_messaging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_push_messaging.h; sourceTree = "<group>"; };
 		7B4C3B201AB77E0400C5CE91 /* ios-push-messagingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-push-messagingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +70,6 @@
 		7BC2FF8F1AF9560600270C00 /* PushInjection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushInjection.m; sourceTree = "<group>"; };
 		7BC2FF991AF965D600270C00 /* PushAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAppDelegate.h; sourceTree = "<group>"; };
 		7BC2FF9A1AF965D600270C00 /* PushAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAppDelegate.m; sourceTree = "<group>"; };
-		7BED0D151AFAB8410077778A /* Syncing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syncing.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BED0D161AFAB8410077778A /* Syncing.framework in Frameworks */,
+				7B4314041AFB88C700922A67 /* Syncing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 		7B4C3B0C1AB77E0400C5CE91 = {
 			isa = PBXGroup;
 			children = (
-				7BED0D151AFAB8410077778A /* Syncing.framework */,
+				7B4314031AFB88C700922A67 /* Syncing.framework */,
 				7B4C3B171AB77E0400C5CE91 /* ios-push-messaging */,
 				7B4C3B241AB77E0400C5CE91 /* ios-push-messagingTests */,
 				7B4C3B161AB77E0400C5CE91 /* Products */,
