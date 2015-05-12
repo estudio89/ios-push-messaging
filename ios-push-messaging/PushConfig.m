@@ -96,16 +96,16 @@
 /**
  * registerForRemoteNotification
  */
-- (void)registerForRemoteNotification:(UIApplication *)app forTypes:(UIUserNotificationType)types forDevice:(UIDevice *)device
+- (void)registerForRemoteNotification:(UIApplication *)app forDevice:(UIDevice *)device
 {
-    if ([[device systemVersion] floatValue] >= 8.0)
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
     {
-        [app registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:types categories:nil]];
-        [app registerForRemoteNotifications];
+        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge) categories:nil]];
+        [[UIApplication sharedApplication] registerForRemoteNotifications];
     }
     else
     {
-        [app registerForRemoteNotificationTypes:(UIRemoteNotificationType)types];
+        [[UIApplication sharedApplication] registerForRemoteNotificationTypes:(UIRemoteNotificationTypeSound | UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeBadge)];
     }
 }
 
