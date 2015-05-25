@@ -26,7 +26,6 @@
 		7B4C3B321AB7800A00C5CE91 /* PushCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B311AB7800A00C5CE91 /* PushCentral.m */; };
 		7B4C3B351AB7802800C5CE91 /* PushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B341AB7802800C5CE91 /* PushConfig.m */; };
 		7B4C3B391AB78CAD00C5CE91 /* PushCentralTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B381AB78CAD00C5CE91 /* PushCentralTests.m */; };
-		7B74CAB21B068FE6006EEC8E /* Syncing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B74CAB11B068FE6006EEC8E /* Syncing.framework */; };
 		7BBF84151AE8420100BD607E /* ios_push_messaging.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C3B181AB77E0400C5CE91 /* ios_push_messaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BBF84161AE8420500BD607E /* PushManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C3B2F1AB77FEB00C5CE91 /* PushManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BBF84171AE8420B00BD607E /* PushCentral.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C3B301AB7800A00C5CE91 /* PushCentral.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,6 +34,7 @@
 		7BC2FF911AF9560600270C00 /* PushInjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2FF8F1AF9560600270C00 /* PushInjection.m */; };
 		7BC2FF9B1AF965D600270C00 /* PushAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC2FF991AF965D600270C00 /* PushAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BC2FF9C1AF965D600270C00 /* PushAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2FF9A1AF965D600270C00 /* PushAppDelegate.m */; };
+		7BDDA9AD1B136A2500324BD3 /* Syncing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDDA9AC1B136A2500324BD3 /* Syncing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,11 +65,11 @@
 		7B4C3B331AB7802800C5CE91 /* PushConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushConfig.h; sourceTree = "<group>"; };
 		7B4C3B341AB7802800C5CE91 /* PushConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushConfig.m; sourceTree = "<group>"; };
 		7B4C3B381AB78CAD00C5CE91 /* PushCentralTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushCentralTests.m; sourceTree = "<group>"; };
-		7B74CAB11B068FE6006EEC8E /* Syncing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syncing.framework; sourceTree = "<group>"; };
 		7BC2FF8E1AF9560600270C00 /* PushInjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushInjection.h; sourceTree = "<group>"; };
 		7BC2FF8F1AF9560600270C00 /* PushInjection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushInjection.m; sourceTree = "<group>"; };
 		7BC2FF991AF965D600270C00 /* PushAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAppDelegate.h; sourceTree = "<group>"; };
 		7BC2FF9A1AF965D600270C00 /* PushAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAppDelegate.m; sourceTree = "<group>"; };
+		7BDDA9AC1B136A2500324BD3 /* Syncing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syncing.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B74CAB21B068FE6006EEC8E /* Syncing.framework in Frameworks */,
+				7BDDA9AD1B136A2500324BD3 /* Syncing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 		7B4C3B0C1AB77E0400C5CE91 = {
 			isa = PBXGroup;
 			children = (
-				7B74CAB11B068FE6006EEC8E /* Syncing.framework */,
+				7BDDA9AC1B136A2500324BD3 /* Syncing.framework */,
 				7B4C3B171AB77E0400C5CE91 /* ios-push-messaging */,
 				7B4C3B241AB77E0400C5CE91 /* ios-push-messagingTests */,
 				7B4C3B161AB77E0400C5CE91 /* Products */,
