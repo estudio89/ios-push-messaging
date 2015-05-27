@@ -1,0 +1,930 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00050F22465B3D17C77E8D00 /* DataSyncHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 414DAE27AFA1958E9558FBA6 /* DataSyncHelper.h */; };
+		0102465CC1D9698FAB6DAD9D /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D4E60DB9CB77FAD3DC9245 /* RNCryptorEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0ED293ABB4571F333B0D0D64 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = FBADA2F91AA62A11CCABFC83 /* RNCryptor.h */; };
+		10F94DE5164D0E532F6F6A95 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D63B3E3B30EEE6E01A1128B8 /* RNCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		13AF3B225BA822AAAC8F6448 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E9A98566B706957261018F /* Foundation.framework */; };
+		15216E9B87BF0E6A79CC6557 /* Pods-ios-push-messaging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3830BBD78F0ED257A2AF5E00 /* Pods-ios-push-messaging-dummy.m */; };
+		18C73CA357B8B722E701882C /* RavenConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C4F7614E02EF4C38D373A0 /* RavenConfig.h */; };
+		19A905485FE3F797979C258A /* SecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 807DEE963110C15189850457 /* SecurityUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1EA5A5D49990112E887350DF /* ServerAuthenticate.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C4D6910CC17554D210BBDF /* ServerAuthenticate.h */; };
+		20AFB4071773618FCF53B048 /* SyncingInjection.m in Sources */ = {isa = PBXBuildFile; fileRef = E02F8A7E3E914A112878058C /* SyncingInjection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		23DE66367AF6B45B53CBE103 /* Raven.h in Headers */ = {isa = PBXBuildFile; fileRef = C72D2D606D9C7685E826F548 /* Raven.h */; };
+		2DD9416FD678B74D1F0E812E /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = AC479BA3BA606698F872E116 /* RNCryptor+Private.h */; };
+		317B0FA57D9EA4072E95F4F5 /* RavenConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4CF2E0025CAE0A538C124F /* RavenConfig.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		35024B523EF2795680536233 /* ServerComm.m in Sources */ = {isa = PBXBuildFile; fileRef = 037A1DE56732323AA3A09FEE /* ServerComm.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		356D4DAA77936B475EDF12C3 /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2560F365B1122C7E9F05113E /* RNDecryptor.h */; };
+		385CD5A9379EB4F301FD7C9A /* SyncEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = B7949E3349AFC68D2AF7B2A9 /* SyncEvent.h */; };
+		3C52280F409EE72C13B743E9 /* Syncing.h in Headers */ = {isa = PBXBuildFile; fileRef = 7569EDD4FAC74FBD06C4AA33 /* Syncing.h */; };
+		432EAEC77496DBEE6BFE4ACE /* ServerComm.h in Headers */ = {isa = PBXBuildFile; fileRef = E20F3845350CFD353AF4905E /* ServerComm.h */; };
+		43EF1FD06B836B0F6323A9F4 /* AbstractLoginActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8F00B23B1A97C0BDC74B08 /* AbstractLoginActivity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		444760D75433764E2528139A /* ServerAuthenticate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD975F423D60B02583CCC8 /* ServerAuthenticate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		44A5C3A47E8A37E5921DBEBE /* Pods-ios-push-messaging-Raven-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B83F60C6871E7EA709C2F5 /* Pods-ios-push-messaging-Raven-dummy.m */; };
+		46CD47BAED286D10A36FB6E5 /* Pods-ios-push-messaging-RNCryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D69251F22B9BDA6CBADE8061 /* Pods-ios-push-messaging-RNCryptor-dummy.m */; };
+		4757F32549542A67580C19C5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8BDF5B7A3F3C296CD191B1 /* Security.framework */; };
+		47EA6BABEBD42FBCA50FFC3E /* CustomException.h in Headers */ = {isa = PBXBuildFile; fileRef = 5924D77AEFF2AD1A3741A352 /* CustomException.h */; };
+		48A4549894D64FFE25BCADC1 /* RNOpenSSLDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D205BD26FE76CBB44F6ACC /* RNOpenSSLDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		51CE6EE0CEDFBDACDFB3F524 /* AsyncBus.m in Sources */ = {isa = PBXBuildFile; fileRef = 440AB18F31411530527A8634 /* AsyncBus.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		559B705A4552310028E887B7 /* CustomException.m in Sources */ = {isa = PBXBuildFile; fileRef = 714F412645B910F7F19B98E7 /* CustomException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		568FE418C47CC235386E05A0 /* RNOpenSSLCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB9B0C7470EF22F16911F65 /* RNOpenSSLCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5CD27FA26D5E047300FED729 /* RNOpenSSLEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 340E1C18F7C749C59BB3B3D4 /* RNOpenSSLEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		658EDDC8C4F5BB307B6C0712 /* DatabaseProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C3009871C6C9C48B813013D /* DatabaseProvider.h */; };
+		717797A411DD7650C65776E4 /* SyncConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E4D128E77C3FF879769B5F6 /* SyncConfig.h */; };
+		723E2F0A8C7ECE75F353FDCD /* SyncManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD963287A6826B05FAF15BF /* SyncManager.h */; };
+		73536B7D62B5267A1387F46E /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = B824997AC45AC4321A7EB2C4 /* RNDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		74A7217C05207332541B846B /* CustomTransactionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 118E656C59FABA176BF93D0A /* CustomTransactionManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7CCDAD2A6AF9DEAD775C9A74 /* RNOpenSSLCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C87CAF6C400E0A1D379DCDA /* RNOpenSSLCryptor.h */; };
+		87AC8094F12D5AB035A55328 /* SyncConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 525F9AF29A54835261FA5B24 /* SyncConfig.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		88F509A76BABECA6B84410ED /* RNOpenSSLEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B688B3D04287729152112C9 /* RNOpenSSLEncryptor.h */; };
+		94F879A73485307987E380EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E9A98566B706957261018F /* Foundation.framework */; };
+		96A043D5E48704237B3A0787 /* SyncingInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9588DC69F329F9895CC127 /* SyncingInjection.h */; };
+		A31A69319A2C4AFFB8AFEE26 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1452C44C7A3012968C385227 /* RNEncryptor.h */; };
+		A60F2FA1DAD894BE3699EF6E /* DataSyncHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7F83E70A40B3F348356034 /* DataSyncHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ADB37FEB8AC181D2AE8A0830 /* SharedModelContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6588C3501CB16023FA581C /* SharedModelContext.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B09AC4F8EB2AE5EC9566E575 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 349D87EFF6AAF864A5C7859A /* RNEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B75E3ADB2DA965EF4CEF39C7 /* DatabaseProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D1E8F85DE8F9697B608544 /* DatabaseProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B95449A48E75BE7011E43481 /* RavenClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 72381247D1C49EBC9C68B715 /* RavenClient.h */; };
+		BA622636AA3D9D385E2E73D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E9A98566B706957261018F /* Foundation.framework */; };
+		BF281979A7F6A02DFCFF6313 /* ThreadChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E15C88B4AF069565173648D /* ThreadChecker.h */; };
+		C83E9236354A1D327DFB3208 /* ThreadChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = B65C5CC534A4D31A68D3DB29 /* ThreadChecker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CD674C82D322B08F96EFB13F /* Pods-ios-push-messaging-Syncing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E16822F0B4DB75150D43B0A /* Pods-ios-push-messaging-Syncing-dummy.m */; };
+		D12570D8B6FB86CA29543076 /* AsyncBus.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB3351BDE861733C857078D /* AsyncBus.h */; };
+		D4FB682DC1095A4C817FE4BB /* RavenClient_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F4543681B68A10C7D9C7E524 /* RavenClient_Private.h */; };
+		D6BD54E6DFBB041B3B8E5592 /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 76351B902CCDC64C95B610CF /* RNCryptorEngine.h */; };
+		D8BC6F3482453AF5854A1814 /* CustomTransactionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D78128DA77657EB5066B2B5 /* CustomTransactionManager.h */; };
+		D961E33226C5C8C7F2806014 /* AbstractLoginActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = F99C2C126B16E816135E2078 /* AbstractLoginActivity.h */; };
+		DA41EAF49765BA2F69B04931 /* ReadOnlyAbstractSyncManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F75AF72E19A2A34AA4C8CC3B /* ReadOnlyAbstractSyncManager.h */; };
+		E559BE270BE7D7BC6D887799 /* SecurityUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 726B8C99DC197679FF250D0E /* SecurityUtil.h */; };
+		E6056F2DD57F46CC9C92CE17 /* ReadOnlyAbstractSyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A88DF29237C9DC4DC38AE1A /* ReadOnlyAbstractSyncManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EB658B609B0FDAAADF354352 /* RavenClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDC142DD4B3AE24287B6C96 /* RavenClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EEB84FC0B994BBCDDF0899F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E9A98566B706957261018F /* Foundation.framework */; };
+		F65F8EDB011A286C099547DE /* RNOpenSSLDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 318AAB3B19AD6F4E29A4E16B /* RNOpenSSLDecryptor.h */; };
+		FB9E11CE47AE47F4A0DA153B /* SharedModelContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8AD291F74C26CDB5D4B69A /* SharedModelContext.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A2D794E42385E903E905D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD550B44B7A7AC0D967B939F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3280C8EBFF20637FBDBC6B92;
+			remoteInfo = "Pods-ios-push-messaging-Raven";
+		};
+		3D198FC45B25960B97FE4743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD550B44B7A7AC0D967B939F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 835880AB23022BCBC46AF239;
+			remoteInfo = "Pods-ios-push-messaging-Syncing";
+		};
+		5511466CA564A39B59E76E70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD550B44B7A7AC0D967B939F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 068EA3C1D429920F731F406A;
+			remoteInfo = "Pods-ios-push-messaging-RNCryptor";
+		};
+		5C25AAB7AD6F23114FE51B30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD550B44B7A7AC0D967B939F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 068EA3C1D429920F731F406A;
+			remoteInfo = "Pods-ios-push-messaging-RNCryptor";
+		};
+		7C05AD992EA4DB634D9FDBDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD550B44B7A7AC0D967B939F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3280C8EBFF20637FBDBC6B92;
+			remoteInfo = "Pods-ios-push-messaging-Raven";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005AFA3C0FFDAACDCA7BF3D6 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		037A1DE56732323AA3A09FEE /* ServerComm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ServerComm.m; sourceTree = "<group>"; };
+		10BE895AB8CB47A83BAB99CB /* Pods-ios-push-messaging-RNCryptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-push-messaging-RNCryptor.xcconfig"; sourceTree = "<group>"; };
+		118E656C59FABA176BF93D0A /* CustomTransactionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomTransactionManager.m; sourceTree = "<group>"; };
+		11D4E60DB9CB77FAD3DC9245 /* RNCryptorEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptorEngine.m; path = RNCryptor/RNCryptorEngine.m; sourceTree = "<group>"; };
+		12908F217FA644B6E7A39843 /* Pods-ios-push-messaging-Syncing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-push-messaging-Syncing-prefix.pch"; sourceTree = "<group>"; };
+		1452C44C7A3012968C385227 /* RNEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNEncryptor.h; path = RNCryptor/RNEncryptor.h; sourceTree = "<group>"; };
+		1E4D128E77C3FF879769B5F6 /* SyncConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SyncConfig.h; sourceTree = "<group>"; };
+		23AD975F423D60B02583CCC8 /* ServerAuthenticate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ServerAuthenticate.m; sourceTree = "<group>"; };
+		2560F365B1122C7E9F05113E /* RNDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNDecryptor.h; path = RNCryptor/RNDecryptor.h; sourceTree = "<group>"; };
+		2C87CAF6C400E0A1D379DCDA /* RNOpenSSLCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNOpenSSLCryptor.h; path = RNCryptor/RNOpenSSLCryptor.h; sourceTree = "<group>"; };
+		2E15C88B4AF069565173648D /* ThreadChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ThreadChecker.h; sourceTree = "<group>"; };
+		2E16822F0B4DB75150D43B0A /* Pods-ios-push-messaging-Syncing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-push-messaging-Syncing-dummy.m"; sourceTree = "<group>"; };
+		2EB9B0C7470EF22F16911F65 /* RNOpenSSLCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNOpenSSLCryptor.m; path = RNCryptor/RNOpenSSLCryptor.m; sourceTree = "<group>"; };
+		318AAB3B19AD6F4E29A4E16B /* RNOpenSSLDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNOpenSSLDecryptor.h; path = RNCryptor/RNOpenSSLDecryptor.h; sourceTree = "<group>"; };
+		33C4D6910CC17554D210BBDF /* ServerAuthenticate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ServerAuthenticate.h; sourceTree = "<group>"; };
+		340E1C18F7C749C59BB3B3D4 /* RNOpenSSLEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNOpenSSLEncryptor.m; path = RNCryptor/RNOpenSSLEncryptor.m; sourceTree = "<group>"; };
+		349D87EFF6AAF864A5C7859A /* RNEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNEncryptor.m; path = RNCryptor/RNEncryptor.m; sourceTree = "<group>"; };
+		3830BBD78F0ED257A2AF5E00 /* Pods-ios-push-messaging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-push-messaging-dummy.m"; sourceTree = "<group>"; };
+		39D64F6EB193F1A5CE43513F /* Pods-ios-push-messaging-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-push-messaging-resources.sh"; sourceTree = "<group>"; };
+		3B688B3D04287729152112C9 /* RNOpenSSLEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNOpenSSLEncryptor.h; path = RNCryptor/RNOpenSSLEncryptor.h; sourceTree = "<group>"; };
+		3C3009871C6C9C48B813013D /* DatabaseProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DatabaseProvider.h; sourceTree = "<group>"; };
+		3D78128DA77657EB5066B2B5 /* CustomTransactionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomTransactionManager.h; sourceTree = "<group>"; };
+		414DAE27AFA1958E9558FBA6 /* DataSyncHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DataSyncHelper.h; sourceTree = "<group>"; };
+		440AB18F31411530527A8634 /* AsyncBus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AsyncBus.m; sourceTree = "<group>"; };
+		472ADF74DD67C57828ACD1D0 /* Pods-ios-push-messaging-Raven-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-push-messaging-Raven-Private.xcconfig"; sourceTree = "<group>"; };
+		4E87EBDE5A60C80EB47249B1 /* Pods-ios-push-messaging-Syncing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-push-messaging-Syncing.xcconfig"; sourceTree = "<group>"; };
+		525F9AF29A54835261FA5B24 /* SyncConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SyncConfig.m; sourceTree = "<group>"; };
+		5924D77AEFF2AD1A3741A352 /* CustomException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomException.h; sourceTree = "<group>"; };
+		5A88DF29237C9DC4DC38AE1A /* ReadOnlyAbstractSyncManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReadOnlyAbstractSyncManager.m; sourceTree = "<group>"; };
+		5C15F229C50888C371B4C95F /* Pods-ios-push-messaging-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-push-messaging-environment.h"; sourceTree = "<group>"; };
+		5C8AD291F74C26CDB5D4B69A /* SharedModelContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SharedModelContext.h; sourceTree = "<group>"; };
+		5DD963287A6826B05FAF15BF /* SyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SyncManager.h; sourceTree = "<group>"; };
+		65D1E8F85DE8F9697B608544 /* DatabaseProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DatabaseProvider.m; sourceTree = "<group>"; };
+		6B64C00A29BA627E8D1B1924 /* Pods-ios-push-messaging-RNCryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-push-messaging-RNCryptor-prefix.pch"; sourceTree = "<group>"; };
+		6E6588C3501CB16023FA581C /* SharedModelContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SharedModelContext.m; sourceTree = "<group>"; };
+		714F412645B910F7F19B98E7 /* CustomException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomException.m; sourceTree = "<group>"; };
+		72381247D1C49EBC9C68B715 /* RavenClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RavenClient.h; path = Raven/RavenClient.h; sourceTree = "<group>"; };
+		726B8C99DC197679FF250D0E /* SecurityUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
+		7569EDD4FAC74FBD06C4AA33 /* Syncing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Syncing.h; sourceTree = "<group>"; };
+		76351B902CCDC64C95B610CF /* RNCryptorEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptorEngine.h; path = RNCryptor/RNCryptorEngine.h; sourceTree = "<group>"; };
+		76965F05A77812B4F4054ADF /* libPods-ios-push-messaging-RNCryptor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-push-messaging-RNCryptor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4DE462E302C2E060B2F9A3 /* Pods-ios-push-messaging-Raven.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-push-messaging-Raven.xcconfig"; sourceTree = "<group>"; };
+		807DEE963110C15189850457 /* SecurityUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
+		83E9A98566B706957261018F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8CDC142DD4B3AE24287B6C96 /* RavenClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RavenClient.m; path = Raven/RavenClient.m; sourceTree = "<group>"; };
+		8F568EA0F1427CB578227ED0 /* Pods-ios-push-messaging-Syncing-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-push-messaging-Syncing-Private.xcconfig"; sourceTree = "<group>"; };
+		92A1AABEF454D276F359243C /* Pods-ios-push-messaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-push-messaging.debug.xcconfig"; sourceTree = "<group>"; };
+		9B9588DC69F329F9895CC127 /* SyncingInjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SyncingInjection.h; sourceTree = "<group>"; };
+		9CB3351BDE861733C857078D /* AsyncBus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AsyncBus.h; sourceTree = "<group>"; };
+		A397D637D8180B38189BE151 /* Pods-ios-push-messaging-Raven-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-push-messaging-Raven-prefix.pch"; sourceTree = "<group>"; };
+		A5D23F2652E4741E2605B0AD /* libPods-ios-push-messaging-Raven.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-push-messaging-Raven.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC479BA3BA606698F872E116 /* RNCryptor+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RNCryptor+Private.h"; path = "RNCryptor/RNCryptor+Private.h"; sourceTree = "<group>"; };
+		B0284C42816596F0BE3F5AFC /* Pods-ios-push-messaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-push-messaging.release.xcconfig"; sourceTree = "<group>"; };
+		B5C4F7614E02EF4C38D373A0 /* RavenConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RavenConfig.h; path = Raven/RavenConfig.h; sourceTree = "<group>"; };
+		B65C5CC534A4D31A68D3DB29 /* ThreadChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ThreadChecker.m; sourceTree = "<group>"; };
+		B7949E3349AFC68D2AF7B2A9 /* SyncEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SyncEvent.h; sourceTree = "<group>"; };
+		B824997AC45AC4321A7EB2C4 /* RNDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNDecryptor.m; path = RNCryptor/RNDecryptor.m; sourceTree = "<group>"; };
+		C72D2D606D9C7685E826F548 /* Raven.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Raven.h; path = Raven/Raven.h; sourceTree = "<group>"; };
+		D63B3E3B30EEE6E01A1128B8 /* RNCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptor.m; path = RNCryptor/RNCryptor.m; sourceTree = "<group>"; };
+		D69251F22B9BDA6CBADE8061 /* Pods-ios-push-messaging-RNCryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-push-messaging-RNCryptor-dummy.m"; sourceTree = "<group>"; };
+		DE8BDF5B7A3F3C296CD191B1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		DF8F00B23B1A97C0BDC74B08 /* AbstractLoginActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AbstractLoginActivity.m; sourceTree = "<group>"; };
+		E02F8A7E3E914A112878058C /* SyncingInjection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SyncingInjection.m; sourceTree = "<group>"; };
+		E13F6EFCE04BE6AD5B64D554 /* libPods-ios-push-messaging-Syncing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-push-messaging-Syncing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D9CA767FA7D6B056E67468 /* Pods-ios-push-messaging-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-push-messaging-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E20F3845350CFD353AF4905E /* ServerComm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ServerComm.h; sourceTree = "<group>"; };
+		E5CC5419BC39E871FC4F0CCE /* Pods-ios-push-messaging-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-push-messaging-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA3E5EEB9099F84AAA9924EA /* Pods-ios-push-messaging-RNCryptor-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-push-messaging-RNCryptor-Private.xcconfig"; sourceTree = "<group>"; };
+		EBC68D33777B5DB940293B87 /* libPods-ios-push-messaging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-push-messaging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B83F60C6871E7EA709C2F5 /* Pods-ios-push-messaging-Raven-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-push-messaging-Raven-dummy.m"; sourceTree = "<group>"; };
+		F4543681B68A10C7D9C7E524 /* RavenClient_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RavenClient_Private.h; path = Raven/RavenClient_Private.h; sourceTree = "<group>"; };
+		F4D205BD26FE76CBB44F6ACC /* RNOpenSSLDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNOpenSSLDecryptor.m; path = RNCryptor/RNOpenSSLDecryptor.m; sourceTree = "<group>"; };
+		F75AF72E19A2A34AA4C8CC3B /* ReadOnlyAbstractSyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ReadOnlyAbstractSyncManager.h; sourceTree = "<group>"; };
+		F99C2C126B16E816135E2078 /* AbstractLoginActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AbstractLoginActivity.h; sourceTree = "<group>"; };
+		FA4CF2E0025CAE0A538C124F /* RavenConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RavenConfig.m; path = Raven/RavenConfig.m; sourceTree = "<group>"; };
+		FBADA2F91AA62A11CCABFC83 /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = RNCryptor/RNCryptor.h; sourceTree = "<group>"; };
+		FE7F83E70A40B3F348356034 /* DataSyncHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DataSyncHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30A8FA17A8AB0432A80EE467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AF3B225BA822AAAC8F6448 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF70897FC6BAEADE508D391B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA622636AA3D9D385E2E73D0 /* Foundation.framework in Frameworks */,
+				4757F32549542A67580C19C5 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92297F64652312B4511D583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB84FC0B994BBCDDF0899F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D55C1F0E83ABDF604AF917AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F879A73485307987E380EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A8C936E5B8CF2791613FD29 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E87EBDE5A60C80EB47249B1 /* Pods-ios-push-messaging-Syncing.xcconfig */,
+				8F568EA0F1427CB578227ED0 /* Pods-ios-push-messaging-Syncing-Private.xcconfig */,
+				2E16822F0B4DB75150D43B0A /* Pods-ios-push-messaging-Syncing-dummy.m */,
+				12908F217FA644B6E7A39843 /* Pods-ios-push-messaging-Syncing-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../ios-push-messaging/Pods/Target Support Files/Pods-ios-push-messaging-Syncing";
+			sourceTree = "<group>";
+		};
+		10D3477D2D40E8EA59214557 /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				FBADA2F91AA62A11CCABFC83 /* RNCryptor.h */,
+				D63B3E3B30EEE6E01A1128B8 /* RNCryptor.m */,
+				AC479BA3BA606698F872E116 /* RNCryptor+Private.h */,
+				76351B902CCDC64C95B610CF /* RNCryptorEngine.h */,
+				11D4E60DB9CB77FAD3DC9245 /* RNCryptorEngine.m */,
+				2560F365B1122C7E9F05113E /* RNDecryptor.h */,
+				B824997AC45AC4321A7EB2C4 /* RNDecryptor.m */,
+				1452C44C7A3012968C385227 /* RNEncryptor.h */,
+				349D87EFF6AAF864A5C7859A /* RNEncryptor.m */,
+				2C87CAF6C400E0A1D379DCDA /* RNOpenSSLCryptor.h */,
+				2EB9B0C7470EF22F16911F65 /* RNOpenSSLCryptor.m */,
+				318AAB3B19AD6F4E29A4E16B /* RNOpenSSLDecryptor.h */,
+				F4D205BD26FE76CBB44F6ACC /* RNOpenSSLDecryptor.m */,
+				3B688B3D04287729152112C9 /* RNOpenSSLEncryptor.h */,
+				340E1C18F7C749C59BB3B3D4 /* RNOpenSSLEncryptor.m */,
+				94AFA99700C55AE4478621F0 /* Support Files */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+		2C75C2678813F5C15F617B3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBC68D33777B5DB940293B87 /* libPods-ios-push-messaging.a */,
+				76965F05A77812B4F4054ADF /* libPods-ios-push-messaging-RNCryptor.a */,
+				A5D23F2652E4741E2605B0AD /* libPods-ios-push-messaging-Raven.a */,
+				E13F6EFCE04BE6AD5B64D554 /* libPods-ios-push-messaging-Syncing.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CAEAD38B362E9D4C9C85D57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				738D8E37314EF9B819F9CE64 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5371523A4453E735421BFC63 /* Raven */ = {
+			isa = PBXGroup;
+			children = (
+				C72D2D606D9C7685E826F548 /* Raven.h */,
+				72381247D1C49EBC9C68B715 /* RavenClient.h */,
+				8CDC142DD4B3AE24287B6C96 /* RavenClient.m */,
+				F4543681B68A10C7D9C7E524 /* RavenClient_Private.h */,
+				B5C4F7614E02EF4C38D373A0 /* RavenConfig.h */,
+				FA4CF2E0025CAE0A538C124F /* RavenConfig.m */,
+				91EC68E86A7E786CE8125DCF /* Support Files */,
+			);
+			path = Raven;
+			sourceTree = "<group>";
+		};
+		6D5AAD69BD516D0F262C9045 /* Syncing */ = {
+			isa = PBXGroup;
+			children = (
+				0A8C936E5B8CF2791613FD29 /* Support Files */,
+				DE16D761F3B558E5D8A0B81C /* Syncing */,
+			);
+			name = Syncing;
+			path = "/Users/rodrigosuhr/Dev/ios-syncing";
+			sourceTree = "<absolute>";
+		};
+		738D8E37314EF9B819F9CE64 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				83E9A98566B706957261018F /* Foundation.framework */,
+				DE8BDF5B7A3F3C296CD191B1 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7F7CA27A8B2F940B73BA2D8F /* Pods-ios-push-messaging */ = {
+			isa = PBXGroup;
+			children = (
+				E1D9CA767FA7D6B056E67468 /* Pods-ios-push-messaging-acknowledgements.markdown */,
+				E5CC5419BC39E871FC4F0CCE /* Pods-ios-push-messaging-acknowledgements.plist */,
+				3830BBD78F0ED257A2AF5E00 /* Pods-ios-push-messaging-dummy.m */,
+				5C15F229C50888C371B4C95F /* Pods-ios-push-messaging-environment.h */,
+				39D64F6EB193F1A5CE43513F /* Pods-ios-push-messaging-resources.sh */,
+				92A1AABEF454D276F359243C /* Pods-ios-push-messaging.debug.xcconfig */,
+				B0284C42816596F0BE3F5AFC /* Pods-ios-push-messaging.release.xcconfig */,
+			);
+			name = "Pods-ios-push-messaging";
+			path = "Target Support Files/Pods-ios-push-messaging";
+			sourceTree = "<group>";
+		};
+		8D3597F95BCEFB98067A1D5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10D3477D2D40E8EA59214557 /* RNCryptor */,
+				5371523A4453E735421BFC63 /* Raven */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91EC68E86A7E786CE8125DCF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A4DE462E302C2E060B2F9A3 /* Pods-ios-push-messaging-Raven.xcconfig */,
+				472ADF74DD67C57828ACD1D0 /* Pods-ios-push-messaging-Raven-Private.xcconfig */,
+				F3B83F60C6871E7EA709C2F5 /* Pods-ios-push-messaging-Raven-dummy.m */,
+				A397D637D8180B38189BE151 /* Pods-ios-push-messaging-Raven-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ios-push-messaging-Raven";
+			sourceTree = "<group>";
+		};
+		94AFA99700C55AE4478621F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10BE895AB8CB47A83BAB99CB /* Pods-ios-push-messaging-RNCryptor.xcconfig */,
+				EA3E5EEB9099F84AAA9924EA /* Pods-ios-push-messaging-RNCryptor-Private.xcconfig */,
+				D69251F22B9BDA6CBADE8061 /* Pods-ios-push-messaging-RNCryptor-dummy.m */,
+				6B64C00A29BA627E8D1B1924 /* Pods-ios-push-messaging-RNCryptor-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ios-push-messaging-RNCryptor";
+			sourceTree = "<group>";
+		};
+		D19AE2FE7D98E82218C354CC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D5AAD69BD516D0F262C9045 /* Syncing */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DE16D761F3B558E5D8A0B81C /* Syncing */ = {
+			isa = PBXGroup;
+			children = (
+				F99C2C126B16E816135E2078 /* AbstractLoginActivity.h */,
+				DF8F00B23B1A97C0BDC74B08 /* AbstractLoginActivity.m */,
+				9CB3351BDE861733C857078D /* AsyncBus.h */,
+				440AB18F31411530527A8634 /* AsyncBus.m */,
+				5924D77AEFF2AD1A3741A352 /* CustomException.h */,
+				714F412645B910F7F19B98E7 /* CustomException.m */,
+				3D78128DA77657EB5066B2B5 /* CustomTransactionManager.h */,
+				118E656C59FABA176BF93D0A /* CustomTransactionManager.m */,
+				414DAE27AFA1958E9558FBA6 /* DataSyncHelper.h */,
+				FE7F83E70A40B3F348356034 /* DataSyncHelper.m */,
+				3C3009871C6C9C48B813013D /* DatabaseProvider.h */,
+				65D1E8F85DE8F9697B608544 /* DatabaseProvider.m */,
+				F75AF72E19A2A34AA4C8CC3B /* ReadOnlyAbstractSyncManager.h */,
+				5A88DF29237C9DC4DC38AE1A /* ReadOnlyAbstractSyncManager.m */,
+				726B8C99DC197679FF250D0E /* SecurityUtil.h */,
+				807DEE963110C15189850457 /* SecurityUtil.m */,
+				33C4D6910CC17554D210BBDF /* ServerAuthenticate.h */,
+				23AD975F423D60B02583CCC8 /* ServerAuthenticate.m */,
+				E20F3845350CFD353AF4905E /* ServerComm.h */,
+				037A1DE56732323AA3A09FEE /* ServerComm.m */,
+				5C8AD291F74C26CDB5D4B69A /* SharedModelContext.h */,
+				6E6588C3501CB16023FA581C /* SharedModelContext.m */,
+				1E4D128E77C3FF879769B5F6 /* SyncConfig.h */,
+				525F9AF29A54835261FA5B24 /* SyncConfig.m */,
+				B7949E3349AFC68D2AF7B2A9 /* SyncEvent.h */,
+				5DD963287A6826B05FAF15BF /* SyncManager.h */,
+				7569EDD4FAC74FBD06C4AA33 /* Syncing.h */,
+				9B9588DC69F329F9895CC127 /* SyncingInjection.h */,
+				E02F8A7E3E914A112878058C /* SyncingInjection.m */,
+				2E15C88B4AF069565173648D /* ThreadChecker.h */,
+				B65C5CC534A4D31A68D3DB29 /* ThreadChecker.m */,
+			);
+			path = Syncing;
+			sourceTree = "<group>";
+		};
+		F94C62BF635E2F39DC4CBA13 = {
+			isa = PBXGroup;
+			children = (
+				005AFA3C0FFDAACDCA7BF3D6 /* Podfile */,
+				D19AE2FE7D98E82218C354CC /* Development Pods */,
+				3CAEAD38B362E9D4C9C85D57 /* Frameworks */,
+				8D3597F95BCEFB98067A1D5A /* Pods */,
+				2C75C2678813F5C15F617B3D /* Products */,
+				FADA406356977BDEADB37766 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FADA406356977BDEADB37766 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F7CA27A8B2F940B73BA2D8F /* Pods-ios-push-messaging */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19223508F071879E04A7CF9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD9416FD678B74D1F0E812E /* RNCryptor+Private.h in Headers */,
+				0ED293ABB4571F333B0D0D64 /* RNCryptor.h in Headers */,
+				D6BD54E6DFBB041B3B8E5592 /* RNCryptorEngine.h in Headers */,
+				356D4DAA77936B475EDF12C3 /* RNDecryptor.h in Headers */,
+				A31A69319A2C4AFFB8AFEE26 /* RNEncryptor.h in Headers */,
+				7CCDAD2A6AF9DEAD775C9A74 /* RNOpenSSLCryptor.h in Headers */,
+				F65F8EDB011A286C099547DE /* RNOpenSSLDecryptor.h in Headers */,
+				88F509A76BABECA6B84410ED /* RNOpenSSLEncryptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3F0A6AB8C44455B5E9FF95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D961E33226C5C8C7F2806014 /* AbstractLoginActivity.h in Headers */,
+				D12570D8B6FB86CA29543076 /* AsyncBus.h in Headers */,
+				47EA6BABEBD42FBCA50FFC3E /* CustomException.h in Headers */,
+				D8BC6F3482453AF5854A1814 /* CustomTransactionManager.h in Headers */,
+				00050F22465B3D17C77E8D00 /* DataSyncHelper.h in Headers */,
+				658EDDC8C4F5BB307B6C0712 /* DatabaseProvider.h in Headers */,
+				DA41EAF49765BA2F69B04931 /* ReadOnlyAbstractSyncManager.h in Headers */,
+				E559BE270BE7D7BC6D887799 /* SecurityUtil.h in Headers */,
+				1EA5A5D49990112E887350DF /* ServerAuthenticate.h in Headers */,
+				432EAEC77496DBEE6BFE4ACE /* ServerComm.h in Headers */,
+				FB9E11CE47AE47F4A0DA153B /* SharedModelContext.h in Headers */,
+				717797A411DD7650C65776E4 /* SyncConfig.h in Headers */,
+				385CD5A9379EB4F301FD7C9A /* SyncEvent.h in Headers */,
+				723E2F0A8C7ECE75F353FDCD /* SyncManager.h in Headers */,
+				3C52280F409EE72C13B743E9 /* Syncing.h in Headers */,
+				96A043D5E48704237B3A0787 /* SyncingInjection.h in Headers */,
+				BF281979A7F6A02DFCFF6313 /* ThreadChecker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857B0ABAE0186D3D1AAA8BAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DE66367AF6B45B53CBE103 /* Raven.h in Headers */,
+				B95449A48E75BE7011E43481 /* RavenClient.h in Headers */,
+				D4FB682DC1095A4C817FE4BB /* RavenClient_Private.h in Headers */,
+				18C73CA357B8B722E701882C /* RavenConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		068EA3C1D429920F731F406A /* Pods-ios-push-messaging-RNCryptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8117860BBA8093F04C302CD8 /* Build configuration list for PBXNativeTarget "Pods-ios-push-messaging-RNCryptor" */;
+			buildPhases = (
+				5DF81A0678A5472022BFDD47 /* Sources */,
+				AF70897FC6BAEADE508D391B /* Frameworks */,
+				19223508F071879E04A7CF9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ios-push-messaging-RNCryptor";
+			productName = "Pods-ios-push-messaging-RNCryptor";
+			productReference = 76965F05A77812B4F4054ADF /* libPods-ios-push-messaging-RNCryptor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3280C8EBFF20637FBDBC6B92 /* Pods-ios-push-messaging-Raven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61DDB94989BC7886C0994F96 /* Build configuration list for PBXNativeTarget "Pods-ios-push-messaging-Raven" */;
+			buildPhases = (
+				FD26C06A90C6AD73423A922D /* Sources */,
+				C92297F64652312B4511D583 /* Frameworks */,
+				857B0ABAE0186D3D1AAA8BAD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ios-push-messaging-Raven";
+			productName = "Pods-ios-push-messaging-Raven";
+			productReference = A5D23F2652E4741E2605B0AD /* libPods-ios-push-messaging-Raven.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		56B5949EFA0EC5DAB8707C5F /* Pods-ios-push-messaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 970622569A10F4470CDFF9E9 /* Build configuration list for PBXNativeTarget "Pods-ios-push-messaging" */;
+			buildPhases = (
+				223328101E167F3F27C0A041 /* Sources */,
+				D55C1F0E83ABDF604AF917AC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FB5E0A1D279AC68D244F29F /* PBXTargetDependency */,
+				23AB5F6F71BB85AB25E7C7B2 /* PBXTargetDependency */,
+				DB2E9AED4476AF7A2D6051D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-ios-push-messaging";
+			productName = "Pods-ios-push-messaging";
+			productReference = EBC68D33777B5DB940293B87 /* libPods-ios-push-messaging.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		835880AB23022BCBC46AF239 /* Pods-ios-push-messaging-Syncing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4A095E3DC980861106B6A6 /* Build configuration list for PBXNativeTarget "Pods-ios-push-messaging-Syncing" */;
+			buildPhases = (
+				A9F4A7E21F53B9496ABB1856 /* Sources */,
+				30A8FA17A8AB0432A80EE467 /* Frameworks */,
+				4B3F0A6AB8C44455B5E9FF95 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C3C37CC7B159E90A5AF4468 /* PBXTargetDependency */,
+				D16F92488396F557CF3C2EB2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ios-push-messaging-Syncing";
+			productName = "Pods-ios-push-messaging-Syncing";
+			productReference = E13F6EFCE04BE6AD5B64D554 /* libPods-ios-push-messaging-Syncing.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD550B44B7A7AC0D967B939F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = E92F3FA3D768E46F031BC061 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F94C62BF635E2F39DC4CBA13;
+			productRefGroup = 2C75C2678813F5C15F617B3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56B5949EFA0EC5DAB8707C5F /* Pods-ios-push-messaging */,
+				068EA3C1D429920F731F406A /* Pods-ios-push-messaging-RNCryptor */,
+				3280C8EBFF20637FBDBC6B92 /* Pods-ios-push-messaging-Raven */,
+				835880AB23022BCBC46AF239 /* Pods-ios-push-messaging-Syncing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		223328101E167F3F27C0A041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15216E9B87BF0E6A79CC6557 /* Pods-ios-push-messaging-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF81A0678A5472022BFDD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CD47BAED286D10A36FB6E5 /* Pods-ios-push-messaging-RNCryptor-dummy.m in Sources */,
+				10F94DE5164D0E532F6F6A95 /* RNCryptor.m in Sources */,
+				0102465CC1D9698FAB6DAD9D /* RNCryptorEngine.m in Sources */,
+				73536B7D62B5267A1387F46E /* RNDecryptor.m in Sources */,
+				B09AC4F8EB2AE5EC9566E575 /* RNEncryptor.m in Sources */,
+				568FE418C47CC235386E05A0 /* RNOpenSSLCryptor.m in Sources */,
+				48A4549894D64FFE25BCADC1 /* RNOpenSSLDecryptor.m in Sources */,
+				5CD27FA26D5E047300FED729 /* RNOpenSSLEncryptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F4A7E21F53B9496ABB1856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EF1FD06B836B0F6323A9F4 /* AbstractLoginActivity.m in Sources */,
+				51CE6EE0CEDFBDACDFB3F524 /* AsyncBus.m in Sources */,
+				559B705A4552310028E887B7 /* CustomException.m in Sources */,
+				74A7217C05207332541B846B /* CustomTransactionManager.m in Sources */,
+				A60F2FA1DAD894BE3699EF6E /* DataSyncHelper.m in Sources */,
+				B75E3ADB2DA965EF4CEF39C7 /* DatabaseProvider.m in Sources */,
+				CD674C82D322B08F96EFB13F /* Pods-ios-push-messaging-Syncing-dummy.m in Sources */,
+				E6056F2DD57F46CC9C92CE17 /* ReadOnlyAbstractSyncManager.m in Sources */,
+				19A905485FE3F797979C258A /* SecurityUtil.m in Sources */,
+				444760D75433764E2528139A /* ServerAuthenticate.m in Sources */,
+				35024B523EF2795680536233 /* ServerComm.m in Sources */,
+				ADB37FEB8AC181D2AE8A0830 /* SharedModelContext.m in Sources */,
+				87AC8094F12D5AB035A55328 /* SyncConfig.m in Sources */,
+				20AFB4071773618FCF53B048 /* SyncingInjection.m in Sources */,
+				C83E9236354A1D327DFB3208 /* ThreadChecker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD26C06A90C6AD73423A922D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A5C3A47E8A37E5921DBEBE /* Pods-ios-push-messaging-Raven-dummy.m in Sources */,
+				EB658B609B0FDAAADF354352 /* RavenClient.m in Sources */,
+				317B0FA57D9EA4072E95F4F5 /* RavenConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C3C37CC7B159E90A5AF4468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ios-push-messaging-RNCryptor";
+			target = 068EA3C1D429920F731F406A /* Pods-ios-push-messaging-RNCryptor */;
+			targetProxy = 5511466CA564A39B59E76E70 /* PBXContainerItemProxy */;
+		};
+		23AB5F6F71BB85AB25E7C7B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ios-push-messaging-Raven";
+			target = 3280C8EBFF20637FBDBC6B92 /* Pods-ios-push-messaging-Raven */;
+			targetProxy = 7C05AD992EA4DB634D9FDBDF /* PBXContainerItemProxy */;
+		};
+		4FB5E0A1D279AC68D244F29F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ios-push-messaging-RNCryptor";
+			target = 068EA3C1D429920F731F406A /* Pods-ios-push-messaging-RNCryptor */;
+			targetProxy = 5C25AAB7AD6F23114FE51B30 /* PBXContainerItemProxy */;
+		};
+		D16F92488396F557CF3C2EB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ios-push-messaging-Raven";
+			target = 3280C8EBFF20637FBDBC6B92 /* Pods-ios-push-messaging-Raven */;
+			targetProxy = 2A2D794E42385E903E905D27 /* PBXContainerItemProxy */;
+		};
+		DB2E9AED4476AF7A2D6051D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ios-push-messaging-Syncing";
+			target = 835880AB23022BCBC46AF239 /* Pods-ios-push-messaging-Syncing */;
+			targetProxy = 3D198FC45B25960B97FE4743 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04839CD4AB60A3F0F07551C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		333DF8E43825D50094752D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472ADF74DD67C57828ACD1D0 /* Pods-ios-push-messaging-Raven-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ios-push-messaging-Raven/Pods-ios-push-messaging-Raven-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		470A11918811940F6191272C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92A1AABEF454D276F359243C /* Pods-ios-push-messaging.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4CD64E8000669815C365D6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3E5EEB9099F84AAA9924EA /* Pods-ios-push-messaging-RNCryptor-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ios-push-messaging-RNCryptor/Pods-ios-push-messaging-RNCryptor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7A2954744B76913AB17F8922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F568EA0F1427CB578227ED0 /* Pods-ios-push-messaging-Syncing-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ios-push-messaging-Syncing/Pods-ios-push-messaging-Syncing-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A0B903FAA0D079E05565CF69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9981FD21A57A78938F5CBA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F568EA0F1427CB578227ED0 /* Pods-ios-push-messaging-Syncing-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ios-push-messaging-Syncing/Pods-ios-push-messaging-Syncing-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BA483974159C1041EC3FE2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0284C42816596F0BE3F5AFC /* Pods-ios-push-messaging.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C3F65E7BA9344AF09FAE5427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3E5EEB9099F84AAA9924EA /* Pods-ios-push-messaging-RNCryptor-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ios-push-messaging-RNCryptor/Pods-ios-push-messaging-RNCryptor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DE02142CCF7CCB210750868A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 472ADF74DD67C57828ACD1D0 /* Pods-ios-push-messaging-Raven-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ios-push-messaging-Raven/Pods-ios-push-messaging-Raven-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61DDB94989BC7886C0994F96 /* Build configuration list for PBXNativeTarget "Pods-ios-push-messaging-Raven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333DF8E43825D50094752D86 /* Debug */,
+				DE02142CCF7CCB210750868A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8117860BBA8093F04C302CD8 /* Build configuration list for PBXNativeTarget "Pods-ios-push-messaging-RNCryptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F65E7BA9344AF09FAE5427 /* Debug */,
+				4CD64E8000669815C365D6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		970622569A10F4470CDFF9E9 /* Build configuration list for PBXNativeTarget "Pods-ios-push-messaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470A11918811940F6191272C /* Debug */,
+				BA483974159C1041EC3FE2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92F3FA3D768E46F031BC061 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04839CD4AB60A3F0F07551C0 /* Debug */,
+				A0B903FAA0D079E05565CF69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4A095E3DC980861106B6A6 /* Build configuration list for PBXNativeTarget "Pods-ios-push-messaging-Syncing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9981FD21A57A78938F5CBA1 /* Debug */,
+				7A2954744B76913AB17F8922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD550B44B7A7AC0D967B939F /* Project object */;
+}

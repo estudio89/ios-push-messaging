@@ -1,0 +1,20 @@
+PODS:
+  - Raven (1.0.1)
+  - RNCryptor (2.2)
+  - Syncing (0.0.0):
+    - Raven
+    - RNCryptor
+
+DEPENDENCIES:
+  - Syncing (from `~/Dev/ios-syncing/`)
+
+EXTERNAL SOURCES:
+  Syncing:
+    :path: "~/Dev/ios-syncing/"
+
+SPEC CHECKSUMS:
+  Raven: 0c868f0b221c936ae352095d4af3d418e3db1242
+  RNCryptor: c68678461a2c7474a55db9a6a98834c22d51f535
+  Syncing: 1efd4cf024e6c90311435de7c2227b58af0d39c4
+
+COCOAPODS: 0.37.1

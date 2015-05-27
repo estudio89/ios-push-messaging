@@ -22,6 +22,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		40321BE52F0B848E659A7BF5 /* libPods-ios-push-messaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FA1D6C7ADB239948E7FAD0 /* libPods-ios-push-messaging.a */; };
 		7B4C3B211AB77E0400C5CE91 /* libios-push-messaging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4C3B151AB77E0400C5CE91 /* libios-push-messaging.a */; };
 		7B4C3B321AB7800A00C5CE91 /* PushCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B311AB7800A00C5CE91 /* PushCentral.m */; };
 		7B4C3B351AB7802800C5CE91 /* PushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B341AB7802800C5CE91 /* PushConfig.m */; };
@@ -34,7 +35,6 @@
 		7BC2FF911AF9560600270C00 /* PushInjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2FF8F1AF9560600270C00 /* PushInjection.m */; };
 		7BC2FF9B1AF965D600270C00 /* PushAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC2FF991AF965D600270C00 /* PushAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BC2FF9C1AF965D600270C00 /* PushAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2FF9A1AF965D600270C00 /* PushAppDelegate.m */; };
-		7BDDA9AD1B136A2500324BD3 /* Syncing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BDDA9AC1B136A2500324BD3 /* Syncing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D863846B8446CDF116C384E /* Pods-ios-push-messaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-push-messaging.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-push-messaging/Pods-ios-push-messaging.release.xcconfig"; sourceTree = "<group>"; };
 		7B4C3B151AB77E0400C5CE91 /* libios-push-messaging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libios-push-messaging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B4C3B181AB77E0400C5CE91 /* ios_push_messaging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_push_messaging.h; sourceTree = "<group>"; };
 		7B4C3B201AB77E0400C5CE91 /* ios-push-messagingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-push-messagingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +70,8 @@
 		7BC2FF8F1AF9560600270C00 /* PushInjection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushInjection.m; sourceTree = "<group>"; };
 		7BC2FF991AF965D600270C00 /* PushAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAppDelegate.h; sourceTree = "<group>"; };
 		7BC2FF9A1AF965D600270C00 /* PushAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAppDelegate.m; sourceTree = "<group>"; };
-		7BDDA9AC1B136A2500324BD3 /* Syncing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syncing.framework; sourceTree = "<group>"; };
+		A8FA1D6C7ADB239948E7FAD0 /* libPods-ios-push-messaging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-push-messaging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC9F02A0B00B86542357B8C /* Pods-ios-push-messaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-push-messaging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-push-messaging/Pods-ios-push-messaging.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BDDA9AD1B136A2500324BD3 /* Syncing.framework in Frameworks */,
+				40321BE52F0B848E659A7BF5 /* libPods-ios-push-messaging.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,13 +94,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		251D6B42DFF210DE10A1D575 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFC9F02A0B00B86542357B8C /* Pods-ios-push-messaging.debug.xcconfig */,
+				4D863846B8446CDF116C384E /* Pods-ios-push-messaging.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7B4C3B0C1AB77E0400C5CE91 = {
 			isa = PBXGroup;
 			children = (
-				7BDDA9AC1B136A2500324BD3 /* Syncing.framework */,
 				7B4C3B171AB77E0400C5CE91 /* ios-push-messaging */,
 				7B4C3B241AB77E0400C5CE91 /* ios-push-messagingTests */,
 				7B4C3B161AB77E0400C5CE91 /* Products */,
+				251D6B42DFF210DE10A1D575 /* Pods */,
+				D403145D7F31BBB19FACE253 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +157,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D403145D7F31BBB19FACE253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8FA1D6C7ADB239948E7FAD0 /* libPods-ios-push-messaging.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -168,10 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B4C3B291AB77E0400C5CE91 /* Build configuration list for PBXNativeTarget "ios-push-messaging" */;
 			buildPhases = (
+				D3B1283E38615300C9FB2D8B /* Check Pods Manifest.lock */,
 				7B4C3B111AB77E0400C5CE91 /* Sources */,
 				7B4C3B121AB77E0400C5CE91 /* Frameworks */,
 				7BBF84141AE841DB00BD607E /* Headers */,
 				7BBF84191AE8422000BD607E /* ShellScript */,
+				8800ECC88B45A5562A814407 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,6 +297,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n#The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"";
+		};
+		8800ECC88B45A5562A814407 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-push-messaging/Pods-ios-push-messaging-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3B1283E38615300C9FB2D8B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -405,6 +457,7 @@
 		};
 		7B4C3B2A1AB77E0400C5CE91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC9F02A0B00B86542357B8C /* Pods-ios-push-messaging.debug.xcconfig */;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
@@ -424,6 +477,7 @@
 		};
 		7B4C3B2B1AB77E0400C5CE91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D863846B8446CDF116C384E /* Pods-ios-push-messaging.release.xcconfig */;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 				DEAD_CODE_STRIPPING = NO;
