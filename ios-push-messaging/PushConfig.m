@@ -9,6 +9,7 @@
 #import "PushConfig.h"
 #import "PushInjection.h"
 #import <Syncing/Syncing.h>
+#import <Raven/Raven.h>
 
 @interface PushConfig()
 
@@ -81,7 +82,7 @@
     }
     @catch (NSException *e)
     {
-        @throw e;
+        [[RavenClient sharedClient] captureException:e method:__FUNCTION__ file:__FILE__ line:__LINE__ sendNow:YES];
     }
 }
 
@@ -167,13 +168,17 @@
                                @"old_registration_id":oldRegistrationId,
                                           @"platform":@"ios"};
                 
-                ServerComm *serverComm = [[ServerComm alloc] init];
+                ServerComm *serverComm = [SyncingInjection get:[ServerComm class]];
                 [serverComm post:_serverRegistrationUrl withData:parameters];
                 NSLog(@"Registration Id was sent");
                 
                 [self setRegistrationId:registrationId];
                 [syncConfig setDeviceId:registrationId];
                 NSLog(@"Registration Id was set. [%@]", registrationId);
+            }
+            @catch (NSException *e)
+            {
+                [[RavenClient sharedClient] captureException:e method:__FUNCTION__ file:__FILE__ line:__LINE__ sendNow:YES];
             }
             @finally
             {
