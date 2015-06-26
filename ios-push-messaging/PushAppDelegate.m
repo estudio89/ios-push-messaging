@@ -24,7 +24,12 @@
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
 {
-    [PushCentral onHandleRemoteNotification:userInfo];
+    [PushCentral onHandleRemoteNotification:userInfo withCompletionHandler:nil];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    [PushCentral onHandleRemoteNotification:userInfo withCompletionHandler:completionHandler];
 }
 
 @end

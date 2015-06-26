@@ -8,13 +8,17 @@
 
 #import "PushCentral.h"
 #import "PushConfig.h"
+#import <Syncing/Syncing.h>
 
 @implementation PushCentral
+{
+    void (^_completionHandler)(UIBackgroundFetchResult);
+}
 
 /**
  * onHandleRemoteNotification
  */
-+ (void)onHandleRemoteNotification:(NSDictionary *)userInfo
++ (void)onHandleRemoteNotification:(NSDictionary *)userInfo withCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
 {
     if ([userInfo count] > 0 && [userInfo valueForKey:@"type"])
     {
@@ -23,7 +27,7 @@
         id<PushManager> manager = [[PushConfig getInstance] getPushManager:type];
         if (manager != nil)
         {
-            [manager processPushMessage:userInfo];
+            [manager processPushMessage:userInfo withCompletionHandler:completionHandler];
         }
     }
 }
