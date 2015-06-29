@@ -12,6 +12,16 @@
 
 @implementation PushAppDelegate
 
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    if (launchOptions[UIApplicationLaunchOptionsRemoteNotificationKey])
+    {
+        [self application:application didReceiveRemoteNotification:launchOptions[UIApplicationLaunchOptionsRemoteNotificationKey]];
+    }
+    
+    return YES;
+}
+
 - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
 {
     [[PushConfig getInstance] performRegistrationIfNeeded:[deviceToken description]];
