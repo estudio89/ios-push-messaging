@@ -1,4 +1,5 @@
 PODS:
+  - ISO8601 (0.3.0)
   - Raven (1.0.1)
   - RNCryptor (2.2)
   - Syncing (0.0.1):
@@ -6,6 +7,7 @@ PODS:
     - RNCryptor
 
 DEPENDENCIES:
+  - ISO8601
   - Syncing (from `~/Dev/ios-syncing/`)
 
 EXTERNAL SOURCES:
@@ -13,6 +15,7 @@ EXTERNAL SOURCES:
     :path: "~/Dev/ios-syncing/"
 
 SPEC CHECKSUMS:
+  ISO8601: 8d8a22d5edf0554a1cf75bac028c76c1dc0ffaef
   Raven: 0c868f0b221c936ae352095d4af3d418e3db1242
   RNCryptor: c68678461a2c7474a55db9a6a98834c22d51f535
   Syncing: 3b0751774ac6f25cc8ff5beba628d90a78c02eaf

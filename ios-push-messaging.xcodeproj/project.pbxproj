@@ -35,6 +35,21 @@
 		7BC2FF911AF9560600270C00 /* PushInjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2FF8F1AF9560600270C00 /* PushInjection.m */; };
 		7BC2FF9B1AF965D600270C00 /* PushAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BC2FF991AF965D600270C00 /* PushAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BC2FF9C1AF965D600270C00 /* PushAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2FF9A1AF965D600270C00 /* PushAppDelegate.m */; };
+		7BF104821B6D5904007BF71C /* WebsocketHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF104801B6D5904007BF71C /* WebsocketHelper.h */; };
+		7BF104831B6D5904007BF71C /* WebsocketHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF104811B6D5904007BF71C /* WebsocketHelper.m */; };
+		7BF104921B6D59D4007BF71C /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF104851B6D59D4007BF71C /* SocketAckManager.swift */; };
+		7BF104931B6D59D4007BF71C /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF104861B6D59D4007BF71C /* SocketAnyEvent.swift */; };
+		7BF104941B6D59D4007BF71C /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF104871B6D59D4007BF71C /* SocketEngine.swift */; };
+		7BF104951B6D59D4007BF71C /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF104881B6D59D4007BF71C /* SocketEngineClient.swift */; };
+		7BF104961B6D59D4007BF71C /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF104891B6D59D4007BF71C /* SocketEventHandler.swift */; };
+		7BF104971B6D59D4007BF71C /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1048A1B6D59D4007BF71C /* SocketFixUTF8.swift */; };
+		7BF104981B6D59D4007BF71C /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1048B1B6D59D4007BF71C /* SocketIOClient.swift */; };
+		7BF104991B6D59D4007BF71C /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1048C1B6D59D4007BF71C /* SocketLogger.swift */; };
+		7BF1049A1B6D59D4007BF71C /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1048D1B6D59D4007BF71C /* SocketPacket.swift */; };
+		7BF1049B1B6D59D4007BF71C /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1048E1B6D59D4007BF71C /* SocketParser.swift */; };
+		7BF1049C1B6D59D4007BF71C /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF1048F1B6D59D4007BF71C /* SocketTypes.swift */; };
+		7BF1049D1B6D59D4007BF71C /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF104901B6D59D4007BF71C /* SwiftRegex.swift */; };
+		7BF1049E1B6D59D4007BF71C /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF104911B6D59D4007BF71C /* WebSocket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +85,21 @@
 		7BC2FF8F1AF9560600270C00 /* PushInjection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushInjection.m; sourceTree = "<group>"; };
 		7BC2FF991AF965D600270C00 /* PushAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAppDelegate.h; sourceTree = "<group>"; };
 		7BC2FF9A1AF965D600270C00 /* PushAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAppDelegate.m; sourceTree = "<group>"; };
+		7BF104801B6D5904007BF71C /* WebsocketHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsocketHelper.h; sourceTree = "<group>"; };
+		7BF104811B6D5904007BF71C /* WebsocketHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsocketHelper.m; sourceTree = "<group>"; };
+		7BF104851B6D59D4007BF71C /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
+		7BF104861B6D59D4007BF71C /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
+		7BF104871B6D59D4007BF71C /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		7BF104881B6D59D4007BF71C /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		7BF104891B6D59D4007BF71C /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		7BF1048A1B6D59D4007BF71C /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketFixUTF8.swift; sourceTree = "<group>"; };
+		7BF1048B1B6D59D4007BF71C /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		7BF1048C1B6D59D4007BF71C /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
+		7BF1048D1B6D59D4007BF71C /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		7BF1048E1B6D59D4007BF71C /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParser.swift; sourceTree = "<group>"; };
+		7BF1048F1B6D59D4007BF71C /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
+		7BF104901B6D59D4007BF71C /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
+		7BF104911B6D59D4007BF71C /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
 		A8FA1D6C7ADB239948E7FAD0 /* libPods-ios-push-messaging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-push-messaging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC9F02A0B00B86542357B8C /* Pods-ios-push-messaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-push-messaging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-push-messaging/Pods-ios-push-messaging.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +136,7 @@
 		7B4C3B0C1AB77E0400C5CE91 = {
 			isa = PBXGroup;
 			children = (
+				7BF104841B6D59D4007BF71C /* SocketIOClientSwift */,
 				7B4C3B171AB77E0400C5CE91 /* ios-push-messaging */,
 				7B4C3B241AB77E0400C5CE91 /* ios-push-messagingTests */,
 				7B4C3B161AB77E0400C5CE91 /* Products */,
@@ -136,6 +167,8 @@
 				7BC2FF8F1AF9560600270C00 /* PushInjection.m */,
 				7BC2FF991AF965D600270C00 /* PushAppDelegate.h */,
 				7BC2FF9A1AF965D600270C00 /* PushAppDelegate.m */,
+				7BF104801B6D5904007BF71C /* WebsocketHelper.h */,
+				7BF104811B6D5904007BF71C /* WebsocketHelper.m */,
 			);
 			path = "ios-push-messaging";
 			sourceTree = "<group>";
@@ -155,6 +188,26 @@
 				7B4C3B261AB77E0400C5CE91 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BF104841B6D59D4007BF71C /* SocketIOClientSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7BF104851B6D59D4007BF71C /* SocketAckManager.swift */,
+				7BF104861B6D59D4007BF71C /* SocketAnyEvent.swift */,
+				7BF104871B6D59D4007BF71C /* SocketEngine.swift */,
+				7BF104881B6D59D4007BF71C /* SocketEngineClient.swift */,
+				7BF104891B6D59D4007BF71C /* SocketEventHandler.swift */,
+				7BF1048A1B6D59D4007BF71C /* SocketFixUTF8.swift */,
+				7BF1048B1B6D59D4007BF71C /* SocketIOClient.swift */,
+				7BF1048C1B6D59D4007BF71C /* SocketLogger.swift */,
+				7BF1048D1B6D59D4007BF71C /* SocketPacket.swift */,
+				7BF1048E1B6D59D4007BF71C /* SocketParser.swift */,
+				7BF1048F1B6D59D4007BF71C /* SocketTypes.swift */,
+				7BF104901B6D59D4007BF71C /* SwiftRegex.swift */,
+				7BF104911B6D59D4007BF71C /* WebSocket.swift */,
+			);
+			path = SocketIOClientSwift;
 			sourceTree = "<group>";
 		};
 		D403145D7F31BBB19FACE253 /* Frameworks */ = {
@@ -178,6 +231,7 @@
 				7BBF84181AE8420E00BD607E /* PushConfig.h in Headers */,
 				7BC2FF9B1AF965D600270C00 /* PushAppDelegate.h in Headers */,
 				7BC2FF901AF9560600270C00 /* PushInjection.h in Headers */,
+				7BF104821B6D5904007BF71C /* WebsocketHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,8 +389,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF104921B6D59D4007BF71C /* SocketAckManager.swift in Sources */,
 				7BC2FF9C1AF965D600270C00 /* PushAppDelegate.m in Sources */,
+				7BF104971B6D59D4007BF71C /* SocketFixUTF8.swift in Sources */,
+				7BF104981B6D59D4007BF71C /* SocketIOClient.swift in Sources */,
+				7BF104961B6D59D4007BF71C /* SocketEventHandler.swift in Sources */,
 				7B4C3B321AB7800A00C5CE91 /* PushCentral.m in Sources */,
+				7BF104991B6D59D4007BF71C /* SocketLogger.swift in Sources */,
+				7BF1049E1B6D59D4007BF71C /* WebSocket.swift in Sources */,
+				7BF104931B6D59D4007BF71C /* SocketAnyEvent.swift in Sources */,
+				7BF104951B6D59D4007BF71C /* SocketEngineClient.swift in Sources */,
+				7BF104941B6D59D4007BF71C /* SocketEngine.swift in Sources */,
+				7BF1049C1B6D59D4007BF71C /* SocketTypes.swift in Sources */,
+				7BF1049A1B6D59D4007BF71C /* SocketPacket.swift in Sources */,
+				7BF1049B1B6D59D4007BF71C /* SocketParser.swift in Sources */,
+				7BF104831B6D5904007BF71C /* WebsocketHelper.m in Sources */,
+				7BF1049D1B6D59D4007BF71C /* SwiftRegex.swift in Sources */,
 				7B4C3B351AB7802800C5CE91 /* PushConfig.m in Sources */,
 				7BC2FF911AF9560600270C00 /* PushInjection.m in Sources */,
 			);
@@ -413,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -447,7 +515,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -467,7 +535,10 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Syncing.framework/Versions/A/Headers",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)/Headers";
 				SKIP_INSTALL = YES;
@@ -487,7 +558,10 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Syncing.framework/Versions/A/Headers",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)/Headers";
 				SKIP_INSTALL = YES;

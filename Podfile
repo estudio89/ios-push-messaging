@@ -2,6 +2,7 @@
 # platform :ios, '6.0'
 
 target 'ios-push-messaging' do
+pod 'ISO8601'
 pod 'Syncing', :path => '~/Dev/ios-syncing/'
 end
 
