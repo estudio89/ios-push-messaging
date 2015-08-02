@@ -8,6 +8,7 @@
 
 #import "PushInjection.h"
 #import "PushConfig.h"
+#import "WebsocketHelper.h"
 #import <Raven/RavenClient.h>
 #import <Syncing/Syncing.h>
 
@@ -32,10 +33,12 @@ static NSMutableDictionary *objects;
 + (void)executeInjection
 {
     PushConfig *pushConfig = [[PushConfig alloc] init];
+    WebsocketHelper *wsh = [[WebsocketHelper alloc] initWithPushConfig:pushConfig];
     
     objects = [[NSMutableDictionary alloc] init];
     
     [objects setObject:pushConfig forKey:NSStringFromClass([pushConfig class])];
+    [objects setObject:wsh forKey:NSStringFromClass([wsh class])];
 }
 
 + (id)get:(Class)class

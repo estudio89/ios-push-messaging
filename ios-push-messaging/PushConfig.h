@@ -17,5 +17,10 @@
 - (id<PushManager>)getPushManager:(NSString *)identifier;
 - (void)registerForRemoteNotification:(UIApplication *)app forDevice:(UIDevice *)device;
 - (void)performRegistrationIfNeeded:(NSString *)registrationId;
+- (NSString *)getWebsocketUrl;
+- (NSString *)getRegistrationId;
+- (NSArray *)getPushManagerIdentifiers;
+- (void)setTimestamp:(NSNumber *)timestamp;
+- (NSNumber *)getTimestamp;
 
 @end

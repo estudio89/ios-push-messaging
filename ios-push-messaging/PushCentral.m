@@ -22,9 +22,19 @@
 {
     if ([userInfo count] > 0 && [userInfo valueForKey:@"type"])
     {
+        PushConfig *pushConfig = [PushConfig getInstance];
         NSString *type = [userInfo valueForKey:@"type"];
         
-        id<PushManager> manager = [[PushConfig getInstance] getPushManager:type];
+        NSNumber *timestamp = [userInfo valueForKey:@"timestamp"];
+        NSNumber *storedTimestamp = [pushConfig getTimestamp];
+        
+        if ([timestamp longValue] <= [storedTimestamp longValue]) {
+            return;
+        }
+        
+        [pushConfig setTimestamp:timestamp];
+        
+        id<PushManager> manager = [pushConfig getPushManager:type];
         if (manager != nil)
         {
             [manager processPushMessage:userInfo withCompletionHandler:completionHandler];

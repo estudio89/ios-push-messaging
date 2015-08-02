@@ -3,6 +3,7 @@
 
 target 'ios-push-messaging' do
 pod 'ISO8601'
+pod 'SIOSocket', '~> 0.2.0'
 pod 'Syncing', :path => '~/Dev/ios-syncing/'
 end
 

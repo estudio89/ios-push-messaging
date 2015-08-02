@@ -10,6 +10,7 @@
 #import "PushInjection.h"
 #import <Syncing/Syncing.h>
 #import <Raven/Raven.h>
+#import "WebsocketHelper.h"
 
 @interface PushConfig()
 
@@ -17,6 +18,7 @@
 @property (nonatomic, strong, readwrite) NSString *serverRegistrationUrl;
 @property (nonatomic, strong, readwrite) NSMutableDictionary *pushManagersByIdentifier;
 @property BOOL runningRegistration;
+@property (strong, nonatomic) NSString *websocketUrl;
 
 @end
 
@@ -67,6 +69,7 @@
         
         _serverRegistrationUrl = [jsonConfig valueForKey:@"serverRegistrationUrl"];
         NSArray *pushManagersJson = [jsonConfig objectForKey:@"pushManagers"];
+        _websocketUrl = [jsonConfig valueForKey:@"websocketUrl"];
         
         id<PushManager> pushManager;
         Class klass;
@@ -136,6 +139,28 @@
     return registrationId;
 }
 
+- (void)setTimestamp:(NSNumber *)timestamp
+{
+    //set the new timestamp
+    [[NSUserDefaults standardUserDefaults] setValue:[timestamp stringValue] forKey:@"E89.iOS.PushMessaging-Timestamp"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+- (NSNumber *)getTimestamp
+{
+    NSString *timestamp = @"0";
+    NSString *storedTimestamp = [[NSUserDefaults standardUserDefaults] stringForKey:@"E89.iOS.PushMessaging-Timestamp"];
+    
+    if ([storedTimestamp length] > 0)
+    {
+        timestamp = storedTimestamp;
+    }
+    
+    NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
+    f.numberStyle = NSNumberFormatterDecimalStyle;
+    return [f numberFromString:timestamp];
+}
+
 /**
  * performRegistrationIfNeeded
  */
@@ -175,6 +200,10 @@
                 [self setRegistrationId:registrationId];
                 [syncConfig setDeviceId:registrationId];
                 NSLog(@"Registration Id was set. [%@]", registrationId);
+                
+                dispatch_async( dispatch_get_main_queue(), ^{
+                    [[WebsocketHelper getInstance] startSocket];
+                });
             }
             @catch (NSException *e)
             {
@@ -186,6 +215,16 @@
             }
         });
     }
+}
+
+- (NSString *)getWebsocketUrl
+{
+    return _websocketUrl;
+}
+
+- (NSArray *)getPushManagerIdentifiers
+{
+    return [_pushManagersByIdentifier allKeys];
 }
 
 @end
