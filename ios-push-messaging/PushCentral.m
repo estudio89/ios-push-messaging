@@ -29,6 +29,10 @@
         NSNumber *storedTimestamp = [pushConfig getTimestamp];
         
         if ([timestamp longValue] <= [storedTimestamp longValue]) {
+            if (completionHandler != nil && ![completionHandler isKindOfClass:[NSNull class]]) {
+                completionHandler(UIBackgroundFetchResultNewData);
+            }
+            
             return;
         }
         
