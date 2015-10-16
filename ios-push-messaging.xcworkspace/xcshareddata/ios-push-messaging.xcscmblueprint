@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "75FE9015EA1D1E068244943ECCC2983149894BBE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "75FE9015EA1D1E068244943ECCC2983149894BBE" : 0,
+    "FA25F92626DE472822A221376446DD308BFC7735" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "32A16947-904C-4D6D-B4B8-A4FB43DA7872",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "75FE9015EA1D1E068244943ECCC2983149894BBE" : "ios-push-messaging",
+    "FA25F92626DE472822A221376446DD308BFC7735" : "ios-syncing"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ios-push-messaging",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios-push-messaging.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/estudio89\/ios-push-messaging.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "75FE9015EA1D1E068244943ECCC2983149894BBE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/estudio89\/ios-syncing.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FA25F92626DE472822A221376446DD308BFC7735"
+    }
+  ]
+}
