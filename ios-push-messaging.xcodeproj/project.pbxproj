@@ -76,6 +76,7 @@
 		7BC2FF9A1AF965D600270C00 /* PushAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAppDelegate.m; sourceTree = "<group>"; };
 		7BF104801B6D5904007BF71C /* WebsocketHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsocketHelper.h; sourceTree = "<group>"; };
 		7BF104811B6D5904007BF71C /* WebsocketHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsocketHelper.m; sourceTree = "<group>"; };
+		7BFF785A1BD143AA00E1BFFC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8FA1D6C7ADB239948E7FAD0 /* libPods-ios-push-messaging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios-push-messaging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC9F02A0B00B86542357B8C /* Pods-ios-push-messaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-push-messaging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-push-messaging/Pods-ios-push-messaging.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +145,7 @@
 				7BC2FF9A1AF965D600270C00 /* PushAppDelegate.m */,
 				7BF104801B6D5904007BF71C /* WebsocketHelper.h */,
 				7BF104811B6D5904007BF71C /* WebsocketHelper.m */,
+				7BFF785A1BD143AA00E1BFFC /* Info.plist */,
 			);
 			path = "ios-push-messaging";
 			sourceTree = "<group>";
