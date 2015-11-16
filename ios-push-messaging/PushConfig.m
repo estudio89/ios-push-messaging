@@ -139,14 +139,14 @@
     return registrationId;
 }
 
-- (void)setTimestamp:(NSNumber *)timestamp
+- (void)setTimestamp:(NSString *)timestamp
 {
     //set the new timestamp
-    [[NSUserDefaults standardUserDefaults] setValue:[timestamp stringValue] forKey:@"E89.iOS.PushMessaging-Timestamp"];
+    [[NSUserDefaults standardUserDefaults] setValue:timestamp forKey:@"E89.iOS.PushMessaging-Timestamp"];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
-- (NSNumber *)getTimestamp
+- (NSString *)getTimestamp
 {
     NSString *timestamp = @"0";
     NSString *storedTimestamp = [[NSUserDefaults standardUserDefaults] stringForKey:@"E89.iOS.PushMessaging-Timestamp"];
@@ -156,9 +156,7 @@
         timestamp = storedTimestamp;
     }
     
-    NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
-    f.numberStyle = NSNumberFormatterDecimalStyle;
-    return [f numberFromString:timestamp];
+    return timestamp;
 }
 
 /**

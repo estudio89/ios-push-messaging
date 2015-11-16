@@ -20,7 +20,7 @@
 - (NSString *)getWebsocketUrl;
 - (NSString *)getRegistrationId;
 - (NSArray *)getPushManagerIdentifiers;
-- (void)setTimestamp:(NSNumber *)timestamp;
-- (NSNumber *)getTimestamp;
+- (void)setTimestamp:(NSString *)timestamp;
+- (NSString *)getTimestamp;
 
 @end

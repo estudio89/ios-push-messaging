@@ -25,10 +25,10 @@
         PushConfig *pushConfig = [PushConfig getInstance];
         NSString *type = [userInfo valueForKey:@"type"];
         
-        NSNumber *timestamp = [userInfo valueForKey:@"timestamp"];
-        NSNumber *storedTimestamp = [pushConfig getTimestamp];
+        long long timestamp = [[userInfo valueForKey:@"timestamp"] longLongValue];
+        long long storedTimestamp = [[pushConfig getTimestamp] longLongValue];
         
-        if ([timestamp longValue] <= [storedTimestamp longValue]) {
+        if (timestamp <= storedTimestamp) {
             if (completionHandler != nil && ![completionHandler isKindOfClass:[NSNull class]]) {
                 completionHandler(UIBackgroundFetchResultNewData);
             }
@@ -36,7 +36,7 @@
             return;
         }
         
-        [pushConfig setTimestamp:timestamp];
+        [pushConfig setTimestamp:[NSString stringWithFormat:@"%lld", timestamp]];
         
         id<PushManager> manager = [pushConfig getPushManager:type];
         if (manager != nil)
