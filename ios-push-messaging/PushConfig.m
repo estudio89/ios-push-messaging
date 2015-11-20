@@ -139,14 +139,14 @@
     return registrationId;
 }
 
-- (void)setTimestamp:(NSNumber *)timestamp
+- (void)setTimestamp:(NSString *)timestamp
 {
     //set the new timestamp
-    [[NSUserDefaults standardUserDefaults] setValue:[timestamp stringValue] forKey:@"E89.iOS.PushMessaging-Timestamp"];
+    [[NSUserDefaults standardUserDefaults] setValue:timestamp forKey:@"E89.iOS.PushMessaging-Timestamp"];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
-- (NSNumber *)getTimestamp
+- (NSString *)getTimestamp
 {
     NSString *timestamp = @"0";
     NSString *storedTimestamp = [[NSUserDefaults standardUserDefaults] stringForKey:@"E89.iOS.PushMessaging-Timestamp"];
@@ -156,9 +156,7 @@
         timestamp = storedTimestamp;
     }
     
-    NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
-    f.numberStyle = NSNumberFormatterDecimalStyle;
-    return [f numberFromString:timestamp];
+    return timestamp;
 }
 
 /**
@@ -188,10 +186,13 @@
                     oldRegistrationId = @"";
                 }
                 
+                NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+                
                 NSDictionary *parameters = @{@"token":token,
                                    @"registration_id":registrationId,
                                @"old_registration_id":oldRegistrationId,
-                                          @"platform":@"ios"};
+                                          @"platform":@"ios",
+                                       @"app_version":version};
                 
                 ServerComm *serverComm = [SyncingInjection get:[ServerComm class]];
                 [serverComm post:_serverRegistrationUrl withData:parameters];
