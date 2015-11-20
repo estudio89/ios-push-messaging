@@ -186,10 +186,13 @@
                     oldRegistrationId = @"";
                 }
                 
+                NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+                
                 NSDictionary *parameters = @{@"token":token,
                                    @"registration_id":registrationId,
                                @"old_registration_id":oldRegistrationId,
-                                          @"platform":@"ios"};
+                                          @"platform":@"ios",
+                                       @"app_version":version};
                 
                 ServerComm *serverComm = [SyncingInjection get:[ServerComm class]];
                 [serverComm post:_serverRegistrationUrl withData:parameters];
