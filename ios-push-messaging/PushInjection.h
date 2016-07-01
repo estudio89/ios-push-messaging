@@ -10,7 +10,7 @@
 
 @interface PushInjection : NSObject
 
-+ (void)initWithConfigFile:(NSString *)fileName;
++ (void)initWithConfigFile:(NSString *)fileName withBaseUrl:(NSString *)baseUrl;
 + (void)executeInjection;
 + (id)get:(Class)class;
 

@@ -19,10 +19,13 @@
 @property (nonatomic, strong, readwrite) NSMutableDictionary *pushManagersByIdentifier;
 @property BOOL runningRegistration;
 @property (strong, nonatomic) NSString *websocketUrl;
+@property (strong, nonatomic) NSString *baseUrl;
 
 @end
 
 @implementation PushConfig
+
+static NSString *REGISTRATION_URL_SUFFIX = @"push_messaging/register-device/";
 
 /**
  * getInstance
@@ -49,9 +52,10 @@
 /**
  * setConfigFile
  */
-- (void)setConfigFile:(NSString *)filename
+- (void)setConfigFile:(NSString *)filename withBaseUrl:(NSString *)baseUrl
 {
     _mConfigFile = filename;
+    _baseUrl = baseUrl;
     [self loadSettings];
 }
 
@@ -67,9 +71,10 @@
         NSDictionary *jsonData = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
         NSDictionary *jsonConfig = [jsonData objectForKey:@"pushMessaging"];
         
-        _serverRegistrationUrl = [jsonConfig valueForKey:@"serverRegistrationUrl"];
+        _serverRegistrationUrl = [NSString stringWithFormat:@"%@%@", _baseUrl, REGISTRATION_URL_SUFFIX];
         NSArray *pushManagersJson = [jsonConfig objectForKey:@"pushManagers"];
-        _websocketUrl = [jsonConfig valueForKey:@"websocketUrl"];
+        NSString *socketUrl = [jsonConfig valueForKey:@"websocketUrl"] != nil ? [jsonConfig valueForKey:@"websocketUrl"] : _baseUrl;
+        _websocketUrl = socketUrl;
         
         id<PushManager> pushManager;
         Class klass;
