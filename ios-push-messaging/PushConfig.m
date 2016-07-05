@@ -56,6 +56,9 @@ static NSString *REGISTRATION_URL_SUFFIX = @"push_messaging/register-device/";
 {
     _mConfigFile = filename;
     _baseUrl = baseUrl;
+    if (![baseUrl hasSuffix:@"/"]) {
+        _baseUrl = [NSString stringWithFormat:@"%@/", baseUrl];
+    }
     [self loadSettings];
 }
 
