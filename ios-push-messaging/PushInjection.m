@@ -16,11 +16,11 @@
 
 static NSMutableDictionary *objects;
 
-+ (void)initWithConfigFile:(NSString *)fileName
++ (void)initWithConfigFile:(NSString *)fileName withBaseUrl:(NSString *)baseUrl
 {
     [self executeInjection];
     
-    [[PushConfig getInstance] setConfigFile:fileName];
+    [[PushConfig getInstance] setConfigFile:fileName withBaseUrl:baseUrl];
 }
 
 + (void)executeInjection

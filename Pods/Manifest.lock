@@ -5,7 +5,7 @@ PODS:
   - SIOSocket (0.2.0)
   - Syncing (0.0.1):
     - Raven
-    - RNCryptor
+    - RNCryptor (~> 2.2)
 
 DEPENDENCIES:
   - ISO8601
@@ -21,6 +21,6 @@ SPEC CHECKSUMS:
   Raven: 0c868f0b221c936ae352095d4af3d418e3db1242
   RNCryptor: c68678461a2c7474a55db9a6a98834c22d51f535
   SIOSocket: 2facc0bd02ae72d98c223634a46dd8ebdf9be321
-  Syncing: 3b0751774ac6f25cc8ff5beba628d90a78c02eaf
+  Syncing: 6757e52c7db97aea26f09d1b913ce052f64bb4d6
 
-COCOAPODS: 0.37.1
+COCOAPODS: 0.39.0

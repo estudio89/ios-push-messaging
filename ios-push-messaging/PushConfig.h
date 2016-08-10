@@ -13,7 +13,7 @@
 @interface PushConfig : NSObject
 
 + (PushConfig *)getInstance;
-- (void)setConfigFile:(NSString *)filename;
+- (void)setConfigFile:(NSString *)filename withBaseUrl:(NSString *)baseUrl;
 - (id<PushManager>)getPushManager:(NSString *)identifier;
 - (void)registerForRemoteNotification:(UIApplication *)app forDevice:(UIDevice *)device;
 - (void)performRegistrationIfNeeded:(NSString *)registrationId;
