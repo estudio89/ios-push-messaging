@@ -1,6 +1,5 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ISO8601" "${PODS_ROOT}/Headers/Public/RNCryptor" "${PODS_ROOT}/Headers/Public/Raven" "${PODS_ROOT}/Headers/Public/SIOSocket" "${PODS_ROOT}/Headers/Public/Syncing"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ISO8601" -isystem "${PODS_ROOT}/Headers/Public/RNCryptor" -isystem "${PODS_ROOT}/Headers/Public/Raven" -isystem "${PODS_ROOT}/Headers/Public/SIOSocket" -isystem "${PODS_ROOT}/Headers/Public/Syncing"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-ios-push-messaging-ISO8601" -l"Pods-ios-push-messaging-RNCryptor" -l"Pods-ios-push-messaging-Raven" -l"Pods-ios-push-messaging-SIOSocket" -l"Pods-ios-push-messaging-Syncing" -framework "Foundation" -framework "Security"
-OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ISO8601" -l"RNCryptor" -l"Raven" -l"SIOSocket" -l"Syncing" -framework "Foundation" -framework "Security"
 PODS_ROOT = ${SRCROOT}/Pods
