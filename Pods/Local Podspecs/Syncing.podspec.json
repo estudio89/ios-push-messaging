@@ -9,5 +9,18 @@
     "RNCryptor": [
       "~> 2.2"
     ]
+  },
+  "authors": "Estúdio 89",
+  "license": "GPL",
+  "homepage": "https://github.com/estudio89/ios-syncing",
+  "summary": "E89 iOS Syncing",
+  "source": {
+    "git": "https://github.com/estudio89/ios-syncing"
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
   }
 }
