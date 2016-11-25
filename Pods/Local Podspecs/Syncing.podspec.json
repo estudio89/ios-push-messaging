@@ -15,7 +15,7 @@
   "homepage": "https://github.com/estudio89/ios-syncing",
   "summary": "E89 iOS Syncing",
   "source": {
-    "git": "https://github.com/estudio89/ios-syncing"
+    "git": "https://github.com/estudio89/ios-syncing.git"
   },
   "platforms": {
     "osx": null,
