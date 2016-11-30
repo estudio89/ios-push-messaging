@@ -1,13 +1,29 @@
 {
   "name": "Syncing",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "source_files": "Syncing/*.{h,m}",
   "dependencies": {
     "Raven": [
-
+      "~> 1.0.1"
     ],
     "RNCryptor": [
       "~> 2.2"
+    ],
+    "ISO8601": [
+      "~> 0.3.0"
     ]
+  },
+  "authors": "Estúdio 89",
+  "license": "GPL",
+  "homepage": "https://github.com/estudio89/ios-syncing",
+  "summary": "E89 iOS Syncing",
+  "source": {
+    "git": "https://github.com/estudio89/ios-syncing.git"
+  },
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
   }
 }

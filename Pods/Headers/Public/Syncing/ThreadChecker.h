@@ -1,1 +1,1 @@
-../../../../../ios-syncing/Syncing/ThreadChecker.h
+../../../Syncing/Syncing/ThreadChecker.h

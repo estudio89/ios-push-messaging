@@ -1,1 +1,1 @@
-../../../../../ios-syncing/Syncing/SyncEntity.h
+../../../Syncing/Syncing/SyncEntity.h

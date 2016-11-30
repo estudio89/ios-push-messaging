@@ -14,7 +14,7 @@
 
 @property (strong, nonatomic) PushConfig *pushConfig;
 @property BOOL connected;
-@property (weak, nonatomic) SIOSocket *socket;
+@property (strong, nonatomic) SIOSocket *socket;
 @property (strong, nonatomic) NSString *currentRoom;
 
 @end

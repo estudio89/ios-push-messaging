@@ -1,1 +1,1 @@
-../../../../../ios-syncing/Syncing/AbstractLoginActivity.h
+../../../Syncing/Syncing/AbstractLoginActivity.h

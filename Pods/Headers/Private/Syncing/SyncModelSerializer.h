@@ -1,1 +1,1 @@
-../../../../../ios-syncing/Syncing/SyncModelSerializer.h
+../../../Syncing/Syncing/SyncModelSerializer.h
