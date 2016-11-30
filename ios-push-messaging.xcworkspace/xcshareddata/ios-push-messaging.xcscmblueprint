@@ -9,8 +9,8 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "32A16947-904C-4D6D-B4B8-A4FB43DA7872",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "75FE9015EA1D1E068244943ECCC2983149894BBE" : "ios-push-messaging",
-    "FA25F92626DE472822A221376446DD308BFC7735" : "ios-syncing"
+    "75FE9015EA1D1E068244943ECCC2983149894BBE" : "ios-push-messaging\/",
+    "FA25F92626DE472822A221376446DD308BFC7735" : "ios-syncing\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "ios-push-messaging",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,

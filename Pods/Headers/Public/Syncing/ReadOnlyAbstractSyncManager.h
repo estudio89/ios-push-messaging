@@ -1,1 +1,1 @@
-../../../../../ios-syncing/Syncing/ReadOnlyAbstractSyncManager.h
+../../../Syncing/Syncing/ReadOnlyAbstractSyncManager.h

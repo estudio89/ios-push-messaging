@@ -1,13 +1,16 @@
 {
   "name": "Syncing",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "source_files": "Syncing/*.{h,m}",
   "dependencies": {
     "Raven": [
-
+      "~> 1.0.1"
     ],
     "RNCryptor": [
       "~> 2.2"
+    ],
+    "ISO8601": [
+      "~> 0.3.0"
     ]
   },
   "authors": "Estúdio 89",

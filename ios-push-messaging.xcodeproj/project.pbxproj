@@ -26,6 +26,11 @@
 		7B4C3B321AB7800A00C5CE91 /* PushCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B311AB7800A00C5CE91 /* PushCentral.m */; };
 		7B4C3B351AB7802800C5CE91 /* PushConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B341AB7802800C5CE91 /* PushConfig.m */; };
 		7B4C3B391AB78CAD00C5CE91 /* PushCentralTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4C3B381AB78CAD00C5CE91 /* PushCentralTests.m */; };
+		7B9E98A31DEF01D800822750 /* libSyncing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9E98A21DEF01D800822750 /* libSyncing.a */; };
+		7B9E98A81DEF01F700822750 /* libISO8601.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9E98A41DEF01F700822750 /* libISO8601.a */; };
+		7B9E98A91DEF01F700822750 /* libRaven.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9E98A51DEF01F700822750 /* libRaven.a */; };
+		7B9E98AA1DEF01F700822750 /* libRNCryptor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9E98A61DEF01F700822750 /* libRNCryptor.a */; };
+		7B9E98AB1DEF01F700822750 /* libSIOSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9E98A71DEF01F700822750 /* libSIOSocket.a */; };
 		7BBF84151AE8420100BD607E /* ios_push_messaging.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C3B181AB77E0400C5CE91 /* ios_push_messaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BBF84161AE8420500BD607E /* PushManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C3B2F1AB77FEB00C5CE91 /* PushManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BBF84171AE8420B00BD607E /* PushCentral.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C3B301AB7800A00C5CE91 /* PushCentral.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -73,6 +78,11 @@
 		7B4C3B331AB7802800C5CE91 /* PushConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushConfig.h; sourceTree = "<group>"; };
 		7B4C3B341AB7802800C5CE91 /* PushConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushConfig.m; sourceTree = "<group>"; };
 		7B4C3B381AB78CAD00C5CE91 /* PushCentralTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushCentralTests.m; sourceTree = "<group>"; };
+		7B9E98A21DEF01D800822750 /* libSyncing.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSyncing.a; path = "../../Library/Developer/Xcode/DerivedData/ios-push-messaging-delzybnzelypdzgioayraqjcmgnr/Build/Products/Debug-iphoneos/Syncing/libSyncing.a"; sourceTree = "<group>"; };
+		7B9E98A41DEF01F700822750 /* libISO8601.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libISO8601.a; path = "../../Library/Developer/Xcode/DerivedData/ios-push-messaging-delzybnzelypdzgioayraqjcmgnr/Build/Products/Debug-iphoneos/ISO8601/libISO8601.a"; sourceTree = "<group>"; };
+		7B9E98A51DEF01F700822750 /* libRaven.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRaven.a; path = "../../Library/Developer/Xcode/DerivedData/ios-push-messaging-delzybnzelypdzgioayraqjcmgnr/Build/Products/Debug-iphoneos/Raven/libRaven.a"; sourceTree = "<group>"; };
+		7B9E98A61DEF01F700822750 /* libRNCryptor.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRNCryptor.a; path = "../../Library/Developer/Xcode/DerivedData/ios-push-messaging-delzybnzelypdzgioayraqjcmgnr/Build/Products/Debug-iphoneos/RNCryptor/libRNCryptor.a"; sourceTree = "<group>"; };
+		7B9E98A71DEF01F700822750 /* libSIOSocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSIOSocket.a; path = "../../Library/Developer/Xcode/DerivedData/ios-push-messaging-delzybnzelypdzgioayraqjcmgnr/Build/Products/Debug-iphoneos/SIOSocket/libSIOSocket.a"; sourceTree = "<group>"; };
 		7BC2FF8E1AF9560600270C00 /* PushInjection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushInjection.h; sourceTree = "<group>"; };
 		7BC2FF8F1AF9560600270C00 /* PushInjection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushInjection.m; sourceTree = "<group>"; };
 		7BC2FF991AF965D600270C00 /* PushAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAppDelegate.h; sourceTree = "<group>"; };
@@ -90,6 +100,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B9E98A81DEF01F700822750 /* libISO8601.a in Frameworks */,
+				7B9E98A91DEF01F700822750 /* libRaven.a in Frameworks */,
+				7B9E98AA1DEF01F700822750 /* libRNCryptor.a in Frameworks */,
+				7B9E98AB1DEF01F700822750 /* libSIOSocket.a in Frameworks */,
+				7B9E98A31DEF01D800822750 /* libSyncing.a in Frameworks */,
 				8EB97E6F15F41F4E9C55F84D /* libPods-ios-push-messaging.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,6 +192,11 @@
 		D403145D7F31BBB19FACE253 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7B9E98A41DEF01F700822750 /* libISO8601.a */,
+				7B9E98A51DEF01F700822750 /* libRaven.a */,
+				7B9E98A61DEF01F700822750 /* libRNCryptor.a */,
+				7B9E98A71DEF01F700822750 /* libSIOSocket.a */,
+				7B9E98A21DEF01D800822750 /* libSyncing.a */,
 				7B12918A1B6EBE96001FA3CB /* libPods-ios-push-messaging-SIOSocket.a */,
 				7B1291881B6EA97C001FA3CB /* libPods-ios-push-messaging-Syncing.a */,
 				E41FCD99B9EBC64562D7FDCC /* libPods-ios-push-messaging.a */,
@@ -263,6 +283,7 @@
 					};
 					7B4C3B1F1AB77E0400C5CE91 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = FMU8FF78B7;
 					};
 				};
 			};
@@ -583,6 +604,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1623146F3F1387E5BCB5271B /* Pods-ios-push-messagingTests.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = FMU8FF78B7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -601,6 +624,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6648EB24B62C79616A29FDF0 /* Pods-ios-push-messagingTests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = FMU8FF78B7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

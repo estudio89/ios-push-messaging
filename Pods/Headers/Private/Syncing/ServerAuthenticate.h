@@ -1,1 +1,1 @@
-../../../../../ios-syncing/Syncing/ServerAuthenticate.h
+../../../Syncing/Syncing/ServerAuthenticate.h

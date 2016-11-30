@@ -1,1 +1,1 @@
-../../../../../ios-syncing/Syncing/SyncManager.h
+../../../Syncing/Syncing/SyncManager.h

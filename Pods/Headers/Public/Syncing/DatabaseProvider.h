@@ -1,1 +1,1 @@
-../../../../../ios-syncing/Syncing/DatabaseProvider.h
+../../../Syncing/Syncing/DatabaseProvider.h

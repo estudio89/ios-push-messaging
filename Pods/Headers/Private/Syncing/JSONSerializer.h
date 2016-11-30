@@ -1,1 +1,1 @@
-../../../../../ios-syncing/Syncing/JSONSerializer.h
+../../../Syncing/Syncing/JSONSerializer.h
