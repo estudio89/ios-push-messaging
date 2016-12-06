@@ -216,7 +216,20 @@ static NSString *REGISTRATION_URL_SUFFIX = @"push_messaging/register-device/";
             }
             @catch (NSException *e)
             {
-                [[RavenClient sharedClient] captureException:e method:__FUNCTION__ file:__FILE__ line:__LINE__ sendNow:YES];
+                NSArray *exceptions = @[[TimeoutException class],
+                                        [ConnectionErrorException class],
+                                        [Http403Exception class],
+                                        [Http408Exception class],
+                                        [Http500Exception class],
+                                        [Http502Exception class],
+                                        [Http503Exception class],
+                                        [Http504Exception class]];
+                
+                if ([exceptions containsObject:[e class]]) {
+                    NSLog(@"PushConfig: exception caught in performRegistrationIfNeeded. Exception: %@", e);
+                } else {
+                    [[RavenClient sharedClient] captureException:e method:__FUNCTION__ file:__FILE__ line:__LINE__ sendNow:YES];
+                }
             }
             @finally
             {
