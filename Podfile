@@ -4,11 +4,17 @@
 target 'ios-push-messaging' do
 pod 'SIOSocket', '~> 0.2.0'
 #pod 'Syncing', :path => '~/Dev/ios-syncing/' #Version 0.0.17
-pod 'Syncing', :git => 'https://github.com/estudio89/ios-syncing.git', :tag => ‘1.0.2’
+pod 'Syncing', :git => 'https://github.com/estudio89/ios-syncing.git', :tag => ‘1.0.3’
 end
 
 target 'ios-push-messagingTests' do
 
 end
 
-
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = ‘7.0’
+    end
+  end
+end

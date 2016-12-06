@@ -3,32 +3,32 @@ PODS:
   - Raven (1.0.1)
   - RNCryptor (2.2)
   - SIOSocket (0.2.0)
-  - Syncing (1.0.2):
+  - Syncing (1.0.3):
     - ISO8601 (~> 0.3.0)
     - Raven (~> 1.0.1)
     - RNCryptor (~> 2.2)
 
 DEPENDENCIES:
   - SIOSocket (~> 0.2.0)
-  - Syncing (from `https://github.com/estudio89/ios-syncing.git`, tag `1.0.2`)
+  - Syncing (from `https://github.com/estudio89/ios-syncing.git`, tag `1.0.3`)
 
 EXTERNAL SOURCES:
   Syncing:
     :git: https://github.com/estudio89/ios-syncing.git
-    :tag: 1.0.2
+    :tag: 1.0.3
 
 CHECKOUT OPTIONS:
   Syncing:
     :git: https://github.com/estudio89/ios-syncing.git
-    :tag: 1.0.2
+    :tag: 1.0.3
 
 SPEC CHECKSUMS:
   ISO8601: 8d8a22d5edf0554a1cf75bac028c76c1dc0ffaef
   Raven: 0c868f0b221c936ae352095d4af3d418e3db1242
   RNCryptor: c68678461a2c7474a55db9a6a98834c22d51f535
   SIOSocket: 2facc0bd02ae72d98c223634a46dd8ebdf9be321
-  Syncing: 3fab3f172cee3f24351b7e8a4abf87c0df39c46b
+  Syncing: 16991ed336b422ad5414679421e41e1ea54b6533
 
-PODFILE CHECKSUM: ef96990c5f6a37e856d173769daee49cdf656cc1
+PODFILE CHECKSUM: a18cbee8ecd25d887486cabe7f94dd6ab9874a3e
 
 COCOAPODS: 1.2.0.beta.1
