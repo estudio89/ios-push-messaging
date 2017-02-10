@@ -8,9 +8,13 @@
 
 #import "PushConfig.h"
 #import "PushInjection.h"
-#import <Syncing/Syncing.h>
+#import <Syncing/SyncConfig.h>
+#import <Syncing/ServerComm.h>
+#import <Syncing/SyncingInjection.h>
+#import <Syncing/CustomException.h>
 #import <Raven/Raven.h>
 #import "WebsocketHelper.h"
+#include "TargetConditionals.h"
 
 @interface PushConfig()
 
@@ -110,6 +114,10 @@ static NSString *REGISTRATION_URL_SUFFIX = @"push_messaging/register-device/";
  */
 - (void)registerForRemoteNotification:(UIApplication *)app forDevice:(UIDevice *)device
 {
+#if (TARGET_OS_SIMULATOR)
+    [self performRegistrationIfNeeded:@"simulator"];
+#endif
+
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
     {
         [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge) categories:nil]];

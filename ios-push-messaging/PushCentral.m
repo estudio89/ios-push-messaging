@@ -8,7 +8,6 @@
 
 #import "PushCentral.h"
 #import "PushConfig.h"
-#import <Syncing/Syncing.h>
 
 @implementation PushCentral
 {

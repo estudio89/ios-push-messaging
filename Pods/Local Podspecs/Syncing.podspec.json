@@ -1,6 +1,6 @@
 {
   "name": "Syncing",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "source_files": "Syncing/*.{h,m}",
   "dependencies": {
     "Raven": [
