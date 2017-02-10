@@ -10,7 +10,6 @@
 #import "PushConfig.h"
 #import "WebsocketHelper.h"
 #import <Raven/RavenClient.h>
-#import <Syncing/Syncing.h>
 
 @implementation PushInjection
 
