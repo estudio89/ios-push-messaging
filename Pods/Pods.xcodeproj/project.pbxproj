@@ -7,100 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		007AFF38884A234AB91C1DD3BCF84174 /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8C9B1C0021F18A5FC3F7C983BB8524 /* RNDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		007AFF38884A234AB91C1DD3BCF84174 /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 802A53C44B8E3FF56CF82E2DCA35183A /* RNDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02884C055EBC5A4B21EBF24F348D417C /* Pods-ios-push-messaging-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E58B505E988E16F806E0D3AA2A3A81 /* Pods-ios-push-messaging-dummy.m */; };
-		040F2AE15F1251072A5EC91B094DF1F9 /* Raven-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B38588456139C12A72897FD92C35619 /* Raven-dummy.m */; };
-		0651DF9BA519C814334C5D2B1E6814FF /* SyncManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F3840C328C0BCA922CCA41E61C0269 /* SyncManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		091CF458F4CAC3E565C82F8456C85F55 /* SyncEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0505FDBCB688A1512FD1F26809E4B3CF /* SyncEntity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0990560DADE9769833E3940209D6D96D /* AsyncBus.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2BE102AF5AC6492DF6D5960CDDA62F /* AsyncBus.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		040F2AE15F1251072A5EC91B094DF1F9 /* Raven-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4373A4E93B9F6E1ED252B16AC6F8F458 /* Raven-dummy.m */; };
+		08DDCD56253D0DA795272B109DA9E33E /* SecurityUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A1220C773346BF563FA31502DEF979 /* SecurityUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09DFEF6AFF40FE6BA1ACAF68794E5AF0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */; };
-		0FF8DEA5AAE09ACA2CB2DC114FA25A2F /* CustomTransactionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4FD93EEA68BA8C1EC51A205915E57E /* CustomTransactionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E7E9958C293B4CA0C8D7F5B1A4D091C /* SyncEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C09ECFD5CF1E6E45B7F56C42E2D1770E /* SyncEvent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		206259EF5E76726FB73994380883CE0B /* RNOpenSSLEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = FD290C2604B4EC8E5BC8B850ABB64D25 /* RNOpenSSLEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25967A7A331C462575236C68BFA2F209 /* RavenConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 564F7F8D63368CF834B96DC95A6557E8 /* RavenConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2682235919C98FC4435C8EC9EECEAFC9 /* ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = 16970057C1B9B5CAE633E01C1AE716BF /* ISO8601.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27E49A4AC85B17F871BA2A1E876D6BB3 /* FieldSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B80CBB82DA36A4B463B58EA8DF4748B /* FieldSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29217B55AEC41CCA4EEA8D9DAD07FC00 /* GzipUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F6035F3FC1BE627ACF1F72A9FCBCB7F0 /* GzipUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2A0D213E23ECE48A4357CC59831B1894 /* ServerComm.h in Headers */ = {isa = PBXBuildFile; fileRef = B358EBD1FA39CE8B9E0A395BC8D5CB21 /* ServerComm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AFFCE0535BFC4E68CCA2AB51D57E790 /* DataSyncHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AB981CBD0DF425C62582D6DB5BF856B /* DataSyncHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D88881956FAC4FD8B7B1A7129E06DEF /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D417488DDB74B1FDFBE43D2C41362230 /* RNDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2E7DCF1FE4C021930F1605C612FDD788 /* RNOpenSSLEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D025ACC73499390955A6F0EB5A03D9 /* RNOpenSSLEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		37D21917A2D13EDD1156ACFA2716AF58 /* CustomTransactionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 938DAAE011C659DC1DB120D47757DFED /* CustomTransactionManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3A970F2205EA9E812044750838385D4D /* socket.io.js.h in Headers */ = {isa = PBXBuildFile; fileRef = 4213996E320D7A0DFDA4F65D32FF8021 /* socket.io.js.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B1EDCD9D6A66DEED6D43AE060C432FA /* AbstractSyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A9004AD4D4F620D0059D2387975EA9 /* AbstractSyncManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3BF787570F4CF8D04F94342C5D752164 /* CustomException.m in Sources */ = {isa = PBXBuildFile; fileRef = 09572176F08CF5A9167F3AB2DFFBEE04 /* CustomException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4080516963328EEA8B1698E13C7C5CCC /* SIOSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A6778BB78A0EB026708C4394ABDB87 /* SIOSocket.m */; };
-		424890DC4876BDC16E09736A79E4FBC2 /* ReadOnlyAbstractSyncManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A0F4A2988DAB2C270BF7D59DF6177A25 /* ReadOnlyAbstractSyncManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43C45745F8BBA4F7DA0B47F5631A1CE3 /* SyncModelSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE3C0CA83E68D0C2770CED84C679089 /* SyncModelSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		450DF76FCCF2D6E178897DDC849471E5 /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2900B9BA25370A6243254E2D590D77 /* RNCryptorEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45E561E3C98EE8C6AB3708670F0C1E00 /* AsyncBus.h in Headers */ = {isa = PBXBuildFile; fileRef = B3181562F36FE8D01A2854FC3F4834BF /* AsyncBus.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		469FDEE45181182C92A4470543B63B51 /* DatabaseProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A3997C2DECB4E693C08594BDCB3D5DCA /* DatabaseProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		46FA4C7F9EDD3EC9D31538E07386B7E6 /* Annotations.h in Headers */ = {isa = PBXBuildFile; fileRef = 267F1030CBBBCFFF85A4EBD5B14B12A0 /* Annotations.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47B2B38CE4DD0855857906D35B32BD94 /* RavenClient_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 182455D2F05DDF7F99E4AF25FA4E0443 /* RavenClient_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E000FFDCE58D9F44D75AA91F705E7C7 /* AbstractLoginActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = C78D073DB3957D1937F7F0B27CBA7605 /* AbstractLoginActivity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4E83D00BE8CD394C536E091FF3D0CEF6 /* SyncModelSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = E8726F6A77D82BE0D6A3E145A50511EE /* SyncModelSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		52FECB078C5885E47AA9EDE5070599A5 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B227100B75EE68B2805E82BEBE295E /* RNCryptorEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		53C06C061BE196FD97393967D06E7EF7 /* FieldSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 254BCEF374614A087AD22F65D1FB31DA /* FieldSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		558C04E575D1FA0B1761168DE274F320 /* ISO8601Serialization.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7A999546D43B0A7EFB87FFE73A1A92 /* ISO8601Serialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A3EAD235F62D5CBC945A247B4082FF1 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9D8FD2811EF13B66777672A6222452 /* RNCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5CD48BBE64120A61C134EF454C1FD743 /* SyncConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B53790A0BC4A21C2AED13D218CEE57A /* SyncConfig.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5D289FFB313B3A0D749C277654EC8D07 /* SyncEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = A087B0EBA0C6FB674E7352ACC3637018 /* SyncEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EE28FC29EF65B423B5E6CBB5E42E9D6 /* SecurityUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DB838083A60E491D1DF37C238012E857 /* SecurityUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EF4E73535963C3575543E4981173669 /* SerializationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A45B5A8DC228E0089840CB8A7D40C73 /* SerializationUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		60BE409AA6FEF83FC96C6A1578C4A6B4 /* ThreadChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 861DF8418DDFD8FA7E3F35A584ABED1D /* ThreadChecker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65573429B420F6A05D2753CB5877656B /* RavenClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F514B2A5BD6D1028A54978D9253E00B /* RavenClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		657825CFE018A09E6296578748EF1E01 /* RNOpenSSLDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5713A2655453DA65915A5269FAEF42F1 /* RNOpenSSLDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EB4B598486C8ED1B5A13368C80B234E /* SecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4868F30DDAA5954B29C6D5733E3167 /* SecurityUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0F1BA980B4E3191713EDBBAFCA36B402 /* SyncManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 13751A9BE75003BBA1A168A84C0585A1 /* SyncManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11AD712682B027670DDAE3C3096CE5C3 /* E89ManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCB5A92F121FE2C57AE0FD251699320 /* E89ManagedObjectContext.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1AFF7CE4A2EA9C99975FBC50E5B3D737 /* DateSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A48B2EBA97F928A75705885424E39AF /* DateSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1C5B2530A0327D300192D74FAB3C3FDA /* CustomTransactionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B695B224757B2F720D6754681BA29AB8 /* CustomTransactionManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1EBC189D67D0F58B9CFF0A218F6585D3 /* SyncModelSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4C62693C8AFF28A18084ECAB7355CB /* SyncModelSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		206259EF5E76726FB73994380883CE0B /* RNOpenSSLEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 47F3F9D2D99FE09E42E149A4928F6815 /* RNOpenSSLEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24851A944D950EE2BE583CB55E3A0787 /* AbstractLoginActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C7D79D4A15A18F3C6CD484B2A462B /* AbstractLoginActivity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		25967A7A331C462575236C68BFA2F209 /* RavenConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 56A36A77DD12C8D4ACE6424BEB8FB62B /* RavenConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2682235919C98FC4435C8EC9EECEAFC9 /* ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = 42385E247B7A4E0CCFD9743F9ED47900 /* ISO8601.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29538F8652BE60473DAE0B944013467A /* AsyncBus.m in Sources */ = {isa = PBXBuildFile; fileRef = F1ACDD2F738DA9A70A593B518E4BFAAE /* AsyncBus.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2C6A1CB4D8C6545E155075BCA620E59F /* SerializationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FD25C12D7C64989915E41ED4579A4926 /* SerializationUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2D88881956FAC4FD8B7B1A7129E06DEF /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 435BDDD6627160F7A43C68308762032E /* RNDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2E7DCF1FE4C021930F1605C612FDD788 /* RNOpenSSLEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 597CBEDEED78C0A0A128BB37F78393CC /* RNOpenSSLEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3A970F2205EA9E812044750838385D4D /* socket.io.js.h in Headers */ = {isa = PBXBuildFile; fileRef = 756CE7E1A50131190EE3DE8563C30082 /* socket.io.js.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C27AA0B5C5A0B6FADB3FE4217446616 /* ServerAuthenticate.h in Headers */ = {isa = PBXBuildFile; fileRef = CFC0A5D407C4B3C94208F4324A5BD24F /* ServerAuthenticate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C32FEB48E20FC8E6AF3553AB8247395 /* CustomException.m in Sources */ = {isa = PBXBuildFile; fileRef = 404311D6736A3ED63FAC6A1EA3C2F70E /* CustomException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4080516963328EEA8B1698E13C7C5CCC /* SIOSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C51B31BE3290D67EDC0FE61CCBEBCACB /* SIOSocket.m */; };
+		4410C35979E7722567D11207FCA93445 /* GzipUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C07F855686DEC98DCBC752B32ECE82 /* GzipUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4499BC21DE4DF73993A4DC7F264E7E19 /* ReadOnlyAbstractSyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A564F4ED5CD59A5DA62B086AE30EE463 /* ReadOnlyAbstractSyncManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		450DF76FCCF2D6E178897DDC849471E5 /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 427A0FE6D6441F994F9F7D40C43FABEA /* RNCryptorEngine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		472AA786E4A882FC02387D1BE84821AB /* FieldSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA6244365EA9FF36E6249EE4E6E99D7 /* FieldSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		47B2B38CE4DD0855857906D35B32BD94 /* RavenClient_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 965D4FECAF68C8D2A2B51453682ADA1C /* RavenClient_Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4834A7495FF0369C934A2CE88B339274 /* SyncEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EF63C199587B1E50AE089096390385 /* SyncEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52FECB078C5885E47AA9EDE5070599A5 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0A958EADAA6CCC3DA0E5E10A577A4A /* RNCryptorEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		558C04E575D1FA0B1761168DE274F320 /* ISO8601Serialization.h in Headers */ = {isa = PBXBuildFile; fileRef = D549E2F2AECD6ECF2F7681DEABDC62F4 /* ISO8601Serialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		590BD328F968F2ACE18FE5F5ECE8B755 /* CustomTransactionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF27E7CCCFAA021DB076A85EB42D031 /* CustomTransactionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A3EAD235F62D5CBC945A247B4082FF1 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2567F80ACBF22EA334B2BBDC2176F4 /* RNCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5F208B5810B71152CA8F77A2CECEF932 /* DateSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2335111DB6E1138CFE61640F86BE9E4A /* DateSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63FD37929B338F84EF75D6A73D02ED60 /* DatabaseProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C7A03D6C02564C07A91BF4081B8EA0 /* DatabaseProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6497CD8AEDDB968BEB4EEA45D5CB638E /* CustomException.h in Headers */ = {isa = PBXBuildFile; fileRef = 8980FEBD29109E284D7FFBE63FB333C9 /* CustomException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64A51A728D449E9E5D11DFE15FFE9D12 /* DatabaseProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A04F115E4F42B25CA31083F399E391D1 /* DatabaseProvider.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		65573429B420F6A05D2753CB5877656B /* RavenClient.h in Headers */ = {isa = PBXBuildFile; fileRef = F75C0EE343CD0EB9EBED3893D1F04C4B /* RavenClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		657825CFE018A09E6296578748EF1E01 /* RNOpenSSLDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = EFECCE3447993FDE6E96633156D31980 /* RNOpenSSLDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		664494DFAED3E2BC26C2952D273BD0EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
-		6B8215E9626939D96236C70488CDCB0F /* RNOpenSSLDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6FDE58F500F30C9B6CDADC7E9E2F07 /* RNOpenSSLDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6E7DC44921CCC6E71008686D6FCA732C /* SecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB21C915D0C64E77DEE3CC37F086761 /* SecurityUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6FB45796C3E06D5E19AB230AD4D121F3 /* SIOSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D3FB224560149BDBBFFEFDBE60398854 /* SIOSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72A14DC1641036F74334CB36B253666B /* RNCryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 271F62F17609CFE48A070F1BBB035E62 /* RNCryptor-dummy.m */; };
-		737D141ABE5C1A4232779FC980F3ACC2 /* Syncing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 492808A9BCD203E7BAFD6C35444C6989 /* Syncing-dummy.m */; };
-		73B68F6DB43D8B312C0460BD8EF991EB /* SIOSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21EF4796E8D39D44B91AE204DC416FA3 /* SIOSocket-dummy.m */; };
+		6A3A085F29A24C3344293913B0590554 /* SyncEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B12CD8B71BACB4B3F83679831F62B94 /* SyncEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B8215E9626939D96236C70488CDCB0F /* RNOpenSSLDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA025DF74DD34B48661BDD602DC2B3D /* RNOpenSSLDecryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6E08B70CC85E4EAFD70FBDB204AD8EF3 /* ServerComm.h in Headers */ = {isa = PBXBuildFile; fileRef = C0BED8C3031B100CEFA6A3F00A8B819E /* ServerComm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FB45796C3E06D5E19AB230AD4D121F3 /* SIOSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 159484FB7CCFC766D8799100C593E0C5 /* SIOSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72A14DC1641036F74334CB36B253666B /* RNCryptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1232C4057FAFC18F0CC5F1579F5437CB /* RNCryptor-dummy.m */; };
+		73B68F6DB43D8B312C0460BD8EF991EB /* SIOSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FA8818ED78F176563B44173692D276 /* SIOSocket-dummy.m */; };
+		752EADF3EF047EB3EB74A03145C85E74 /* SyncConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7E42EB10F881DFDA5EB34129BE6594 /* SyncConfig.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		7898E671A4EEFA4A193F02B745FF6FAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
-		7986F135E63B001B253A21D66E3B8438 /* NSDate+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = BA17BB8D63CA67C05E47941600996EFD /* NSDate+ISO8601.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		85897F062EEBE1A9A39111E63C583688 /* Syncing.h in Headers */ = {isa = PBXBuildFile; fileRef = F2B8AF74E462CDB843FF53E3981F6A9C /* Syncing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85AA6AE77C7A37ECC6ACA3CF6A22AD9B /* DateSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FFBF9387A215B998A6A7C8CB802431 /* DateSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		88D270E73EBABA3256971B65F40802B0 /* SyncEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CEC5C45EA33F55C0A119D92898FB708 /* SyncEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89C0ACDDB8F6FD85057B7907192BCAAE /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 51686D2A353896DADB65948DB1A72E81 /* RNEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		8DAB3F035EF6BBB629D7179FAE2FD57C /* SyncingInjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA529170F5A72369FC23E42CE6C4C85 /* SyncingInjection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		794DA4A0A647B1BA3FFD33BAF78ED7D8 /* ThreadChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B770134D27442A1386AA83AEFF31D86 /* ThreadChecker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7986F135E63B001B253A21D66E3B8438 /* NSDate+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B1C8B3B0C6AE323884A8FD98BDC50 /* NSDate+ISO8601.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		84B3384F9D6A5E6FD9FC89EA36D26E1E /* DataSyncHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E14659704AC186E37E0C0FADE4A633F4 /* DataSyncHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89C0ACDDB8F6FD85057B7907192BCAAE /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = D597A86AC1C0459B83809601D9F8ECA2 /* RNEncryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		8E0369BEE21BBDBBE6ADA94E79054E92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
-		8EA74AD3A3F221FC9FF6B881BEA2D08D /* SyncConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A618FE1B64A43CE4345500F534EE78 /* SyncConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97AE1491AF57F2F5B15A1E962F1D6D2E /* E89ManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 958295B8743BDF0E82F518A508519648 /* E89ManagedObjectContext.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9836E8DEBFF45057AB9C81F75CF0294B /* ServerAuthenticate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E405EE77D81AEB0B91F8FD2280AFFD /* ServerAuthenticate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9BC70B87EFA871D2D2A20129A39A397F /* AbstractLoginActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 71A3DA10A25A513BD324A87C27B90329 /* AbstractLoginActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FA90CDA4215EA2CFE28445D4B557B30 /* SyncingInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 863522D7AE5B75D80CBE5581B16CBE34 /* SyncingInjection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9253A6C72D43790EA7255D7657BB165E /* JSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB7D5137924E2252E6FC6C0B77C1673 /* JSONSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		962092ADE9552CDF8FAE998407FE4AD6 /* SerializationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 58081027D305F88E14519C1D32556ADB /* SerializationUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		984E1CC90DDE3E0FE5134B42780B3E2F /* AbstractSyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 709797ED7BDE8814503BCC55D49E6004 /* AbstractSyncManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9959AD57AA11D2831F5CB4DC832B4457 /* ThreadChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F65C4813FAE6BFC9B1AD4C6B4A917AD /* ThreadChecker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AF6599519D32FA200377B73B8EE11B8 /* SyncConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 296D11558203C9FAA94512203BB688C8 /* SyncConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C78E5D10865615BD885C18EDDC72D25 /* Pods-ios-push-messagingTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28790ACFD6887E267D1B1597C27A6732 /* Pods-ios-push-messagingTests-dummy.m */; };
-		9CD3419047147B1AB897166860BFE0AE /* DatabaseProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9F3B7C45364B54720FBD40889A630A /* DatabaseProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D24C54625992512FFD5044AF52DF23B /* ServerAuthenticate.h in Headers */ = {isa = PBXBuildFile; fileRef = AE7B7802A8B1AD666238E27C714E4A84 /* ServerAuthenticate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F7F144C069DC38F57BC9617C87184E7 /* SerializationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 270A00F9AE73C190241BB445137FFA3C /* SerializationUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A05059743E00144C41DFD782763F2135 /* ISO8601Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E22562E22C402D23200F0FB5ECA5FE4 /* ISO8601Serialization.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A4F8F1FC78D57EF26B484F6A79701D0A /* RavenConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A09AA0BFA8DDFB0EDA4A372AC89FFF /* RavenConfig.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A77C2B73EE6702843CD824E3B62542E0 /* NSDate+ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C8CD428BD329DD7BD3D6294516389E /* NSDate+ISO8601.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A78468C2A035CD8B1956F91BE1BC3A62 /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECF9DA75BBC0A1FAA504448B74DD010 /* RNCryptor+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1604822E49A13BFC561CDA8ADB192ED /* RavenClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DC9B5C2468447DE8C2574386123C11 /* RavenClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9C8780CC4EC2EBE815F99059C9A5A07E /* ServerComm.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C40451B3398EAE74E4EC5009991268 /* ServerComm.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9F04D038B189596607545EA47C3D365F /* AsyncBus.h in Headers */ = {isa = PBXBuildFile; fileRef = 26EB4978F7D6908A173E1C937E412A00 /* AsyncBus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A05059743E00144C41DFD782763F2135 /* ISO8601Serialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 091F61778173D44CE7E485F039E432E9 /* ISO8601Serialization.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A27F8F2EE7F1AFAA01C0F8C537CE5EBD /* SharedObjectContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAC4EB4C405C2B9442771387D9165EF /* SharedObjectContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2D8B20E1F5DB354AA8746B58912DA4E /* SyncEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5AD41CAB37239F1F76FCCCD65C6BBE /* SyncEntity.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A4F8F1FC78D57EF26B484F6A79701D0A /* RavenConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E1A86C0F001E05146E001D5040B821 /* RavenConfig.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A77C2B73EE6702843CD824E3B62542E0 /* NSDate+ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = C3D847661528E8149FAAE5B617C3B63A /* NSDate+ISO8601.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A78468C2A035CD8B1956F91BE1BC3A62 /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E30CA46D019F35FDCF85CEA8BD57D4 /* RNCryptor+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A93C601D2948C6A449CD620343341FCD /* ServerAuthenticate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE197BDEC525DE309F658E7BBB9091C9 /* ServerAuthenticate.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AC2D8E1F8E6CA7D5E1CBDFBA8DE8D5F5 /* SyncEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F561A53B55E2665A25EAD37209CA9A9C /* SyncEvent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AF0B6CFCDCF6B102246000B22F41B1A5 /* Annotations.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F19DA4FA63E53FC6D534F59C723A69 /* Annotations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B083CB9C388795FF35C9BB2EC697E897 /* FieldSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 20A1BC911E8605D69509E5D5B3F42994 /* FieldSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1604822E49A13BFC561CDA8ADB192ED /* RavenClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C812A4DD2A5311D2B8DC46062B043913 /* RavenClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B1A2736EFF181A2F7C4DAACD45945F56 /* AbstractSyncManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD148947768DF1069F0E68C1F52D973 /* AbstractSyncManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B80C5931FC26DF86796AE27E88E5CB56 /* Syncing.h in Headers */ = {isa = PBXBuildFile; fileRef = DA82E1D4A83230409F0AE8BFF9F56184 /* Syncing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BBD31BA4A6989E8BD56C4E7091505567 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
-		BCF6B7D750193E46A8105FC2CD2AAA8E /* RNOpenSSLCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CA7017A6D2DDAC2135D74AC59C1543E2 /* RNOpenSSLCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD776A76F81E2A8AD975A002DDA38708 /* SyncingInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD5789691A68F0D2AC9111EB62DF2D6 /* SyncingInjection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDD7E1BE36642A6EFA6ABCFD2C3B29EE /* ISO8601-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E83EB3BE1EE41100E5E0D00911D1D04 /* ISO8601-dummy.m */; };
-		CC464815C49EA3DAE02E1A0272AE5664 /* E89ManagedObjectContext.h in Headers */ = {isa = PBXBuildFile; fileRef = E2EC0CDDB9AC8869EC5DB6A76EB8240E /* E89ManagedObjectContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCB7E36689701AA935450259B028F9D1 /* CustomException.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E6DA77E551122B21B366B8A16D983B6 /* CustomException.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE68502108E5AF34C0780CDF69CE30E8 /* DateSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 95170BBA4A7BEB2C867783396FDB979A /* DateSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFB445D6E77C7EFC5B4C6D7C7C110411 /* ReadOnlyAbstractSyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D0CA3A684513D708A584AF4FF15679 /* ReadOnlyAbstractSyncManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D6B947F3884612348EA462DA1B68DDA4 /* GzipUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A892896418857514E6633514BA1B0E66 /* GzipUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7C8CD406BE2EF1D4E2983FDA324FD78 /* AbstractSyncManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1B2D49083AFC9E745081EEFE66C46C8 /* AbstractSyncManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8809F03FCE8861856C6658388F7E5E7 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = CDCD2AC89E011F94D2018F465F3F4168 /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCB347A52A1A965FC0D08A73B3D6DC8E /* ServerComm.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ED542992AE3D1F91AF1A6A42F0090D /* ServerComm.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E128D8FBA34BC379881846AC08D5CEFC /* Raven.h in Headers */ = {isa = PBXBuildFile; fileRef = 1357550C00093D4606BFA3BE46D1A11B /* Raven.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E362F33C91281EADFDC712CE63B4E985 /* ThreadChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12CB4F61B378B537EE679D0D0F0E77 /* ThreadChecker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E44BEDED1AFE89AD67780B1ED3F83DA4 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 98518FAEFF48ADEE21B7E080738DEF26 /* RNEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6279FF68108A6ECC1CF71AA756F2BBB /* JSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = BB89CFEF0E36E3EEE2226A808D6B2980 /* JSONSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCF6B7D750193E46A8105FC2CD2AAA8E /* RNOpenSSLCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F64DC00C816925072F1F4619D705FCA /* RNOpenSSLCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDD7E1BE36642A6EFA6ABCFD2C3B29EE /* ISO8601-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA983AA7D6A3E3E4970AB7B9BAB394F /* ISO8601-dummy.m */; };
+		BDE04B6F6AB8AB4DA42B512B15CC3257 /* DataSyncHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E53FE3CA0418C67E2F0A962C9969A7B /* DataSyncHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C5671C1B4BE6B456FE64E38B6BAFED58 /* ReadOnlyAbstractSyncManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DEB948AE52F580980D75E215C63D42C /* ReadOnlyAbstractSyncManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFD91899F897F055BD804F0D3869B9E2 /* SyncModelSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = AF377EB137E5C52A5CFE96C6C96DA140 /* SyncModelSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3E1F3333F6ABF5A095CEDABF654356F /* GzipUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = CC418F882540F06FC683A63A797AC436 /* GzipUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D58F35FE5F6AAC0073C09A8CE8578E8B /* AbstractLoginActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6A664ED0C98D2D9D9982FDC1F05E16 /* AbstractLoginActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8809F03FCE8861856C6658388F7E5E7 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B3F9EFCE25C5E3DD9B469EC50C9E11 /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E128D8FBA34BC379881846AC08D5CEFC /* Raven.h in Headers */ = {isa = PBXBuildFile; fileRef = D8CDAC7E5252EF2EBFB66E9EF8DD1AFF /* Raven.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E44BEDED1AFE89AD67780B1ED3F83DA4 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB15114A4AD59F9867F25369A2872F8 /* RNEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5AFA7209D1CF642197376EABCC70467 /* Annotations.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B565E33EE74264927BB7EEF6E5B326 /* Annotations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		EB104FEA9BB4417C514E14ACD2FE05E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
-		EBF9C047AD4D991E795C0A2F6FCF59E6 /* RNOpenSSLCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FA9E6E115469DB91C714013FF4E12F /* RNOpenSSLCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EBF9C047AD4D991E795C0A2F6FCF59E6 /* RNOpenSSLCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9255168B0E90D1D52E2167E4E1BC7D /* RNOpenSSLCryptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EE395790A8E8BB13686712D96C375940 /* SyncingInjection.m in Sources */ = {isa = PBXBuildFile; fileRef = 979E57F8729D62AFA97F47E8E0EBCE3A /* SyncingInjection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F068E2FE5774730A58AB71F42B1555A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
-		F54C84FEDE1378006BA8EF05FE9E5BC9 /* Annotations.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC039F17128FA91B8574AB9B89D3EA2 /* Annotations.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F9B876675D4078A47017C4370C57704D /* JSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFF69839FBBB4732BC4C5639885D5FC /* JSONSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F0EDF431F7C2CE50C6E3A7C806EDBF7C /* SharedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE19E16E341D388D07798DD17A42320 /* SharedObjectContext.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F8B10C65A3F57107235572CD26DD3C48 /* E89ManagedObjectContext.h in Headers */ = {isa = PBXBuildFile; fileRef = E84C42217A09E4AD234B7A26B4BF99ED /* E89ManagedObjectContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCF745E92D16869B6484399C37494DD7 /* Syncing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3800639C1DB4EE4499889834E6E03BC /* Syncing-dummy.m */; };
 		FD42F609040A611B23D6712D42B032B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
-		FF16B4006038FEF9F3227B65E8076901 /* DataSyncHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4529156361C37558735F7BE59EAFE7 /* DataSyncHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FEDD86F0400035953FA606D7F1A72C29 /* JSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = FC3477FE07D4009A5C16F971C6B9321E /* JSONSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,124 +165,126 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0505FDBCB688A1512FD1F26809E4B3CF /* SyncEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncEntity.m; path = Syncing/SyncEntity.m; sourceTree = "<group>"; };
-		09572176F08CF5A9167F3AB2DFFBEE04 /* CustomException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomException.m; path = Syncing/CustomException.m; sourceTree = "<group>"; };
-		0F514B2A5BD6D1028A54978D9253E00B /* RavenClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RavenClient.h; path = Raven/RavenClient.h; sourceTree = "<group>"; };
+		06E1A86C0F001E05146E001D5040B821 /* RavenConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RavenConfig.m; path = Raven/RavenConfig.m; sourceTree = "<group>"; };
+		091F61778173D44CE7E485F039E432E9 /* ISO8601Serialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISO8601Serialization.m; path = ISO8601/ISO8601Serialization.m; sourceTree = "<group>"; };
+		0D5AD41CAB37239F1F76FCCCD65C6BBE /* SyncEntity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncEntity.m; path = Syncing/SyncEntity.m; sourceTree = "<group>"; };
+		0E53FE3CA0418C67E2F0A962C9969A7B /* DataSyncHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DataSyncHelper.m; path = Syncing/DataSyncHelper.m; sourceTree = "<group>"; };
 		104D059BF3219359FEBD914192DBA26B /* Pods-ios-push-messaging-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-push-messaging-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1176E53E1E7B40B1DE30188E165CB139 /* Pods-ios-push-messagingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-push-messagingTests.release.xcconfig"; sourceTree = "<group>"; };
 		11959E33330539E7CF8E2D1C54314663 /* libPods-ios-push-messagingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ios-push-messagingTests.a"; path = "libPods-ios-push-messagingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		12A09AA0BFA8DDFB0EDA4A372AC89FFF /* RavenConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RavenConfig.m; path = Raven/RavenConfig.m; sourceTree = "<group>"; };
-		1357550C00093D4606BFA3BE46D1A11B /* Raven.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Raven.h; path = Raven/Raven.h; sourceTree = "<group>"; };
-		15C15D29305AD5A6F19D0CA97577AB34 /* ISO8601-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISO8601-prefix.pch"; sourceTree = "<group>"; };
-		16970057C1B9B5CAE633E01C1AE716BF /* ISO8601.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISO8601.h; path = ISO8601/ISO8601.h; sourceTree = "<group>"; };
-		17FA9E6E115469DB91C714013FF4E12F /* RNOpenSSLCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNOpenSSLCryptor.m; path = RNCryptor/RNOpenSSLCryptor.m; sourceTree = "<group>"; };
-		182455D2F05DDF7F99E4AF25FA4E0443 /* RavenClient_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RavenClient_Private.h; path = Raven/RavenClient_Private.h; sourceTree = "<group>"; };
+		1232C4057FAFC18F0CC5F1579F5437CB /* RNCryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNCryptor-dummy.m"; sourceTree = "<group>"; };
+		13751A9BE75003BBA1A168A84C0585A1 /* SyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncManager.h; path = Syncing/SyncManager.h; sourceTree = "<group>"; };
+		159484FB7CCFC766D8799100C593E0C5 /* SIOSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIOSocket.h; path = SocketIO/Source/SIOSocket.h; sourceTree = "<group>"; };
 		198B3B0C888AC6A0681986B6ED8C81F1 /* libSIOSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSIOSocket.a; path = libSIOSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A141C4EF6388D8D69FA0587F6E403A5 /* Raven.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Raven.xcconfig; sourceTree = "<group>"; };
-		1B80CBB82DA36A4B463B58EA8DF4748B /* FieldSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FieldSerializer.h; path = Syncing/FieldSerializer.h; sourceTree = "<group>"; };
-		1C779D7235496B622F696232E14DA545 /* Syncing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Syncing.xcconfig; sourceTree = "<group>"; };
-		1CEC5C45EA33F55C0A119D92898FB708 /* SyncEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncEvent.h; path = Syncing/SyncEvent.h; sourceTree = "<group>"; };
-		1F4FD93EEA68BA8C1EC51A205915E57E /* CustomTransactionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomTransactionManager.h; path = Syncing/CustomTransactionManager.h; sourceTree = "<group>"; };
-		21EF4796E8D39D44B91AE204DC416FA3 /* SIOSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SIOSocket-dummy.m"; sourceTree = "<group>"; };
-		22C8CD428BD329DD7BD3D6294516389E /* NSDate+ISO8601.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+ISO8601.h"; path = "ISO8601/NSDate+ISO8601.h"; sourceTree = "<group>"; };
-		22FFBF9387A215B998A6A7C8CB802431 /* DateSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DateSerializer.m; path = Syncing/DateSerializer.m; sourceTree = "<group>"; };
-		254BCEF374614A087AD22F65D1FB31DA /* FieldSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FieldSerializer.m; path = Syncing/FieldSerializer.m; sourceTree = "<group>"; };
-		267F1030CBBBCFFF85A4EBD5B14B12A0 /* Annotations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Annotations.h; path = Syncing/Annotations.h; sourceTree = "<group>"; };
-		270A00F9AE73C190241BB445137FFA3C /* SerializationUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SerializationUtil.h; path = Syncing/SerializationUtil.h; sourceTree = "<group>"; };
-		271F62F17609CFE48A070F1BBB035E62 /* RNCryptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RNCryptor-dummy.m"; sourceTree = "<group>"; };
+		1E8A29149EB2029D3686A987ECFFCAE8 /* RNCryptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNCryptor.xcconfig; sourceTree = "<group>"; };
+		20A1BC911E8605D69509E5D5B3F42994 /* FieldSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FieldSerializer.h; path = Syncing/FieldSerializer.h; sourceTree = "<group>"; };
+		2335111DB6E1138CFE61640F86BE9E4A /* DateSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DateSerializer.h; path = Syncing/DateSerializer.h; sourceTree = "<group>"; };
+		26EB4978F7D6908A173E1C937E412A00 /* AsyncBus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsyncBus.h; path = Syncing/AsyncBus.h; sourceTree = "<group>"; };
 		28790ACFD6887E267D1B1597C27A6732 /* Pods-ios-push-messagingTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-push-messagingTests-dummy.m"; sourceTree = "<group>"; };
-		2A4529156361C37558735F7BE59EAFE7 /* DataSyncHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DataSyncHelper.m; path = Syncing/DataSyncHelper.m; sourceTree = "<group>"; };
-		2CA529170F5A72369FC23E42CE6C4C85 /* SyncingInjection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncingInjection.m; path = Syncing/SyncingInjection.m; sourceTree = "<group>"; };
-		2E22562E22C402D23200F0FB5ECA5FE4 /* ISO8601Serialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ISO8601Serialization.m; path = ISO8601/ISO8601Serialization.m; sourceTree = "<group>"; };
+		296D11558203C9FAA94512203BB688C8 /* SyncConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncConfig.h; path = Syncing/SyncConfig.h; sourceTree = "<group>"; };
+		2A48B2EBA97F928A75705885424E39AF /* DateSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DateSerializer.m; path = Syncing/DateSerializer.m; sourceTree = "<group>"; };
+		2B770134D27442A1386AA83AEFF31D86 /* ThreadChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ThreadChecker.m; path = Syncing/ThreadChecker.m; sourceTree = "<group>"; };
+		2DCB5A92F121FE2C57AE0FD251699320 /* E89ManagedObjectContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = E89ManagedObjectContext.m; path = Syncing/E89ManagedObjectContext.m; sourceTree = "<group>"; };
+		2F64DC00C816925072F1F4619D705FCA /* RNOpenSSLCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNOpenSSLCryptor.h; path = RNCryptor/RNOpenSSLCryptor.h; sourceTree = "<group>"; };
 		2FB43D33D41D21E2A4E26E85F731AA53 /* Pods-ios-push-messaging-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-push-messaging-resources.sh"; sourceTree = "<group>"; };
-		34E405EE77D81AEB0B91F8FD2280AFFD /* ServerAuthenticate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ServerAuthenticate.m; path = Syncing/ServerAuthenticate.m; sourceTree = "<group>"; };
-		36F3840C328C0BCA922CCA41E61C0269 /* SyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncManager.h; path = Syncing/SyncManager.h; sourceTree = "<group>"; };
-		36FC026D4DE94FA7F950B6D31B45A44C /* ISO8601.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISO8601.xcconfig; sourceTree = "<group>"; };
-		37B227100B75EE68B2805E82BEBE295E /* RNCryptorEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptorEngine.m; path = RNCryptor/RNCryptorEngine.m; sourceTree = "<group>"; };
-		3B53790A0BC4A21C2AED13D218CEE57A /* SyncConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncConfig.m; path = Syncing/SyncConfig.m; sourceTree = "<group>"; };
-		3E6DA77E551122B21B366B8A16D983B6 /* CustomException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomException.h; path = Syncing/CustomException.h; sourceTree = "<group>"; };
-		3FC7C674F2A8DA85BBC14955C08298F4 /* Syncing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Syncing-prefix.pch"; sourceTree = "<group>"; };
-		4213996E320D7A0DFDA4F65D32FF8021 /* socket.io.js.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socket.io.js.h; path = SocketIO/Source/socket.io.js.h; sourceTree = "<group>"; };
-		4341840C61D99F3484A13A1B32E5CD5E /* SIOSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIOSocket-prefix.pch"; sourceTree = "<group>"; };
+		33B565E33EE74264927BB7EEF6E5B326 /* Annotations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Annotations.m; path = Syncing/Annotations.m; sourceTree = "<group>"; };
+		37FA8818ED78F176563B44173692D276 /* SIOSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SIOSocket-dummy.m"; sourceTree = "<group>"; };
+		3DA983AA7D6A3E3E4970AB7B9BAB394F /* ISO8601-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISO8601-dummy.m"; sourceTree = "<group>"; };
+		3E9255168B0E90D1D52E2167E4E1BC7D /* RNOpenSSLCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNOpenSSLCryptor.m; path = RNCryptor/RNOpenSSLCryptor.m; sourceTree = "<group>"; };
+		404311D6736A3ED63FAC6A1EA3C2F70E /* CustomException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomException.m; path = Syncing/CustomException.m; sourceTree = "<group>"; };
+		42385E247B7A4E0CCFD9743F9ED47900 /* ISO8601.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISO8601.h; path = ISO8601/ISO8601.h; sourceTree = "<group>"; };
+		427A0FE6D6441F994F9F7D40C43FABEA /* RNCryptorEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptorEngine.h; path = RNCryptor/RNCryptorEngine.h; sourceTree = "<group>"; };
+		435BDDD6627160F7A43C68308762032E /* RNDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNDecryptor.m; path = RNCryptor/RNDecryptor.m; sourceTree = "<group>"; };
+		4373A4E93B9F6E1ED252B16AC6F8F458 /* Raven-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Raven-dummy.m"; sourceTree = "<group>"; };
+		445B1C8B3B0C6AE323884A8FD98BDC50 /* NSDate+ISO8601.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+ISO8601.m"; path = "ISO8601/NSDate+ISO8601.m"; sourceTree = "<group>"; };
 		44E58B505E988E16F806E0D3AA2A3A81 /* Pods-ios-push-messaging-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-push-messaging-dummy.m"; sourceTree = "<group>"; };
+		47F3F9D2D99FE09E42E149A4928F6815 /* RNOpenSSLEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNOpenSSLEncryptor.h; path = RNCryptor/RNOpenSSLEncryptor.h; sourceTree = "<group>"; };
 		48E55FEBADEED791AD46E06A1DD32FF1 /* Pods-ios-push-messagingTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-push-messagingTests-resources.sh"; sourceTree = "<group>"; };
-		492808A9BCD203E7BAFD6C35444C6989 /* Syncing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Syncing-dummy.m"; sourceTree = "<group>"; };
-		51686D2A353896DADB65948DB1A72E81 /* RNEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNEncryptor.m; path = RNCryptor/RNEncryptor.m; sourceTree = "<group>"; };
-		564F7F8D63368CF834B96DC95A6557E8 /* RavenConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RavenConfig.h; path = Raven/RavenConfig.h; sourceTree = "<group>"; };
-		5713A2655453DA65915A5269FAEF42F1 /* RNOpenSSLDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNOpenSSLDecryptor.h; path = RNCryptor/RNOpenSSLDecryptor.h; sourceTree = "<group>"; };
-		58ED542992AE3D1F91AF1A6A42F0090D /* ServerComm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ServerComm.m; path = Syncing/ServerComm.m; sourceTree = "<group>"; };
+		4CA025DF74DD34B48661BDD602DC2B3D /* RNOpenSSLDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNOpenSSLDecryptor.m; path = RNCryptor/RNOpenSSLDecryptor.m; sourceTree = "<group>"; };
+		4D7E42EB10F881DFDA5EB34129BE6594 /* SyncConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncConfig.m; path = Syncing/SyncConfig.m; sourceTree = "<group>"; };
+		4F65C4813FAE6BFC9B1AD4C6B4A917AD /* ThreadChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ThreadChecker.h; path = Syncing/ThreadChecker.h; sourceTree = "<group>"; };
+		52C07F855686DEC98DCBC752B32ECE82 /* GzipUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GzipUtil.m; path = Syncing/GzipUtil.m; sourceTree = "<group>"; };
+		54EF63C199587B1E50AE089096390385 /* SyncEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncEvent.h; path = Syncing/SyncEvent.h; sourceTree = "<group>"; };
+		56A36A77DD12C8D4ACE6424BEB8FB62B /* RavenConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RavenConfig.h; path = Raven/RavenConfig.h; sourceTree = "<group>"; };
+		57FF736093F30D8CAED62199D2D75518 /* ISO8601.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISO8601.xcconfig; sourceTree = "<group>"; };
+		58081027D305F88E14519C1D32556ADB /* SerializationUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SerializationUtil.h; path = Syncing/SerializationUtil.h; sourceTree = "<group>"; };
+		597CBEDEED78C0A0A128BB37F78393CC /* RNOpenSSLEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNOpenSSLEncryptor.m; path = RNCryptor/RNOpenSSLEncryptor.m; sourceTree = "<group>"; };
 		59A1480008E45348E50913634AE59987 /* libRNCryptor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRNCryptor.a; path = libRNCryptor.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A61BB7B255DA652EC37C79DEE71A97E /* RNCryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-prefix.pch"; sourceTree = "<group>"; };
-		5B2900B9BA25370A6243254E2D590D77 /* RNCryptorEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptorEngine.h; path = RNCryptor/RNCryptorEngine.h; sourceTree = "<group>"; };
-		5B38588456139C12A72897FD92C35619 /* Raven-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Raven-dummy.m"; sourceTree = "<group>"; };
-		5D12CB4F61B378B537EE679D0D0F0E77 /* ThreadChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ThreadChecker.m; path = Syncing/ThreadChecker.m; sourceTree = "<group>"; };
-		5DE3C0CA83E68D0C2770CED84C679089 /* SyncModelSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncModelSerializer.h; path = Syncing/SyncModelSerializer.h; sourceTree = "<group>"; };
-		60E8018AE10F3E2CAC2D634A86975DD6 /* Raven-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Raven-prefix.pch"; sourceTree = "<group>"; };
-		6AB981CBD0DF425C62582D6DB5BF856B /* DataSyncHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataSyncHelper.h; path = Syncing/DataSyncHelper.h; sourceTree = "<group>"; };
-		6D8C9B1C0021F18A5FC3F7C983BB8524 /* RNDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNDecryptor.h; path = RNCryptor/RNDecryptor.h; sourceTree = "<group>"; };
-		6ECF9DA75BBC0A1FAA504448B74DD010 /* RNCryptor+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RNCryptor+Private.h"; path = "RNCryptor/RNCryptor+Private.h"; sourceTree = "<group>"; };
-		6F6FDE58F500F30C9B6CDADC7E9E2F07 /* RNOpenSSLDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNOpenSSLDecryptor.m; path = RNCryptor/RNOpenSSLDecryptor.m; sourceTree = "<group>"; };
-		71A3DA10A25A513BD324A87C27B90329 /* AbstractLoginActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractLoginActivity.h; path = Syncing/AbstractLoginActivity.h; sourceTree = "<group>"; };
-		74A618FE1B64A43CE4345500F534EE78 /* SyncConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncConfig.h; path = Syncing/SyncConfig.h; sourceTree = "<group>"; };
-		79A9004AD4D4F620D0059D2387975EA9 /* AbstractSyncManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractSyncManager.m; path = Syncing/AbstractSyncManager.m; sourceTree = "<group>"; };
-		7AB21C915D0C64E77DEE3CC37F086761 /* SecurityUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SecurityUtil.m; path = Syncing/SecurityUtil.m; sourceTree = "<group>"; };
-		861DF8418DDFD8FA7E3F35A584ABED1D /* ThreadChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ThreadChecker.h; path = Syncing/ThreadChecker.h; sourceTree = "<group>"; };
-		88EE9A9A34A19B3FC3823DA4F36BACB6 /* SIOSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SIOSocket.xcconfig; sourceTree = "<group>"; };
-		8A45B5A8DC228E0089840CB8A7D40C73 /* SerializationUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SerializationUtil.m; path = Syncing/SerializationUtil.m; sourceTree = "<group>"; };
-		8AC66DCD2595B0AAF9CBB9A8322AF598 /* RNCryptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RNCryptor.xcconfig; sourceTree = "<group>"; };
-		91A6778BB78A0EB026708C4394ABDB87 /* SIOSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SIOSocket.m; path = SocketIO/Source/SIOSocket.m; sourceTree = "<group>"; };
-		938DAAE011C659DC1DB120D47757DFED /* CustomTransactionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomTransactionManager.m; path = Syncing/CustomTransactionManager.m; sourceTree = "<group>"; };
+		5CAC4EB4C405C2B9442771387D9165EF /* SharedObjectContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharedObjectContext.h; path = Syncing/SharedObjectContext.h; sourceTree = "<group>"; };
+		612B12FD350F19E7D5B69ED742E40880 /* Syncing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Syncing.xcconfig; sourceTree = "<group>"; };
+		68A1220C773346BF563FA31502DEF979 /* SecurityUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SecurityUtil.h; path = Syncing/SecurityUtil.h; sourceTree = "<group>"; };
+		6F0A958EADAA6CCC3DA0E5E10A577A4A /* RNCryptorEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptorEngine.m; path = RNCryptor/RNCryptorEngine.m; sourceTree = "<group>"; };
+		6F4868F30DDAA5954B29C6D5733E3167 /* SecurityUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SecurityUtil.m; path = Syncing/SecurityUtil.m; sourceTree = "<group>"; };
+		709797ED7BDE8814503BCC55D49E6004 /* AbstractSyncManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractSyncManager.m; path = Syncing/AbstractSyncManager.m; sourceTree = "<group>"; };
+		756CE7E1A50131190EE3DE8563C30082 /* socket.io.js.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = socket.io.js.h; path = SocketIO/Source/socket.io.js.h; sourceTree = "<group>"; };
+		76B3F9EFCE25C5E3DD9B469EC50C9E11 /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = RNCryptor/RNCryptor.h; sourceTree = "<group>"; };
+		79F19DA4FA63E53FC6D534F59C723A69 /* Annotations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Annotations.h; path = Syncing/Annotations.h; sourceTree = "<group>"; };
+		7A11EB0A7246D256E4B53556E6DC4397 /* RNCryptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-prefix.pch"; sourceTree = "<group>"; };
+		7B94397001F0C33D78CA199104390D1F /* Raven.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Raven.xcconfig; sourceTree = "<group>"; };
+		7DEB948AE52F580980D75E215C63D42C /* ReadOnlyAbstractSyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReadOnlyAbstractSyncManager.h; path = Syncing/ReadOnlyAbstractSyncManager.h; sourceTree = "<group>"; };
+		802A53C44B8E3FF56CF82E2DCA35183A /* RNDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNDecryptor.h; path = RNCryptor/RNDecryptor.h; sourceTree = "<group>"; };
+		81C7A03D6C02564C07A91BF4081B8EA0 /* DatabaseProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatabaseProvider.h; path = Syncing/DatabaseProvider.h; sourceTree = "<group>"; };
+		863522D7AE5B75D80CBE5581B16CBE34 /* SyncingInjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncingInjection.h; path = Syncing/SyncingInjection.h; sourceTree = "<group>"; };
+		8980FEBD29109E284D7FFBE63FB333C9 /* CustomException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomException.h; path = Syncing/CustomException.h; sourceTree = "<group>"; };
+		8A2567F80ACBF22EA334B2BBDC2176F4 /* RNCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptor.m; path = RNCryptor/RNCryptor.m; sourceTree = "<group>"; };
+		8B12CD8B71BACB4B3F83679831F62B94 /* SyncEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncEntity.h; path = Syncing/SyncEntity.h; sourceTree = "<group>"; };
+		8B1C7D79D4A15A18F3C6CD484B2A462B /* AbstractLoginActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractLoginActivity.m; path = Syncing/AbstractLoginActivity.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94842743F11191CAE2D2104F78E2BD96 /* libISO8601.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libISO8601.a; path = libISO8601.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		949CD9BDA4CF39695D127AB340B6334F /* Pods-ios-push-messagingTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-push-messagingTests-frameworks.sh"; sourceTree = "<group>"; };
-		95170BBA4A7BEB2C867783396FDB979A /* DateSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DateSerializer.h; path = Syncing/DateSerializer.h; sourceTree = "<group>"; };
-		958295B8743BDF0E82F518A508519648 /* E89ManagedObjectContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = E89ManagedObjectContext.m; path = Syncing/E89ManagedObjectContext.m; sourceTree = "<group>"; };
-		98518FAEFF48ADEE21B7E080738DEF26 /* RNEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNEncryptor.h; path = RNCryptor/RNEncryptor.h; sourceTree = "<group>"; };
-		9E83EB3BE1EE41100E5E0D00911D1D04 /* ISO8601-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISO8601-dummy.m"; sourceTree = "<group>"; };
-		A087B0EBA0C6FB674E7352ACC3637018 /* SyncEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncEntity.h; path = Syncing/SyncEntity.h; sourceTree = "<group>"; };
-		A0F4A2988DAB2C270BF7D59DF6177A25 /* ReadOnlyAbstractSyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ReadOnlyAbstractSyncManager.h; path = Syncing/ReadOnlyAbstractSyncManager.h; sourceTree = "<group>"; };
+		965D4FECAF68C8D2A2B51453682ADA1C /* RavenClient_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RavenClient_Private.h; path = Raven/RavenClient_Private.h; sourceTree = "<group>"; };
+		979E57F8729D62AFA97F47E8E0EBCE3A /* SyncingInjection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncingInjection.m; path = Syncing/SyncingInjection.m; sourceTree = "<group>"; };
+		9E4C62693C8AFF28A18084ECAB7355CB /* SyncModelSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncModelSerializer.m; path = Syncing/SyncModelSerializer.m; sourceTree = "<group>"; };
+		A04F115E4F42B25CA31083F399E391D1 /* DatabaseProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DatabaseProvider.m; path = Syncing/DatabaseProvider.m; sourceTree = "<group>"; };
 		A28F2BAFB8004731690F41EDCDB7EBC9 /* Pods-ios-push-messagingTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-push-messagingTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A3997C2DECB4E693C08594BDCB3D5DCA /* DatabaseProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DatabaseProvider.m; path = Syncing/DatabaseProvider.m; sourceTree = "<group>"; };
-		A892896418857514E6633514BA1B0E66 /* GzipUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GzipUtil.h; path = Syncing/GzipUtil.h; sourceTree = "<group>"; };
-		AE7B7802A8B1AD666238E27C714E4A84 /* ServerAuthenticate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServerAuthenticate.h; path = Syncing/ServerAuthenticate.h; sourceTree = "<group>"; };
-		B3181562F36FE8D01A2854FC3F4834BF /* AsyncBus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsyncBus.h; path = Syncing/AsyncBus.h; sourceTree = "<group>"; };
-		B358EBD1FA39CE8B9E0A395BC8D5CB21 /* ServerComm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServerComm.h; path = Syncing/ServerComm.h; sourceTree = "<group>"; };
+		A564F4ED5CD59A5DA62B086AE30EE463 /* ReadOnlyAbstractSyncManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReadOnlyAbstractSyncManager.m; path = Syncing/ReadOnlyAbstractSyncManager.m; sourceTree = "<group>"; };
+		ABB7D5137924E2252E6FC6C0B77C1673 /* JSONSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONSerializer.m; path = Syncing/JSONSerializer.m; sourceTree = "<group>"; };
+		AF377EB137E5C52A5CFE96C6C96DA140 /* SyncModelSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncModelSerializer.h; path = Syncing/SyncModelSerializer.h; sourceTree = "<group>"; };
+		AFA6244365EA9FF36E6249EE4E6E99D7 /* FieldSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FieldSerializer.m; path = Syncing/FieldSerializer.m; sourceTree = "<group>"; };
 		B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		BA17BB8D63CA67C05E47941600996EFD /* NSDate+ISO8601.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+ISO8601.m"; path = "ISO8601/NSDate+ISO8601.m"; sourceTree = "<group>"; };
-		BB89CFEF0E36E3EEE2226A808D6B2980 /* JSONSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONSerializer.h; path = Syncing/JSONSerializer.h; sourceTree = "<group>"; };
+		B695B224757B2F720D6754681BA29AB8 /* CustomTransactionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomTransactionManager.m; path = Syncing/CustomTransactionManager.m; sourceTree = "<group>"; };
+		B8176EE5A84763CBE9755EA20B24D67B /* Raven-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Raven-prefix.pch"; sourceTree = "<group>"; };
+		B871BFA754CBCBA0E08A8E56A2CFB44E /* ISO8601-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISO8601-prefix.pch"; sourceTree = "<group>"; };
+		B9C40451B3398EAE74E4EC5009991268 /* ServerComm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ServerComm.m; path = Syncing/ServerComm.m; sourceTree = "<group>"; };
 		BBF8555755E99C5C772F7912CBD3BB86 /* libPods-ios-push-messaging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ios-push-messaging.a"; path = "libPods-ios-push-messaging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C09ECFD5CF1E6E45B7F56C42E2D1770E /* SyncEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncEvent.m; path = Syncing/SyncEvent.m; sourceTree = "<group>"; };
-		C0DC9B5C2468447DE8C2574386123C11 /* RavenClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RavenClient.m; path = Raven/RavenClient.m; sourceTree = "<group>"; };
-		C78D073DB3957D1937F7F0B27CBA7605 /* AbstractLoginActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractLoginActivity.m; path = Syncing/AbstractLoginActivity.m; sourceTree = "<group>"; };
+		BCDA3049C97EA5D98477A8FADD55735F /* Syncing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Syncing-prefix.pch"; sourceTree = "<group>"; };
+		BFF27E7CCCFAA021DB076A85EB42D031 /* CustomTransactionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomTransactionManager.h; path = Syncing/CustomTransactionManager.h; sourceTree = "<group>"; };
+		C0BED8C3031B100CEFA6A3F00A8B819E /* ServerComm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServerComm.h; path = Syncing/ServerComm.h; sourceTree = "<group>"; };
+		C3800639C1DB4EE4499889834E6E03BC /* Syncing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Syncing-dummy.m"; sourceTree = "<group>"; };
+		C3D847661528E8149FAAE5B617C3B63A /* NSDate+ISO8601.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+ISO8601.h"; path = "ISO8601/NSDate+ISO8601.h"; sourceTree = "<group>"; };
+		C51B31BE3290D67EDC0FE61CCBEBCACB /* SIOSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SIOSocket.m; path = SocketIO/Source/SIOSocket.m; sourceTree = "<group>"; };
 		C7CF9C2AB4571B7AAF9ABAC636224351 /* Pods-ios-push-messagingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-push-messagingTests.debug.xcconfig"; sourceTree = "<group>"; };
-		CA7017A6D2DDAC2135D74AC59C1543E2 /* RNOpenSSLCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNOpenSSLCryptor.h; path = RNCryptor/RNOpenSSLCryptor.h; sourceTree = "<group>"; };
+		C812A4DD2A5311D2B8DC46062B043913 /* RavenClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RavenClient.m; path = Raven/RavenClient.m; sourceTree = "<group>"; };
+		C85711065DF05195A1E023C5BB54C126 /* SIOSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SIOSocket.xcconfig; sourceTree = "<group>"; };
 		CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		CDCD2AC89E011F94D2018F465F3F4168 /* RNCryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNCryptor.h; path = RNCryptor/RNCryptor.h; sourceTree = "<group>"; };
-		CF9F3B7C45364B54720FBD40889A630A /* DatabaseProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatabaseProvider.h; path = Syncing/DatabaseProvider.h; sourceTree = "<group>"; };
+		CC418F882540F06FC683A63A797AC436 /* GzipUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GzipUtil.h; path = Syncing/GzipUtil.h; sourceTree = "<group>"; };
+		CFC0A5D407C4B3C94208F4324A5BD24F /* ServerAuthenticate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServerAuthenticate.h; path = Syncing/ServerAuthenticate.h; sourceTree = "<group>"; };
 		D04457B425E5F8AE14A312866CF7476E /* libSyncing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSyncing.a; path = libSyncing.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3FB224560149BDBBFFEFDBE60398854 /* SIOSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIOSocket.h; path = SocketIO/Source/SIOSocket.h; sourceTree = "<group>"; };
-		D417488DDB74B1FDFBE43D2C41362230 /* RNDecryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNDecryptor.m; path = RNCryptor/RNDecryptor.m; sourceTree = "<group>"; };
+		D549E2F2AECD6ECF2F7681DEABDC62F4 /* ISO8601Serialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISO8601Serialization.h; path = ISO8601/ISO8601Serialization.h; sourceTree = "<group>"; };
+		D597A86AC1C0459B83809601D9F8ECA2 /* RNEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNEncryptor.m; path = RNCryptor/RNEncryptor.m; sourceTree = "<group>"; };
+		D8CDAC7E5252EF2EBFB66E9EF8DD1AFF /* Raven.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Raven.h; path = Raven/Raven.h; sourceTree = "<group>"; };
+		DA82E1D4A83230409F0AE8BFF9F56184 /* Syncing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Syncing.h; path = Syncing/Syncing.h; sourceTree = "<group>"; };
 		DAC4DEED304617FCE68583C326560507 /* Pods-ios-push-messaging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-push-messaging.debug.xcconfig"; sourceTree = "<group>"; };
+		DAD148947768DF1069F0E68C1F52D973 /* AbstractSyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractSyncManager.h; path = Syncing/AbstractSyncManager.h; sourceTree = "<group>"; };
 		DB222252E3015D6E3F2A24524C0214A0 /* libRaven.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRaven.a; path = libRaven.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB838083A60E491D1DF37C238012E857 /* SecurityUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SecurityUtil.h; path = Syncing/SecurityUtil.h; sourceTree = "<group>"; };
-		DF9D8FD2811EF13B66777672A6222452 /* RNCryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNCryptor.m; path = RNCryptor/RNCryptor.m; sourceTree = "<group>"; };
-		E1B2D49083AFC9E745081EEFE66C46C8 /* AbstractSyncManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractSyncManager.h; path = Syncing/AbstractSyncManager.h; sourceTree = "<group>"; };
-		E2EC0CDDB9AC8869EC5DB6A76EB8240E /* E89ManagedObjectContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = E89ManagedObjectContext.h; path = Syncing/E89ManagedObjectContext.h; sourceTree = "<group>"; };
-		E8726F6A77D82BE0D6A3E145A50511EE /* SyncModelSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncModelSerializer.m; path = Syncing/SyncModelSerializer.m; sourceTree = "<group>"; };
+		DBE19E16E341D388D07798DD17A42320 /* SharedObjectContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharedObjectContext.m; path = Syncing/SharedObjectContext.m; sourceTree = "<group>"; };
+		DD6A664ED0C98D2D9D9982FDC1F05E16 /* AbstractLoginActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractLoginActivity.h; path = Syncing/AbstractLoginActivity.h; sourceTree = "<group>"; };
+		E14659704AC186E37E0C0FADE4A633F4 /* DataSyncHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataSyncHelper.h; path = Syncing/DataSyncHelper.h; sourceTree = "<group>"; };
+		E2E30CA46D019F35FDCF85CEA8BD57D4 /* RNCryptor+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RNCryptor+Private.h"; path = "RNCryptor/RNCryptor+Private.h"; sourceTree = "<group>"; };
+		E84C42217A09E4AD234B7A26B4BF99ED /* E89ManagedObjectContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = E89ManagedObjectContext.h; path = Syncing/E89ManagedObjectContext.h; sourceTree = "<group>"; };
 		EA33A9458BDFD678E3758D65832F2198 /* Pods-ios-push-messagingTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-push-messagingTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC38578198464273283EE8D5D9530769 /* SIOSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIOSocket-prefix.pch"; sourceTree = "<group>"; };
 		EC4CD699C91CF628290180657D08C6D6 /* Pods-ios-push-messaging-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-push-messaging-frameworks.sh"; sourceTree = "<group>"; };
-		EE2BE102AF5AC6492DF6D5960CDDA62F /* AsyncBus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AsyncBus.m; path = Syncing/AsyncBus.m; sourceTree = "<group>"; };
-		EE7A999546D43B0A7EFB87FFE73A1A92 /* ISO8601Serialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ISO8601Serialization.h; path = ISO8601/ISO8601Serialization.h; sourceTree = "<group>"; };
-		EFD5789691A68F0D2AC9111EB62DF2D6 /* SyncingInjection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyncingInjection.h; path = Syncing/SyncingInjection.h; sourceTree = "<group>"; };
+		EFECCE3447993FDE6E96633156D31980 /* RNOpenSSLDecryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNOpenSSLDecryptor.h; path = RNCryptor/RNOpenSSLDecryptor.h; sourceTree = "<group>"; };
 		F0B36191E95A5C7DDCB27DF1021930BA /* Pods-ios-push-messaging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-push-messaging.release.xcconfig"; sourceTree = "<group>"; };
-		F0D0CA3A684513D708A584AF4FF15679 /* ReadOnlyAbstractSyncManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReadOnlyAbstractSyncManager.m; path = Syncing/ReadOnlyAbstractSyncManager.m; sourceTree = "<group>"; };
-		F2B8AF74E462CDB843FF53E3981F6A9C /* Syncing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Syncing.h; path = Syncing/Syncing.h; sourceTree = "<group>"; };
-		F6035F3FC1BE627ACF1F72A9FCBCB7F0 /* GzipUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GzipUtil.m; path = Syncing/GzipUtil.m; sourceTree = "<group>"; };
-		F6D025ACC73499390955A6F0EB5A03D9 /* RNOpenSSLEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RNOpenSSLEncryptor.m; path = RNCryptor/RNOpenSSLEncryptor.m; sourceTree = "<group>"; };
-		FAC039F17128FA91B8574AB9B89D3EA2 /* Annotations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Annotations.m; path = Syncing/Annotations.m; sourceTree = "<group>"; };
+		F1ACDD2F738DA9A70A593B518E4BFAAE /* AsyncBus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AsyncBus.m; path = Syncing/AsyncBus.m; sourceTree = "<group>"; };
+		F561A53B55E2665A25EAD37209CA9A9C /* SyncEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyncEvent.m; path = Syncing/SyncEvent.m; sourceTree = "<group>"; };
+		F75C0EE343CD0EB9EBED3893D1F04C4B /* RavenClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RavenClient.h; path = Raven/RavenClient.h; sourceTree = "<group>"; };
+		FC3477FE07D4009A5C16F971C6B9321E /* JSONSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONSerializer.h; path = Syncing/JSONSerializer.h; sourceTree = "<group>"; };
 		FC42DEDE0E67A178CA536C1B064DC09B /* Pods-ios-push-messaging-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-push-messaging-acknowledgements.plist"; sourceTree = "<group>"; };
-		FCFF69839FBBB4732BC4C5639885D5FC /* JSONSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONSerializer.m; path = Syncing/JSONSerializer.m; sourceTree = "<group>"; };
-		FD290C2604B4EC8E5BC8B850ABB64D25 /* RNOpenSSLEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNOpenSSLEncryptor.h; path = RNCryptor/RNOpenSSLEncryptor.h; sourceTree = "<group>"; };
+		FCB15114A4AD59F9867F25369A2872F8 /* RNEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RNEncryptor.h; path = RNCryptor/RNEncryptor.h; sourceTree = "<group>"; };
+		FD25C12D7C64989915E41ED4579A4926 /* SerializationUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SerializationUtil.m; path = Syncing/SerializationUtil.m; sourceTree = "<group>"; };
+		FE197BDEC525DE309F658E7BBB9091C9 /* ServerAuthenticate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ServerAuthenticate.m; path = Syncing/ServerAuthenticate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,15 +348,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0549186441D2C37ABF22F7F62F2A6BAF /* Support Files */ = {
+		01E5B376F7445A42C149E944C0C27BFA /* Raven */ = {
 			isa = PBXGroup;
 			children = (
-				88EE9A9A34A19B3FC3823DA4F36BACB6 /* SIOSocket.xcconfig */,
-				21EF4796E8D39D44B91AE204DC416FA3 /* SIOSocket-dummy.m */,
-				4341840C61D99F3484A13A1B32E5CD5E /* SIOSocket-prefix.pch */,
+				D8CDAC7E5252EF2EBFB66E9EF8DD1AFF /* Raven.h */,
+				F75C0EE343CD0EB9EBED3893D1F04C4B /* RavenClient.h */,
+				C812A4DD2A5311D2B8DC46062B043913 /* RavenClient.m */,
+				965D4FECAF68C8D2A2B51453682ADA1C /* RavenClient_Private.h */,
+				56A36A77DD12C8D4ACE6424BEB8FB62B /* RavenConfig.h */,
+				06E1A86C0F001E05146E001D5040B821 /* RavenConfig.m */,
+				9D2C77F24570AD457D14CA6F164CF096 /* Support Files */,
+			);
+			name = Raven;
+			path = Raven;
+			sourceTree = "<group>";
+		};
+		1B9D401338821C6E66EEB37CD6EABA0F /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				76B3F9EFCE25C5E3DD9B469EC50C9E11 /* RNCryptor.h */,
+				8A2567F80ACBF22EA334B2BBDC2176F4 /* RNCryptor.m */,
+				E2E30CA46D019F35FDCF85CEA8BD57D4 /* RNCryptor+Private.h */,
+				427A0FE6D6441F994F9F7D40C43FABEA /* RNCryptorEngine.h */,
+				6F0A958EADAA6CCC3DA0E5E10A577A4A /* RNCryptorEngine.m */,
+				802A53C44B8E3FF56CF82E2DCA35183A /* RNDecryptor.h */,
+				435BDDD6627160F7A43C68308762032E /* RNDecryptor.m */,
+				FCB15114A4AD59F9867F25369A2872F8 /* RNEncryptor.h */,
+				D597A86AC1C0459B83809601D9F8ECA2 /* RNEncryptor.m */,
+				2F64DC00C816925072F1F4619D705FCA /* RNOpenSSLCryptor.h */,
+				3E9255168B0E90D1D52E2167E4E1BC7D /* RNOpenSSLCryptor.m */,
+				EFECCE3447993FDE6E96633156D31980 /* RNOpenSSLDecryptor.h */,
+				4CA025DF74DD34B48661BDD602DC2B3D /* RNOpenSSLDecryptor.m */,
+				47F3F9D2D99FE09E42E149A4928F6815 /* RNOpenSSLEncryptor.h */,
+				597CBEDEED78C0A0A128BB37F78393CC /* RNOpenSSLEncryptor.m */,
+				3D0E91B04DB65B4E29F258EF959EF3E0 /* Support Files */,
+			);
+			name = RNCryptor;
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+		1C7110281836FB101622D353AC0A79C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				612B12FD350F19E7D5B69ED742E40880 /* Syncing.xcconfig */,
+				C3800639C1DB4EE4499889834E6E03BC /* Syncing-dummy.m */,
+				BCDA3049C97EA5D98477A8FADD55735F /* Syncing-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SIOSocket";
+			path = "../Target Support Files/Syncing";
 			sourceTree = "<group>";
 		};
 		2677871DF9DF11F16C4856F2517370BA /* Products */ = {
@@ -369,6 +412,67 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		292BDD93798AA00E8727EA26C8A0FDDC /* Syncing */ = {
+			isa = PBXGroup;
+			children = (
+				DD6A664ED0C98D2D9D9982FDC1F05E16 /* AbstractLoginActivity.h */,
+				8B1C7D79D4A15A18F3C6CD484B2A462B /* AbstractLoginActivity.m */,
+				DAD148947768DF1069F0E68C1F52D973 /* AbstractSyncManager.h */,
+				709797ED7BDE8814503BCC55D49E6004 /* AbstractSyncManager.m */,
+				79F19DA4FA63E53FC6D534F59C723A69 /* Annotations.h */,
+				33B565E33EE74264927BB7EEF6E5B326 /* Annotations.m */,
+				26EB4978F7D6908A173E1C937E412A00 /* AsyncBus.h */,
+				F1ACDD2F738DA9A70A593B518E4BFAAE /* AsyncBus.m */,
+				8980FEBD29109E284D7FFBE63FB333C9 /* CustomException.h */,
+				404311D6736A3ED63FAC6A1EA3C2F70E /* CustomException.m */,
+				BFF27E7CCCFAA021DB076A85EB42D031 /* CustomTransactionManager.h */,
+				B695B224757B2F720D6754681BA29AB8 /* CustomTransactionManager.m */,
+				81C7A03D6C02564C07A91BF4081B8EA0 /* DatabaseProvider.h */,
+				A04F115E4F42B25CA31083F399E391D1 /* DatabaseProvider.m */,
+				E14659704AC186E37E0C0FADE4A633F4 /* DataSyncHelper.h */,
+				0E53FE3CA0418C67E2F0A962C9969A7B /* DataSyncHelper.m */,
+				2335111DB6E1138CFE61640F86BE9E4A /* DateSerializer.h */,
+				2A48B2EBA97F928A75705885424E39AF /* DateSerializer.m */,
+				E84C42217A09E4AD234B7A26B4BF99ED /* E89ManagedObjectContext.h */,
+				2DCB5A92F121FE2C57AE0FD251699320 /* E89ManagedObjectContext.m */,
+				20A1BC911E8605D69509E5D5B3F42994 /* FieldSerializer.h */,
+				AFA6244365EA9FF36E6249EE4E6E99D7 /* FieldSerializer.m */,
+				CC418F882540F06FC683A63A797AC436 /* GzipUtil.h */,
+				52C07F855686DEC98DCBC752B32ECE82 /* GzipUtil.m */,
+				FC3477FE07D4009A5C16F971C6B9321E /* JSONSerializer.h */,
+				ABB7D5137924E2252E6FC6C0B77C1673 /* JSONSerializer.m */,
+				7DEB948AE52F580980D75E215C63D42C /* ReadOnlyAbstractSyncManager.h */,
+				A564F4ED5CD59A5DA62B086AE30EE463 /* ReadOnlyAbstractSyncManager.m */,
+				68A1220C773346BF563FA31502DEF979 /* SecurityUtil.h */,
+				6F4868F30DDAA5954B29C6D5733E3167 /* SecurityUtil.m */,
+				58081027D305F88E14519C1D32556ADB /* SerializationUtil.h */,
+				FD25C12D7C64989915E41ED4579A4926 /* SerializationUtil.m */,
+				CFC0A5D407C4B3C94208F4324A5BD24F /* ServerAuthenticate.h */,
+				FE197BDEC525DE309F658E7BBB9091C9 /* ServerAuthenticate.m */,
+				C0BED8C3031B100CEFA6A3F00A8B819E /* ServerComm.h */,
+				B9C40451B3398EAE74E4EC5009991268 /* ServerComm.m */,
+				5CAC4EB4C405C2B9442771387D9165EF /* SharedObjectContext.h */,
+				DBE19E16E341D388D07798DD17A42320 /* SharedObjectContext.m */,
+				296D11558203C9FAA94512203BB688C8 /* SyncConfig.h */,
+				4D7E42EB10F881DFDA5EB34129BE6594 /* SyncConfig.m */,
+				8B12CD8B71BACB4B3F83679831F62B94 /* SyncEntity.h */,
+				0D5AD41CAB37239F1F76FCCCD65C6BBE /* SyncEntity.m */,
+				54EF63C199587B1E50AE089096390385 /* SyncEvent.h */,
+				F561A53B55E2665A25EAD37209CA9A9C /* SyncEvent.m */,
+				DA82E1D4A83230409F0AE8BFF9F56184 /* Syncing.h */,
+				863522D7AE5B75D80CBE5581B16CBE34 /* SyncingInjection.h */,
+				979E57F8729D62AFA97F47E8E0EBCE3A /* SyncingInjection.m */,
+				13751A9BE75003BBA1A168A84C0585A1 /* SyncManager.h */,
+				AF377EB137E5C52A5CFE96C6C96DA140 /* SyncModelSerializer.h */,
+				9E4C62693C8AFF28A18084ECAB7355CB /* SyncModelSerializer.m */,
+				4F65C4813FAE6BFC9B1AD4C6B4A917AD /* ThreadChecker.h */,
+				2B770134D27442A1386AA83AEFF31D86 /* ThreadChecker.m */,
+				1C7110281836FB101622D353AC0A79C2 /* Support Files */,
+			);
+			name = Syncing;
+			path = Syncing;
+			sourceTree = "<group>";
+		};
 		2E339049816F198EB76DEA4264EF8374 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -376,6 +480,31 @@
 				CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		3D0E91B04DB65B4E29F258EF959EF3E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E8A29149EB2029D3686A987ECFFCAE8 /* RNCryptor.xcconfig */,
+				1232C4057FAFC18F0CC5F1579F5437CB /* RNCryptor-dummy.m */,
+				7A11EB0A7246D256E4B53556E6DC4397 /* RNCryptor-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RNCryptor";
+			sourceTree = "<group>";
+		};
+		406E73FAA6621ED2E9FB387DC656256C /* ISO8601 */ = {
+			isa = PBXGroup;
+			children = (
+				42385E247B7A4E0CCFD9743F9ED47900 /* ISO8601.h */,
+				D549E2F2AECD6ECF2F7681DEABDC62F4 /* ISO8601Serialization.h */,
+				091F61778173D44CE7E485F039E432E9 /* ISO8601Serialization.m */,
+				C3D847661528E8149FAAE5B617C3B63A /* NSDate+ISO8601.h */,
+				445B1C8B3B0C6AE323884A8FD98BDC50 /* NSDate+ISO8601.m */,
+				F234BDB0EDE7F105AE0E95065B83CD3C /* Support Files */,
+			);
+			name = ISO8601;
+			path = ISO8601;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -386,121 +515,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		58E97423FA55D5DFE966E554E1D02F14 /* Support Files */ = {
+		4359D0D7BEF0E0E236912BDF634FA11F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8AC66DCD2595B0AAF9CBB9A8322AF598 /* RNCryptor.xcconfig */,
-				271F62F17609CFE48A070F1BBB035E62 /* RNCryptor-dummy.m */,
-				5A61BB7B255DA652EC37C79DEE71A97E /* RNCryptor-prefix.pch */,
+				C85711065DF05195A1E023C5BB54C126 /* SIOSocket.xcconfig */,
+				37FA8818ED78F176563B44173692D276 /* SIOSocket-dummy.m */,
+				EC38578198464273283EE8D5D9530769 /* SIOSocket-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/RNCryptor";
-			sourceTree = "<group>";
-		};
-		5CE92C48088CAFC604FA9D5A6DAA8A47 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				36FC026D4DE94FA7F950B6D31B45A44C /* ISO8601.xcconfig */,
-				9E83EB3BE1EE41100E5E0D00911D1D04 /* ISO8601-dummy.m */,
-				15C15D29305AD5A6F19D0CA97577AB34 /* ISO8601-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ISO8601";
-			sourceTree = "<group>";
-		};
-		639DB14E52BC258783E81640810623DC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A4539F16705843FEDE860E17B838B64B /* ISO8601 */,
-				DC9506B9C3F61C2F81ED2411B11E0D39 /* Raven */,
-				6C1AF8B12E9D73FF678A69A6890F75CB /* RNCryptor */,
-				D661D9B9B0A0B5FDDB21A331BA7D1683 /* SIOSocket */,
-				72F3E40BDA2044C5F184BDE78C8E55FC /* Syncing */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		6C1AF8B12E9D73FF678A69A6890F75CB /* RNCryptor */ = {
-			isa = PBXGroup;
-			children = (
-				CDCD2AC89E011F94D2018F465F3F4168 /* RNCryptor.h */,
-				DF9D8FD2811EF13B66777672A6222452 /* RNCryptor.m */,
-				6ECF9DA75BBC0A1FAA504448B74DD010 /* RNCryptor+Private.h */,
-				5B2900B9BA25370A6243254E2D590D77 /* RNCryptorEngine.h */,
-				37B227100B75EE68B2805E82BEBE295E /* RNCryptorEngine.m */,
-				6D8C9B1C0021F18A5FC3F7C983BB8524 /* RNDecryptor.h */,
-				D417488DDB74B1FDFBE43D2C41362230 /* RNDecryptor.m */,
-				98518FAEFF48ADEE21B7E080738DEF26 /* RNEncryptor.h */,
-				51686D2A353896DADB65948DB1A72E81 /* RNEncryptor.m */,
-				CA7017A6D2DDAC2135D74AC59C1543E2 /* RNOpenSSLCryptor.h */,
-				17FA9E6E115469DB91C714013FF4E12F /* RNOpenSSLCryptor.m */,
-				5713A2655453DA65915A5269FAEF42F1 /* RNOpenSSLDecryptor.h */,
-				6F6FDE58F500F30C9B6CDADC7E9E2F07 /* RNOpenSSLDecryptor.m */,
-				FD290C2604B4EC8E5BC8B850ABB64D25 /* RNOpenSSLEncryptor.h */,
-				F6D025ACC73499390955A6F0EB5A03D9 /* RNOpenSSLEncryptor.m */,
-				58E97423FA55D5DFE966E554E1D02F14 /* Support Files */,
-			);
-			name = RNCryptor;
-			path = RNCryptor;
-			sourceTree = "<group>";
-		};
-		72F3E40BDA2044C5F184BDE78C8E55FC /* Syncing */ = {
-			isa = PBXGroup;
-			children = (
-				71A3DA10A25A513BD324A87C27B90329 /* AbstractLoginActivity.h */,
-				C78D073DB3957D1937F7F0B27CBA7605 /* AbstractLoginActivity.m */,
-				E1B2D49083AFC9E745081EEFE66C46C8 /* AbstractSyncManager.h */,
-				79A9004AD4D4F620D0059D2387975EA9 /* AbstractSyncManager.m */,
-				267F1030CBBBCFFF85A4EBD5B14B12A0 /* Annotations.h */,
-				FAC039F17128FA91B8574AB9B89D3EA2 /* Annotations.m */,
-				B3181562F36FE8D01A2854FC3F4834BF /* AsyncBus.h */,
-				EE2BE102AF5AC6492DF6D5960CDDA62F /* AsyncBus.m */,
-				3E6DA77E551122B21B366B8A16D983B6 /* CustomException.h */,
-				09572176F08CF5A9167F3AB2DFFBEE04 /* CustomException.m */,
-				1F4FD93EEA68BA8C1EC51A205915E57E /* CustomTransactionManager.h */,
-				938DAAE011C659DC1DB120D47757DFED /* CustomTransactionManager.m */,
-				CF9F3B7C45364B54720FBD40889A630A /* DatabaseProvider.h */,
-				A3997C2DECB4E693C08594BDCB3D5DCA /* DatabaseProvider.m */,
-				6AB981CBD0DF425C62582D6DB5BF856B /* DataSyncHelper.h */,
-				2A4529156361C37558735F7BE59EAFE7 /* DataSyncHelper.m */,
-				95170BBA4A7BEB2C867783396FDB979A /* DateSerializer.h */,
-				22FFBF9387A215B998A6A7C8CB802431 /* DateSerializer.m */,
-				E2EC0CDDB9AC8869EC5DB6A76EB8240E /* E89ManagedObjectContext.h */,
-				958295B8743BDF0E82F518A508519648 /* E89ManagedObjectContext.m */,
-				1B80CBB82DA36A4B463B58EA8DF4748B /* FieldSerializer.h */,
-				254BCEF374614A087AD22F65D1FB31DA /* FieldSerializer.m */,
-				A892896418857514E6633514BA1B0E66 /* GzipUtil.h */,
-				F6035F3FC1BE627ACF1F72A9FCBCB7F0 /* GzipUtil.m */,
-				BB89CFEF0E36E3EEE2226A808D6B2980 /* JSONSerializer.h */,
-				FCFF69839FBBB4732BC4C5639885D5FC /* JSONSerializer.m */,
-				A0F4A2988DAB2C270BF7D59DF6177A25 /* ReadOnlyAbstractSyncManager.h */,
-				F0D0CA3A684513D708A584AF4FF15679 /* ReadOnlyAbstractSyncManager.m */,
-				DB838083A60E491D1DF37C238012E857 /* SecurityUtil.h */,
-				7AB21C915D0C64E77DEE3CC37F086761 /* SecurityUtil.m */,
-				270A00F9AE73C190241BB445137FFA3C /* SerializationUtil.h */,
-				8A45B5A8DC228E0089840CB8A7D40C73 /* SerializationUtil.m */,
-				AE7B7802A8B1AD666238E27C714E4A84 /* ServerAuthenticate.h */,
-				34E405EE77D81AEB0B91F8FD2280AFFD /* ServerAuthenticate.m */,
-				B358EBD1FA39CE8B9E0A395BC8D5CB21 /* ServerComm.h */,
-				58ED542992AE3D1F91AF1A6A42F0090D /* ServerComm.m */,
-				74A618FE1B64A43CE4345500F534EE78 /* SyncConfig.h */,
-				3B53790A0BC4A21C2AED13D218CEE57A /* SyncConfig.m */,
-				A087B0EBA0C6FB674E7352ACC3637018 /* SyncEntity.h */,
-				0505FDBCB688A1512FD1F26809E4B3CF /* SyncEntity.m */,
-				1CEC5C45EA33F55C0A119D92898FB708 /* SyncEvent.h */,
-				C09ECFD5CF1E6E45B7F56C42E2D1770E /* SyncEvent.m */,
-				F2B8AF74E462CDB843FF53E3981F6A9C /* Syncing.h */,
-				EFD5789691A68F0D2AC9111EB62DF2D6 /* SyncingInjection.h */,
-				2CA529170F5A72369FC23E42CE6C4C85 /* SyncingInjection.m */,
-				36F3840C328C0BCA922CCA41E61C0269 /* SyncManager.h */,
-				5DE3C0CA83E68D0C2770CED84C679089 /* SyncModelSerializer.h */,
-				E8726F6A77D82BE0D6A3E145A50511EE /* SyncModelSerializer.m */,
-				861DF8418DDFD8FA7E3F35A584ABED1D /* ThreadChecker.h */,
-				5D12CB4F61B378B537EE679D0D0F0E77 /* ThreadChecker.m */,
-				8284B47F84FE0D72442C85EE97B34F52 /* Support Files */,
-			);
-			name = Syncing;
-			path = Syncing;
+			path = "../Target Support Files/SIOSocket";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -508,21 +531,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				639DB14E52BC258783E81640810623DC /* Pods */,
+				CAD46E63BAB919628B48DFC8AA316E7C /* Pods */,
 				2677871DF9DF11F16C4856F2517370BA /* Products */,
 				9164D15EFF00A9E82E0ABA243280E9E6 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8284B47F84FE0D72442C85EE97B34F52 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1C779D7235496B622F696232E14DA545 /* Syncing.xcconfig */,
-				492808A9BCD203E7BAFD6C35444C6989 /* Syncing-dummy.m */,
-				3FC7C674F2A8DA85BBC14955C08298F4 /* Syncing-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Syncing";
 			sourceTree = "<group>";
 		};
 		9164D15EFF00A9E82E0ABA243280E9E6 /* Targets Support Files */ = {
@@ -534,56 +546,39 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9B8469099AD3B9FAE05DBC5F57A86CA4 /* Support Files */ = {
+		9D2C77F24570AD457D14CA6F164CF096 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1A141C4EF6388D8D69FA0587F6E403A5 /* Raven.xcconfig */,
-				5B38588456139C12A72897FD92C35619 /* Raven-dummy.m */,
-				60E8018AE10F3E2CAC2D634A86975DD6 /* Raven-prefix.pch */,
+				7B94397001F0C33D78CA199104390D1F /* Raven.xcconfig */,
+				4373A4E93B9F6E1ED252B16AC6F8F458 /* Raven-dummy.m */,
+				B8176EE5A84763CBE9755EA20B24D67B /* Raven-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Raven";
 			sourceTree = "<group>";
 		};
-		A4539F16705843FEDE860E17B838B64B /* ISO8601 */ = {
+		9E4606DAFDF25E6544E62600B79B92CF /* SIOSocket */ = {
 			isa = PBXGroup;
 			children = (
-				16970057C1B9B5CAE633E01C1AE716BF /* ISO8601.h */,
-				EE7A999546D43B0A7EFB87FFE73A1A92 /* ISO8601Serialization.h */,
-				2E22562E22C402D23200F0FB5ECA5FE4 /* ISO8601Serialization.m */,
-				22C8CD428BD329DD7BD3D6294516389E /* NSDate+ISO8601.h */,
-				BA17BB8D63CA67C05E47941600996EFD /* NSDate+ISO8601.m */,
-				5CE92C48088CAFC604FA9D5A6DAA8A47 /* Support Files */,
-			);
-			name = ISO8601;
-			path = ISO8601;
-			sourceTree = "<group>";
-		};
-		D661D9B9B0A0B5FDDB21A331BA7D1683 /* SIOSocket */ = {
-			isa = PBXGroup;
-			children = (
-				D3FB224560149BDBBFFEFDBE60398854 /* SIOSocket.h */,
-				91A6778BB78A0EB026708C4394ABDB87 /* SIOSocket.m */,
-				4213996E320D7A0DFDA4F65D32FF8021 /* socket.io.js.h */,
-				0549186441D2C37ABF22F7F62F2A6BAF /* Support Files */,
+				159484FB7CCFC766D8799100C593E0C5 /* SIOSocket.h */,
+				C51B31BE3290D67EDC0FE61CCBEBCACB /* SIOSocket.m */,
+				756CE7E1A50131190EE3DE8563C30082 /* socket.io.js.h */,
+				4359D0D7BEF0E0E236912BDF634FA11F /* Support Files */,
 			);
 			name = SIOSocket;
 			path = SIOSocket;
 			sourceTree = "<group>";
 		};
-		DC9506B9C3F61C2F81ED2411B11E0D39 /* Raven */ = {
+		CAD46E63BAB919628B48DFC8AA316E7C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1357550C00093D4606BFA3BE46D1A11B /* Raven.h */,
-				0F514B2A5BD6D1028A54978D9253E00B /* RavenClient.h */,
-				C0DC9B5C2468447DE8C2574386123C11 /* RavenClient.m */,
-				182455D2F05DDF7F99E4AF25FA4E0443 /* RavenClient_Private.h */,
-				564F7F8D63368CF834B96DC95A6557E8 /* RavenConfig.h */,
-				12A09AA0BFA8DDFB0EDA4A372AC89FFF /* RavenConfig.m */,
-				9B8469099AD3B9FAE05DBC5F57A86CA4 /* Support Files */,
+				406E73FAA6621ED2E9FB387DC656256C /* ISO8601 */,
+				01E5B376F7445A42C149E944C0C27BFA /* Raven */,
+				1B9D401338821C6E66EEB37CD6EABA0F /* RNCryptor */,
+				9E4606DAFDF25E6544E62600B79B92CF /* SIOSocket */,
+				292BDD93798AA00E8727EA26C8A0FDDC /* Syncing */,
 			);
-			name = Raven;
-			path = Raven;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		E07C0F4AD82F28C8049C7EC2DDD9D8AF /* Pods-ios-push-messaging */ = {
@@ -616,6 +611,17 @@
 			path = "Target Support Files/Pods-ios-push-messagingTests";
 			sourceTree = "<group>";
 		};
+		F234BDB0EDE7F105AE0E95065B83CD3C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57FF736093F30D8CAED62199D2D75518 /* ISO8601.xcconfig */,
+				3DA983AA7D6A3E3E4970AB7B9BAB394F /* ISO8601-dummy.m */,
+				B871BFA754CBCBA0E08A8E56A2CFB44E /* ISO8601-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ISO8601";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -635,39 +641,6 @@
 			files = (
 				6FB45796C3E06D5E19AB230AD4D121F3 /* SIOSocket.h in Headers */,
 				3A970F2205EA9E812044750838385D4D /* socket.io.js.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AB62CCCB4E7B1150214940B5A2BA0FC2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9BC70B87EFA871D2D2A20129A39A397F /* AbstractLoginActivity.h in Headers */,
-				D7C8CD406BE2EF1D4E2983FDA324FD78 /* AbstractSyncManager.h in Headers */,
-				46FA4C7F9EDD3EC9D31538E07386B7E6 /* Annotations.h in Headers */,
-				45E561E3C98EE8C6AB3708670F0C1E00 /* AsyncBus.h in Headers */,
-				CCB7E36689701AA935450259B028F9D1 /* CustomException.h in Headers */,
-				0FF8DEA5AAE09ACA2CB2DC114FA25A2F /* CustomTransactionManager.h in Headers */,
-				9CD3419047147B1AB897166860BFE0AE /* DatabaseProvider.h in Headers */,
-				2AFFCE0535BFC4E68CCA2AB51D57E790 /* DataSyncHelper.h in Headers */,
-				CE68502108E5AF34C0780CDF69CE30E8 /* DateSerializer.h in Headers */,
-				CC464815C49EA3DAE02E1A0272AE5664 /* E89ManagedObjectContext.h in Headers */,
-				27E49A4AC85B17F871BA2A1E876D6BB3 /* FieldSerializer.h in Headers */,
-				D6B947F3884612348EA462DA1B68DDA4 /* GzipUtil.h in Headers */,
-				E6279FF68108A6ECC1CF71AA756F2BBB /* JSONSerializer.h in Headers */,
-				424890DC4876BDC16E09736A79E4FBC2 /* ReadOnlyAbstractSyncManager.h in Headers */,
-				5EE28FC29EF65B423B5E6CBB5E42E9D6 /* SecurityUtil.h in Headers */,
-				9F7F144C069DC38F57BC9617C87184E7 /* SerializationUtil.h in Headers */,
-				9D24C54625992512FFD5044AF52DF23B /* ServerAuthenticate.h in Headers */,
-				2A0D213E23ECE48A4357CC59831B1894 /* ServerComm.h in Headers */,
-				8EA74AD3A3F221FC9FF6B881BEA2D08D /* SyncConfig.h in Headers */,
-				5D289FFB313B3A0D749C277654EC8D07 /* SyncEntity.h in Headers */,
-				88D270E73EBABA3256971B65F40802B0 /* SyncEvent.h in Headers */,
-				85897F062EEBE1A9A39111E63C583688 /* Syncing.h in Headers */,
-				BD776A76F81E2A8AD975A002DDA38708 /* SyncingInjection.h in Headers */,
-				0651DF9BA519C814334C5D2B1E6814FF /* SyncManager.h in Headers */,
-				43C45745F8BBA4F7DA0B47F5631A1CE3 /* SyncModelSerializer.h in Headers */,
-				60BE409AA6FEF83FC96C6A1578C4A6B4 /* ThreadChecker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,6 +667,40 @@
 				65573429B420F6A05D2753CB5877656B /* RavenClient.h in Headers */,
 				47B2B38CE4DD0855857906D35B32BD94 /* RavenClient_Private.h in Headers */,
 				25967A7A331C462575236C68BFA2F209 /* RavenConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F532885E23A7CBC6A776231C8A0A3EB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58F35FE5F6AAC0073C09A8CE8578E8B /* AbstractLoginActivity.h in Headers */,
+				B1A2736EFF181A2F7C4DAACD45945F56 /* AbstractSyncManager.h in Headers */,
+				AF0B6CFCDCF6B102246000B22F41B1A5 /* Annotations.h in Headers */,
+				9F04D038B189596607545EA47C3D365F /* AsyncBus.h in Headers */,
+				6497CD8AEDDB968BEB4EEA45D5CB638E /* CustomException.h in Headers */,
+				590BD328F968F2ACE18FE5F5ECE8B755 /* CustomTransactionManager.h in Headers */,
+				63FD37929B338F84EF75D6A73D02ED60 /* DatabaseProvider.h in Headers */,
+				84B3384F9D6A5E6FD9FC89EA36D26E1E /* DataSyncHelper.h in Headers */,
+				5F208B5810B71152CA8F77A2CECEF932 /* DateSerializer.h in Headers */,
+				F8B10C65A3F57107235572CD26DD3C48 /* E89ManagedObjectContext.h in Headers */,
+				B083CB9C388795FF35C9BB2EC697E897 /* FieldSerializer.h in Headers */,
+				D3E1F3333F6ABF5A095CEDABF654356F /* GzipUtil.h in Headers */,
+				FEDD86F0400035953FA606D7F1A72C29 /* JSONSerializer.h in Headers */,
+				C5671C1B4BE6B456FE64E38B6BAFED58 /* ReadOnlyAbstractSyncManager.h in Headers */,
+				08DDCD56253D0DA795272B109DA9E33E /* SecurityUtil.h in Headers */,
+				962092ADE9552CDF8FAE998407FE4AD6 /* SerializationUtil.h in Headers */,
+				3C27AA0B5C5A0B6FADB3FE4217446616 /* ServerAuthenticate.h in Headers */,
+				6E08B70CC85E4EAFD70FBDB204AD8EF3 /* ServerComm.h in Headers */,
+				A27F8F2EE7F1AFAA01C0F8C537CE5EBD /* SharedObjectContext.h in Headers */,
+				9AF6599519D32FA200377B73B8EE11B8 /* SyncConfig.h in Headers */,
+				6A3A085F29A24C3344293913B0590554 /* SyncEntity.h in Headers */,
+				4834A7495FF0369C934A2CE88B339274 /* SyncEvent.h in Headers */,
+				B80C5931FC26DF86796AE27E88E5CB56 /* Syncing.h in Headers */,
+				8FA90CDA4215EA2CFE28445D4B557B30 /* SyncingInjection.h in Headers */,
+				0F1BA980B4E3191713EDBBAFCA36B402 /* SyncManager.h in Headers */,
+				CFD91899F897F055BD804F0D3869B9E2 /* SyncModelSerializer.h in Headers */,
+				9959AD57AA11D2831F5CB4DC832B4457 /* ThreadChecker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -809,9 +816,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E9135834D3D58B7D1E7EC884DC5669D /* Build configuration list for PBXNativeTarget "Syncing" */;
 			buildPhases = (
-				0AEFED1B23ED5C8EC03B9D6F49107D28 /* Sources */,
+				9F0730F4154B6BD1AC0B7742766D8429 /* Sources */,
 				1F3B72002E6AD4DC9EE700E10298601B /* Frameworks */,
-				AB62CCCB4E7B1150214940B5A2BA0FC2 /* Headers */,
+				F532885E23A7CBC6A776231C8A0A3EB6 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -858,38 +865,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0AEFED1B23ED5C8EC03B9D6F49107D28 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E000FFDCE58D9F44D75AA91F705E7C7 /* AbstractLoginActivity.m in Sources */,
-				3B1EDCD9D6A66DEED6D43AE060C432FA /* AbstractSyncManager.m in Sources */,
-				F54C84FEDE1378006BA8EF05FE9E5BC9 /* Annotations.m in Sources */,
-				0990560DADE9769833E3940209D6D96D /* AsyncBus.m in Sources */,
-				3BF787570F4CF8D04F94342C5D752164 /* CustomException.m in Sources */,
-				37D21917A2D13EDD1156ACFA2716AF58 /* CustomTransactionManager.m in Sources */,
-				469FDEE45181182C92A4470543B63B51 /* DatabaseProvider.m in Sources */,
-				FF16B4006038FEF9F3227B65E8076901 /* DataSyncHelper.m in Sources */,
-				85AA6AE77C7A37ECC6ACA3CF6A22AD9B /* DateSerializer.m in Sources */,
-				97AE1491AF57F2F5B15A1E962F1D6D2E /* E89ManagedObjectContext.m in Sources */,
-				53C06C061BE196FD97393967D06E7EF7 /* FieldSerializer.m in Sources */,
-				29217B55AEC41CCA4EEA8D9DAD07FC00 /* GzipUtil.m in Sources */,
-				F9B876675D4078A47017C4370C57704D /* JSONSerializer.m in Sources */,
-				CFB445D6E77C7EFC5B4C6D7C7C110411 /* ReadOnlyAbstractSyncManager.m in Sources */,
-				6E7DC44921CCC6E71008686D6FCA732C /* SecurityUtil.m in Sources */,
-				5EF4E73535963C3575543E4981173669 /* SerializationUtil.m in Sources */,
-				9836E8DEBFF45057AB9C81F75CF0294B /* ServerAuthenticate.m in Sources */,
-				DCB347A52A1A965FC0D08A73B3D6DC8E /* ServerComm.m in Sources */,
-				5CD48BBE64120A61C134EF454C1FD743 /* SyncConfig.m in Sources */,
-				091CF458F4CAC3E565C82F8456C85F55 /* SyncEntity.m in Sources */,
-				1E7E9958C293B4CA0C8D7F5B1A4D091C /* SyncEvent.m in Sources */,
-				737D141ABE5C1A4232779FC980F3ACC2 /* Syncing-dummy.m in Sources */,
-				8DAB3F035EF6BBB629D7179FAE2FD57C /* SyncingInjection.m in Sources */,
-				4E83D00BE8CD394C536E091FF3D0CEF6 /* SyncModelSerializer.m in Sources */,
-				E362F33C91281EADFDC712CE63B4E985 /* ThreadChecker.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		69D2718AD7A8136A1B2F97EDFEC4D01D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -905,6 +880,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				02884C055EBC5A4B21EBF24F348D417C /* Pods-ios-push-messaging-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0730F4154B6BD1AC0B7742766D8429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24851A944D950EE2BE583CB55E3A0787 /* AbstractLoginActivity.m in Sources */,
+				984E1CC90DDE3E0FE5134B42780B3E2F /* AbstractSyncManager.m in Sources */,
+				E5AFA7209D1CF642197376EABCC70467 /* Annotations.m in Sources */,
+				29538F8652BE60473DAE0B944013467A /* AsyncBus.m in Sources */,
+				3C32FEB48E20FC8E6AF3553AB8247395 /* CustomException.m in Sources */,
+				1C5B2530A0327D300192D74FAB3C3FDA /* CustomTransactionManager.m in Sources */,
+				64A51A728D449E9E5D11DFE15FFE9D12 /* DatabaseProvider.m in Sources */,
+				BDE04B6F6AB8AB4DA42B512B15CC3257 /* DataSyncHelper.m in Sources */,
+				1AFF7CE4A2EA9C99975FBC50E5B3D737 /* DateSerializer.m in Sources */,
+				11AD712682B027670DDAE3C3096CE5C3 /* E89ManagedObjectContext.m in Sources */,
+				472AA786E4A882FC02387D1BE84821AB /* FieldSerializer.m in Sources */,
+				4410C35979E7722567D11207FCA93445 /* GzipUtil.m in Sources */,
+				9253A6C72D43790EA7255D7657BB165E /* JSONSerializer.m in Sources */,
+				4499BC21DE4DF73993A4DC7F264E7E19 /* ReadOnlyAbstractSyncManager.m in Sources */,
+				0EB4B598486C8ED1B5A13368C80B234E /* SecurityUtil.m in Sources */,
+				2C6A1CB4D8C6545E155075BCA620E59F /* SerializationUtil.m in Sources */,
+				A93C601D2948C6A449CD620343341FCD /* ServerAuthenticate.m in Sources */,
+				9C8780CC4EC2EBE815F99059C9A5A07E /* ServerComm.m in Sources */,
+				F0EDF431F7C2CE50C6E3A7C806EDBF7C /* SharedObjectContext.m in Sources */,
+				752EADF3EF047EB3EB74A03145C85E74 /* SyncConfig.m in Sources */,
+				A2D8B20E1F5DB354AA8746B58912DA4E /* SyncEntity.m in Sources */,
+				AC2D8E1F8E6CA7D5E1CBDFBA8DE8D5F5 /* SyncEvent.m in Sources */,
+				FCF745E92D16869B6484399C37494DD7 /* Syncing-dummy.m in Sources */,
+				EE395790A8E8BB13686712D96C375940 /* SyncingInjection.m in Sources */,
+				1EBC189D67D0F58B9CFF0A218F6585D3 /* SyncModelSerializer.m in Sources */,
+				794DA4A0A647B1BA3FFD33BAF78ED7D8 /* ThreadChecker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1006,7 +1014,7 @@
 /* Begin XCBuildConfiguration section */
 		151A81FB49ADC831D0E696F8B22AEF88 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A141C4EF6388D8D69FA0587F6E403A5 /* Raven.xcconfig */;
+			baseConfigurationReference = 7B94397001F0C33D78CA199104390D1F /* Raven.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1029,7 +1037,7 @@
 		};
 		43BFA834E9266190EDBA0475DC78CD2D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36FC026D4DE94FA7F950B6D31B45A44C /* ISO8601.xcconfig */;
+			baseConfigurationReference = 57FF736093F30D8CAED62199D2D75518 /* ISO8601.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1052,7 +1060,7 @@
 		};
 		5732B26893A2AE6E977321450C8A2D0F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36FC026D4DE94FA7F950B6D31B45A44C /* ISO8601.xcconfig */;
+			baseConfigurationReference = 57FF736093F30D8CAED62199D2D75518 /* ISO8601.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1138,7 +1146,7 @@
 		};
 		7DE249E63E5418FA449075668CBCD2C3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88EE9A9A34A19B3FC3823DA4F36BACB6 /* SIOSocket.xcconfig */;
+			baseConfigurationReference = C85711065DF05195A1E023C5BB54C126 /* SIOSocket.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1161,7 +1169,7 @@
 		};
 		7E8330F5CFC33CE74C1B56724F32E3E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88EE9A9A34A19B3FC3823DA4F36BACB6 /* SIOSocket.xcconfig */;
+			baseConfigurationReference = C85711065DF05195A1E023C5BB54C126 /* SIOSocket.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1184,7 +1192,7 @@
 		};
 		90AC049A3A59096BBA115A404657992B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AC66DCD2595B0AAF9CBB9A8322AF598 /* RNCryptor.xcconfig */;
+			baseConfigurationReference = 1E8A29149EB2029D3686A987ECFFCAE8 /* RNCryptor.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1207,7 +1215,7 @@
 		};
 		97100CA7BC76CA6C0098861176335BBD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C779D7235496B622F696232E14DA545 /* Syncing.xcconfig */;
+			baseConfigurationReference = 612B12FD350F19E7D5B69ED742E40880 /* Syncing.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1230,7 +1238,7 @@
 		};
 		9B4AA434833DAEC649E4CADC7FA1EEB6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AC66DCD2595B0AAF9CBB9A8322AF598 /* RNCryptor.xcconfig */;
+			baseConfigurationReference = 1E8A29149EB2029D3686A987ECFFCAE8 /* RNCryptor.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1253,7 +1261,7 @@
 		};
 		AA39B6F7B6DB6CD08961B2E28342AE73 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A141C4EF6388D8D69FA0587F6E403A5 /* Raven.xcconfig */;
+			baseConfigurationReference = 7B94397001F0C33D78CA199104390D1F /* Raven.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1276,7 +1284,7 @@
 		};
 		B4E251A65F585DD7DE2ADC8AD02177C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C779D7235496B622F696232E14DA545 /* Syncing.xcconfig */;
+			baseConfigurationReference = 612B12FD350F19E7D5B69ED742E40880 /* Syncing.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
