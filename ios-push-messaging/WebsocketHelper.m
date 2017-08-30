@@ -72,6 +72,7 @@
                          for (NSString *identifier in [_pushConfig getPushManagerIdentifiers])
                          {
                              [_socket on:identifier callback:^(NSArray *args) {
+                                 NSLog(@"==============> WebsocketHelper: push has arrived.");
                                  NSDictionary *pushData = [args objectAtIndex:0];
                                  [PushCentral onHandleRemoteNotification:pushData
                                                    withCompletionHandler:nil];
