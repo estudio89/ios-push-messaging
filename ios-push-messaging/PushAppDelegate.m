@@ -34,11 +34,13 @@
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
 {
+    NSLog(@"==============> PushAppDelegate: push has arrived.");
     [PushCentral onHandleRemoteNotification:userInfo withCompletionHandler:nil];
 }
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
 {
+    NSLog(@"==============> PushAppDelegate: push has arrived.");
     [PushCentral onHandleRemoteNotification:userInfo withCompletionHandler:completionHandler];
 }
 
