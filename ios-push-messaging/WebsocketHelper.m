@@ -79,8 +79,6 @@
                              }];
                          }
                                }];
-    
-    
 }
 
 - (void)join:(NSString *)roomName
