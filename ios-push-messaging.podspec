@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'ios-push-messaging'
-  s.version = '1.2.4'
+  s.version = '1.3.0'
   s.source_files = 'ios-push-messaging/*.{h,m}'
   s.dependency 'SIOSocket', '~> 0.2.0'
   s.dependency 'Syncing'
