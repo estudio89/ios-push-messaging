@@ -29,7 +29,6 @@
 		7B9E98A31DEF01D800822750 /* libSyncing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9E98A21DEF01D800822750 /* libSyncing.a */; };
 		7B9E98A81DEF01F700822750 /* libISO8601.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9E98A41DEF01F700822750 /* libISO8601.a */; };
 		7B9E98A91DEF01F700822750 /* libRaven.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9E98A51DEF01F700822750 /* libRaven.a */; };
-		7B9E98AA1DEF01F700822750 /* libRNCryptor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9E98A61DEF01F700822750 /* libRNCryptor.a */; };
 		7B9E98AB1DEF01F700822750 /* libSIOSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9E98A71DEF01F700822750 /* libSIOSocket.a */; };
 		7BBF84151AE8420100BD607E /* ios_push_messaging.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C3B181AB77E0400C5CE91 /* ios_push_messaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BBF84161AE8420500BD607E /* PushManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B4C3B2F1AB77FEB00C5CE91 /* PushManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -102,7 +101,6 @@
 			files = (
 				7B9E98A81DEF01F700822750 /* libISO8601.a in Frameworks */,
 				7B9E98A91DEF01F700822750 /* libRaven.a in Frameworks */,
-				7B9E98AA1DEF01F700822750 /* libRNCryptor.a in Frameworks */,
 				7B9E98AB1DEF01F700822750 /* libSIOSocket.a in Frameworks */,
 				7B9E98A31DEF01D800822750 /* libSyncing.a in Frameworks */,
 				8EB97E6F15F41F4E9C55F84D /* libPods-ios-push-messaging.a in Frameworks */,

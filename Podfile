@@ -3,7 +3,7 @@
 
 target 'ios-push-messaging' do
 pod 'SIOSocket', '~> 0.2.0'
-pod 'Syncing', :git => 'https://github.com/estudio89/ios-syncing.git', :tag => ‘1.2.4’
+pod 'Syncing', :git => 'https://github.com/estudio89/ios-syncing.git', :tag => ‘1.3.1’
 end
 
 target 'ios-push-messagingTests' do
